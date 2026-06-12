@@ -1,7 +1,7 @@
 {
-  "hash": "95be67986ecc21678f9899c2adbb76499499f38a85d7054e18cf904672949da8",
+  "hash": "b802ab76409e316b6d543506fb659356d8ca8bec3987990ec008d9e51489d008",
   "schema_version": "1.2.0",
-  "generated_at_utc": "2026-06-12T13:42:36Z",
-  "data_url_v2": "dashboard/data-95be67986ecc.json",
+  "generated_at_utc": "2026-06-12T14:50:52Z",
+  "data_url_v2": "dashboard/data-b802ab76409e.json",
   "data_url": "https://raw.githubusercontent.com/YanlongLai/us-stocks-daily-report/main/dashboard/data.json"
 }
