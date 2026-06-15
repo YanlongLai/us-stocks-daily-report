@@ -1,7 +1,7 @@
 {
-  "run_id": "37e65eea-2594-4006-a391-39c4ba31a1dc",
-  "started_at": "2026-06-14T14:40:02.914915+00:00",
-  "finished_at": "2026-06-14T14:50:49.147330+00:00",
+  "run_id": "d018dbe0-c98e-4a0c-8e21-6b6dd9882f25",
+  "started_at": "2026-06-15T13:36:51.042790+00:00",
+  "finished_at": "2026-06-15T13:43:43.954677+00:00",
   "tickers_attempted": [
     "AAPL",
     "MSFT",
@@ -99,11 +99,11 @@
     "IWM"
   ],
   "tickers_failed": [],
-  "ai_commentary_count": 0,
+  "ai_commentary_count": 46,
   "sources_status": {
     "yfinance": "ok",
     "finnhub": "ok",
-    "gemini": "down"
+    "gemini": "ok"
   },
   "data_repo_committed": false
 }
