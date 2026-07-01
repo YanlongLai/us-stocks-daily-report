@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-06-30T13:42:15+00:00",
+  "generated_at": "2026-07-01T13:43:00+00:00",
   "schema_version": "1.0.0",
   "reports": [
-    "2026-06-30"
+    "2026-07-01"
   ],
   "ai_commentary_dates": [],
   "latest": {
-    "report": "2026-06-30",
+    "report": "2026-07-01",
     "ai": null
   }
 }
