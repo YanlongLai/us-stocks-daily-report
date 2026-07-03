@@ -1,7 +1,7 @@
 {
-  "run_id": "0313824e-6728-491f-afe9-99fc15dbee38",
-  "started_at": "2026-07-03T13:37:10.007716+00:00",
-  "finished_at": "2026-07-03T13:43:08.556014+00:00",
+  "run_id": "2a7fe5d8-6aac-4364-b9c5-03b73e245a9f",
+  "started_at": "2026-07-03T14:41:17.983270+00:00",
+  "finished_at": "2026-07-03T14:51:48.445310+00:00",
   "tickers_attempted": [
     "AAPL",
     "MSFT",
@@ -51,7 +51,6 @@
     "IWM"
   ],
   "tickers_succeeded": [
-    "AAPL",
     "MSFT",
     "NVDA",
     "AVGO",
@@ -98,12 +97,18 @@
     "DIA",
     "IWM"
   ],
-  "tickers_failed": [],
-  "ai_commentary_count": 46,
+  "tickers_failed": [
+    {
+      "ticker": "AAPL",
+      "stage": "fetch",
+      "error": "raw fetch returned empty / errored"
+    }
+  ],
+  "ai_commentary_count": 0,
   "sources_status": {
-    "yfinance": "ok",
+    "yfinance": "partial",
     "finnhub": "ok",
-    "gemini": "ok"
+    "gemini": "down"
   },
   "data_repo_committed": false
 }
