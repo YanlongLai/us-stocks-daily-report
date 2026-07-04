@@ -1,7 +1,7 @@
 {
-  "run_id": "2a7fe5d8-6aac-4364-b9c5-03b73e245a9f",
-  "started_at": "2026-07-03T14:41:17.983270+00:00",
-  "finished_at": "2026-07-03T14:51:48.445310+00:00",
+  "run_id": "bda9e971-11fb-4b05-a88d-1848b80684dd",
+  "started_at": "2026-07-04T14:40:50.373939+00:00",
+  "finished_at": "2026-07-04T14:51:36.739398+00:00",
   "tickers_attempted": [
     "AAPL",
     "MSFT",
@@ -51,6 +51,7 @@
     "IWM"
   ],
   "tickers_succeeded": [
+    "AAPL",
     "MSFT",
     "NVDA",
     "AVGO",
@@ -97,16 +98,10 @@
     "DIA",
     "IWM"
   ],
-  "tickers_failed": [
-    {
-      "ticker": "AAPL",
-      "stage": "fetch",
-      "error": "raw fetch returned empty / errored"
-    }
-  ],
+  "tickers_failed": [],
   "ai_commentary_count": 0,
   "sources_status": {
-    "yfinance": "partial",
+    "yfinance": "ok",
     "finnhub": "ok",
     "gemini": "down"
   },
