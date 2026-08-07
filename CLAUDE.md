@@ -15,6 +15,7 @@
 - **Inputs**: nightly engine push from `~/git/us-stocks-core` (Tier 1 Python engine).
 - **Outputs**: jsDelivr CDN consumption by `~/git/dappgo-us-stocks-app` (Tier 3) and `~/git/dappgo-stocks-mcp` (Tier 4).
 - **When to touch**: **NEVER manually**. Reports and `dashboard/data.json` are emitted by the engine. If you find yourself wanting to edit content here, you almost certainly want `~/git/us-stocks-core` instead.
+- **Retention**: the engine publisher applies the 30-day base `DATA_RETENTION_DAYS` plus optional `REPORT_RETENTION_DAYS`, `AI_RETENTION_DAYS`, and `SNAPSHOT_RETENTION_DAYS` overrides before committing. It protects mutable aliases and current pointers; malformed or missing `latest.json` disables immutable-snapshot cleanup for safety.
 
 ## Sibling repos commonly edited together
 - `~/git/us-stocks-core` — the engine producing the data in this repo.
@@ -37,6 +38,10 @@ A read-mostly archive of **generated artifacts**:
 - **Never** add `.py` files — guarded by CI workflow
 - **Never** modify files in `reports/` or `dashboard/data.json` by hand —
   next pipeline run overwrites them
+
+The publisher also removes dated reports, AI results, and old immutable
+dashboard snapshots past their configured TTL. Do not perform that cleanup by
+hand in this data-only repository.
 
 ## Language
 

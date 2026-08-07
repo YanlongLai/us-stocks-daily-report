@@ -43,7 +43,8 @@ schemas/                       JSON Schema 定義
 
 ## 排程
 
-每個美股交易日（週一至週五）美東時間 18:30 / UTC 22:30（NYSE 16:00 收盤後 2.5 小時）由 GitHub Actions 自動產生。
+每個美股交易日由 Cloud Run Job `dappgo-us-stocks` 產生；GitHub Actions
+只保留為需明確設定 `run_fallback=true` 的緊急 fallback。
 
 ## CDN 取用方式
 
@@ -53,11 +54,20 @@ App 透過 jsDelivr 公開 CDN 取資料：
 https://cdn.jsdelivr.net/gh/YanlongLai/us-stocks-daily-report@main/dashboard/data.json
 ```
 
+## 保留期限
+
+發布引擎在每次提交前會依 TTL 清理舊輸出：`DATA_RETENTION_DAYS` 為 30
+天基準，並可用 `REPORT_RETENTION_DAYS`、`AI_RETENTION_DAYS`、
+`SNAPSHOT_RETENTION_DAYS` 分別管理報告、AI 結果與 immutable snapshot
+（各允許 7–3650 天）。`dashboard/data.json`、`latest.json` 及其指向的
+snapshot 永遠保留；若 `latest.json` 損壞或遺失，清理程序會暫停刪除
+immutable snapshot，避免誤刪目前資料。請不要直接刪除本資料 repo 的生成檔案。
+
 ## 三 repo 協同
 
 ```
 ┌─ us-stocks-core (private) ──────────┐
-│  Python 引擎 — 每日 GitHub Action   │
+│  Python 引擎 — Cloud Run Job        │
 │  推送輸出 →                         │
 └──────────────┬──────────────────────┘
                │
