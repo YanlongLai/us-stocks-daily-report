@@ -1,13 +1,14 @@
 {
-  "run_id": "b50ce485-9168-43ff-a24c-20680f07a05c",
-  "started_at": "2026-08-12T13:37:39.768653+00:00",
-  "finished_at": "2026-08-12T13:43:35.826958+00:00",
+  "run_id": "a874d21f-a3f1-4979-ba4f-dc83b923f00a",
+  "started_at": "2026-08-12T14:57:31.600954+00:00",
+  "finished_at": "2026-08-12T15:03:14.297296+00:00",
   "tickers_attempted": [
     "AAPL",
     "MSFT",
     "NVDA",
     "AVGO",
     "ORCL",
+    "PLTR",
     "GOOGL",
     "META",
     "NFLX",
@@ -33,10 +34,12 @@
     "LLY",
     "PFE",
     "ABBV",
+    "ISRG",
     "CAT",
     "BA",
     "HON",
     "UPS",
+    "SPCX",
     "XOM",
     "CVX",
     "NEE",
@@ -48,7 +51,8 @@
     "SPY",
     "QQQ",
     "DIA",
-    "IWM"
+    "IWM",
+    "EWT"
   ],
   "tickers_succeeded": [
     "AAPL",
@@ -56,6 +60,7 @@
     "NVDA",
     "AVGO",
     "ORCL",
+    "PLTR",
     "GOOGL",
     "META",
     "NFLX",
@@ -81,10 +86,12 @@
     "LLY",
     "PFE",
     "ABBV",
+    "ISRG",
     "CAT",
     "BA",
     "HON",
     "UPS",
+    "SPCX",
     "XOM",
     "CVX",
     "NEE",
@@ -96,13 +103,14 @@
     "SPY",
     "QQQ",
     "DIA",
-    "IWM"
+    "IWM",
+    "EWT"
   ],
   "tickers_failed": [],
-  "ai_commentary_count": 46,
+  "ai_commentary_count": 50,
   "sources_status": {
-    "yfinance": "ok",
-    "finnhub": "ok",
+    "tradier": "ok",
+    "finnhub": "down",
     "gemini": "ok"
   },
   "data_repo_committed": false
