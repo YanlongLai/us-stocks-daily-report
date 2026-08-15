@@ -1,7 +1,7 @@
 {
-  "run_id": "6e160b27-6c92-484a-9a32-3ecb90598f67",
-  "started_at": "2026-08-14T13:35:56.562501+00:00",
-  "finished_at": "2026-08-14T13:41:55.098549+00:00",
+  "run_id": "23d770e1-036e-4a6a-8fb3-5261c1d62228",
+  "started_at": "2026-08-15T02:14:53.786605+00:00",
+  "finished_at": "2026-08-15T02:25:19.216258+00:00",
   "tickers_attempted": [
     "AAPL",
     "MSFT",
@@ -109,6 +109,7 @@
   "tickers_failed": [],
   "ai_commentary_count": 50,
   "sources_status": {
+    "finnhub": "down",
     "tradier": "ok",
     "gemini": "ok"
   },
