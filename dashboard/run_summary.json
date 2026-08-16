@@ -1,7 +1,7 @@
 {
-  "run_id": "b6a959b7-5fc4-441b-a5c2-febf02ac14fc",
-  "started_at": "2026-08-16T06:31:12.390337+00:00",
-  "finished_at": "2026-08-16T06:35:40.042418+00:00",
+  "run_id": "62741cb7-aea4-45ed-a9fd-50c457db3529",
+  "started_at": "2026-08-16T06:38:14.561266+00:00",
+  "finished_at": "2026-08-16T06:41:11.598259+00:00",
   "tickers_attempted": [
     "AAPL",
     "MSFT",
@@ -186,8 +186,8 @@
       "median_lazy_score": 29.0,
       "p95_lazy_score": 32.0,
       "median_coverage": 1.0,
-      "previous_repeat_rate": null,
-      "compared_tickers": 0,
+      "previous_repeat_rate": 0.0,
+      "compared_tickers": 15,
       "flags": [
         "coverage_below_historical_baseline"
       ]
