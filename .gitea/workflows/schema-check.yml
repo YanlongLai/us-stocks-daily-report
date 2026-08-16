@@ -5,10 +5,12 @@ on:
     paths:
       - 'dashboard/**'
       - 'schemas/**'
+      - '.gitea/workflows/**'
   pull_request:
     paths:
       - 'dashboard/**'
       - 'schemas/**'
+      - '.gitea/workflows/**'
   workflow_dispatch:
 
 jobs:
