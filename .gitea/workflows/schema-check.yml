@@ -1,0 +1,46 @@
+name: gitea-schema-check
+
+on:
+  push:
+    paths:
+      - 'dashboard/**'
+      - 'schemas/**'
+  pull_request:
+    paths:
+      - 'dashboard/**'
+      - 'schemas/**'
+  workflow_dispatch:
+
+jobs:
+  validate:
+    runs-on: dappgo-linux-host
+    timeout-minutes: 10
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Validate JSON schemas
+        run: |
+          set -Eeuo pipefail
+          venv="$HOME/a001/tools/report-schema-venv"
+          if [ ! -x "$venv/bin/python" ]; then
+            python3 -m venv "$venv"
+            "$venv/bin/pip" install --disable-pip-version-check --quiet 'jsonschema>=4.20,<5'
+          fi
+          "$venv/bin/python" - <<'PY'
+          import json
+          from jsonschema import Draft202012Validator
+          from pathlib import Path
+
+          root = Path.cwd()
+          data_path = root / "dashboard/data.json"
+          if data_path.exists():
+              schema = json.loads((root / "schemas/data.schema.json").read_text())
+              data = json.loads(data_path.read_text())
+              errors = list(Draft202012Validator(schema).iter_errors(data))
+              if errors:
+                  raise SystemExit("; ".join(error.message for error in errors[:20]))
+              print("ok: dashboard/data.json")
+          else:
+              print("skip: dashboard/data.json")
+          PY
