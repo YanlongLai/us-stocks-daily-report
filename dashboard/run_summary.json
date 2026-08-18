@@ -1,7 +1,7 @@
 {
-  "run_id": "ab4b7ba6-9200-45a8-8a66-7b8d6b18526f",
-  "started_at": "2026-08-17T14:08:15.490679+00:00",
-  "finished_at": "2026-08-17T14:17:02.177679+00:00",
+  "run_id": "380b21f1-12cf-42c4-ae35-7e0e9500b999",
+  "started_at": "2026-08-18T14:09:52.397009+00:00",
+  "finished_at": "2026-08-18T14:17:21.527947+00:00",
   "tickers_attempted": [
     "AAPL",
     "MSFT",
@@ -127,7 +127,6 @@
     "BA",
     "HON",
     "UPS",
-    "SPCX",
     "XOM",
     "CVX",
     "NEE",
@@ -178,34 +177,40 @@
     "RTX",
     "LMT"
   ],
-  "tickers_failed": [],
+  "tickers_failed": [
+    {
+      "ticker": "SPCX",
+      "stage": "fetch",
+      "error": "raw fetch returned empty / errored"
+    }
+  ],
   "ai_commentary_count": 0,
   "ai_quality": {
     "status": "degraded",
-    "lazy_score": 46,
+    "lazy_score": 34,
     "threshold": 60,
-    "coverage": 0.535,
+    "coverage": 0.765,
     "min_coverage": 0.9,
     "metrics": {
-      "length_short_rate": 0.465,
-      "self_ref_miss_rate": 0.977,
+      "length_short_rate": 0.235,
+      "self_ref_miss_rate": 0.812,
       "cross_similarity_rate": 0.0,
-      "anchor_miss_rate": 0.977,
+      "anchor_miss_rate": 0.812,
       "validation_reject_rate": 0.0,
       "avg_retries": 0.0
     },
     "validation_rejects": 0,
     "vip": {
       "status": "degraded",
-      "lazy_score": 43,
+      "lazy_score": 32,
       "threshold": 60,
-      "coverage": 0.68,
+      "coverage": 0.84,
       "min_coverage": 1.0,
       "metrics": {
-        "length_short_rate": 0.32,
-        "self_ref_miss_rate": 1.0,
+        "length_short_rate": 0.16,
+        "self_ref_miss_rate": 0.8,
         "cross_similarity_rate": 0.0,
-        "anchor_miss_rate": 1.0,
+        "anchor_miss_rate": 0.792,
         "validation_reject_rate": 0.0,
         "avg_retries": 0.0
       },
@@ -303,14 +308,14 @@
         "p95_lazy_score": null,
         "median_coverage": null,
         "previous_repeat_rate": 0.0,
-        "compared_tickers": 10,
+        "compared_tickers": 17,
         "flags": []
       }
     },
     "batch_size": 20,
     "batch_count": 5,
     "batch_workers": 1,
-    "fallback_batches": 4,
+    "fallback_batches": 2,
     "repair_attempts": 1,
     "raw_status": "degraded",
     "historical": {
@@ -321,7 +326,7 @@
       "p95_lazy_score": 32.0,
       "median_coverage": 1.0,
       "previous_repeat_rate": 0.0,
-      "compared_tickers": 26,
+      "compared_tickers": 46,
       "flags": [
         "coverage_below_historical_baseline"
       ],
@@ -333,7 +338,7 @@
         "p95_lazy_score": null,
         "median_coverage": null,
         "previous_repeat_rate": 0.0,
-        "compared_tickers": 10,
+        "compared_tickers": 17,
         "flags": []
       }
     }
@@ -341,7 +346,7 @@
   "sources_status": {
     "finnhub": "quota_exhausted",
     "tradier": "partial",
-    "yfinance": "partial",
+    "yfinance": "down",
     "gemini": "partial"
   },
   "data_repo_committed": true
