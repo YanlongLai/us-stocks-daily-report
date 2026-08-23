@@ -17,6 +17,24 @@
       "type": "array",
       "items": { "type": "string", "pattern": "^[A-Z][A-Z0-9.\\-]{0,9}$" }
     },
+    "data_coverage": {
+      "type": "object",
+      "description": "Expected ticker universe versus successfully emitted ticker records.",
+      "required": ["expected_tickers", "covered_tickers", "missing_tickers", "expected_count", "covered_count", "missing_count", "coverage_ratio", "status"],
+      "properties": {
+        "expected_tickers": { "type": "array", "items": { "type": "string" } },
+        "covered_tickers": { "type": "array", "items": { "type": "string" } },
+        "missing_tickers": { "type": "array", "items": { "type": "string" } },
+        "expected_count": { "type": "integer", "minimum": 0 },
+        "covered_count": { "type": "integer", "minimum": 0 },
+        "missing_count": { "type": "integer", "minimum": 0 },
+        "coverage_ratio": { "type": "number", "minimum": 0, "maximum": 1 },
+        "status": { "type": "string", "enum": ["complete", "partial"] },
+        "primary_dimension": { "type": "string" },
+        "dimensions": { "type": "object", "additionalProperties": true }
+      },
+      "additionalProperties": true
+    },
     "ticker_data": {
       "type": "object",
       "description": "Map of ticker → analysis dict",
