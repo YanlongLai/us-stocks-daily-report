@@ -18,7 +18,7 @@ schemas/                       JSON Schema 定義
 
 - 股價、新聞、財報日期、機構持股：[yfinance](https://github.com/ranaroussi/yfinance) (Yahoo Finance, free)
 - 補充新聞：[Finnhub free tier](https://finnhub.io/)
-- 重大公告：[SEC EDGAR](https://www.sec.gov/edgar) 8-K / 10-Q / 10-K filings
+- 重大公告與估值證據：[SEC EDGAR](https://www.sec.gov/edgar) 8-K / 10-Q / 10-K filings；`dashboard/ticker_data.*.sec_valuation` 為可選的 filed Company Facts 與明確標示的情境估值
 - 內部人交易：SEC Form 4
 - AI 解讀：Google Gemini
 
@@ -94,7 +94,7 @@ immutable snapshot，避免誤刪目前資料。請不要直接刪除本資料 r
 - **DappGo TW Stocks** ([tw-stocks-core](https://github.com/YanlongLai/tw-stocks-core) · [tw-stocks-daily-report](https://github.com/YanlongLai/tw-stocks-daily-report) · [dappgo-tw-stocks-app](https://github.com/YanlongLai/dappgo-tw-stocks-app))
 - **DappGo Options** ([options-core](https://github.com/YanlongLai/options-core) · [options-daily-report](https://github.com/YanlongLai/options-daily-report) · [dappgo-options-app](https://github.com/YanlongLai/dappgo-options-app))
 
-> **Schema 變動**請先在本 repo 更新 `schemas/data.schema.json`（CI 會擋住格式錯誤的 push），再依序部署 engine、app。
+> **Schema 變動**請先在本 repo 更新 `schemas/data.schema.json`（CI 會擋住格式錯誤的 push），再依序部署 engine、app。`sec_valuation` 是可選欄位；缺少或 unavailable 時，舊版 app 必須照常解析其他欄位。
 
 ## 授權
 

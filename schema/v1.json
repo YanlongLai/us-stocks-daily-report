@@ -106,6 +106,31 @@
             "forward_pe": { "type": ["number", "null"] }
           }
         },
+        "sec_valuation": {
+          "type": "object",
+          "additionalProperties": true,
+          "description": "Optional SEC EDGAR Company Facts evidence and transparent scenario valuation.",
+          "properties": {
+            "status": { "type": "string", "enum": ["ok", "degraded", "unavailable"] },
+            "source": { "type": "string" },
+            "symbol": { "type": "string" },
+            "as_of_date": { "type": "string", "format": "date" },
+            "filed_cutoff": { "type": "string", "format": "date" },
+            "metrics": { "type": "object", "additionalProperties": true },
+            "growth": { "type": "object", "additionalProperties": true },
+            "valuation": { "type": "object", "additionalProperties": true },
+            "scenario_estimate": {
+              "type": ["object", "null"],
+              "additionalProperties": true
+            },
+            "evidence": {
+              "type": "array",
+              "items": { "type": "object", "additionalProperties": true }
+            },
+            "warnings": { "type": "array", "items": { "type": "string" } },
+            "quality": { "type": "object", "additionalProperties": true }
+          }
+        },
         "short_interest": {
           "type": "object",
           "additionalProperties": true,

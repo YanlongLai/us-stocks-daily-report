@@ -15,6 +15,7 @@
 - **Inputs**: nightly engine push from `~/git/us-stocks-core` (Tier 1 Python engine).
 - **Outputs**: jsDelivr CDN consumption by `~/git/dappgo-us-stocks-app` (Tier 3) and `~/git/dappgo-stocks-mcp` (Tier 4).
 - **When to touch**: **NEVER manually**. Reports and `dashboard/data.json` are emitted by the engine. If you find yourself wanting to edit content here, you almost certainly want `~/git/us-stocks-core` instead.
+- **Schema note**: `ticker_data.*.sec_valuation` is an optional SEC Company Facts evidence object. It may be absent or `unavailable`; consumers must preserve the existing quote/fundamentals fields and must not treat its scenario range as an SEC forecast.
 - **Retention**: the engine publisher applies the 30-day base `DATA_RETENTION_DAYS` plus optional `REPORT_RETENTION_DAYS`, `AI_RETENTION_DAYS`, and `SNAPSHOT_RETENTION_DAYS` overrides before committing. It protects mutable aliases and current pointers; malformed or missing `latest.json` disables immutable-snapshot cleanup for safety.
 
 ## Sibling repos commonly edited together
