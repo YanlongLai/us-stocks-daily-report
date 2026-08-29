@@ -203,8 +203,9 @@
         },
         "price_history": {
           "type": "array",
+          "maxItems": 90,
           "items": { "$ref": "#/$defs/PriceBar" },
-          "description": "Last ~750 trading days of OHLCV bars for client-side charting."
+          "description": "Latest 90 calendar days of OHLCV bars for client-side charting; weekends and holidays may yield fewer rows."
         }
       }
     },
@@ -215,9 +216,15 @@
       "additionalProperties": true,
       "properties": {
         "latest_close": { "type": "number" },
+        "history_bars": {
+          "type": "integer",
+          "minimum": 0,
+          "description": "Number of finite, valid OHLCV bars used for this snapshot."
+        },
         "ma_5": { "type": ["number", "null"] },
         "ma_10": { "type": ["number", "null"] },
         "ma_20": { "type": ["number", "null"] },
+        "ma_20_slope": { "type": ["number", "null"] },
         "ma_60": { "type": ["number", "null"] },
         "ma_120": { "type": ["number", "null"] },
         "ma_200": { "type": ["number", "null"] },
