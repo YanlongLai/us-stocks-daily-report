@@ -1,7 +1,7 @@
 {
-  "run_id": "a6353cb0-567d-452a-a240-d50638ccd779",
-  "started_at": "2026-08-29T22:40:38.937530+00:00",
-  "finished_at": "2026-08-29T23:11:04.151020+00:00",
+  "run_id": "79fe70d8-4295-42e8-9859-c7a74279e527",
+  "started_at": "2026-08-30T17:16:08.853581+00:00",
+  "finished_at": "2026-08-30T17:41:03.697402+00:00",
   "tickers_attempted": [
     "AAPL",
     "MSFT",
@@ -109,7 +109,6 @@
     "NXPI",
     "MPWR",
     "CHTR",
-    "EA",
     "TTWO",
     "RDDT",
     "PINS",
@@ -691,63 +690,53 @@
     "EXC",
     "FE"
   ],
-  "tickers_failed": [
-    {
-      "ticker": "EA",
-      "stage": "fetch",
-      "error": "raw fetch returned empty / errored"
-    }
-  ],
+  "tickers_failed": [],
   "tickers_recovered": [],
   "recovery": {
     "enabled": true,
-    "status": "partial",
-    "requested_tickers": [
-      "EA"
-    ],
+    "status": "not_needed",
+    "requested_tickers": [],
     "recovered_tickers": [],
-    "failed_tickers": [
-      "EA"
-    ],
+    "failed_tickers": [],
     "skipped_tickers": [],
     "batch_size": 20,
-    "batch_count": 1,
-    "rounds": 1,
+    "batch_count": 0,
+    "rounds": 0,
     "delay_seconds": 30,
-    "delay_applied_seconds": 30,
-    "duration_seconds": 50.195
+    "delay_applied_seconds": 0,
+    "duration_seconds": 0.0
   },
   "ai_commentary_count": 0,
   "ai_quality": {
-    "status": "pass",
-    "lazy_score": 24,
+    "status": "degraded",
+    "lazy_score": 21,
     "threshold": 60,
     "coverage": 1.0,
     "min_coverage": 0.9,
     "metrics": {
       "length_short_rate": 0.0,
-      "self_ref_miss_rate": 0.418,
-      "cross_similarity_rate": 0.293,
-      "anchor_miss_rate": 0.418,
-      "validation_reject_rate": 0.348,
+      "self_ref_miss_rate": 0.351,
+      "cross_similarity_rate": 0.337,
+      "anchor_miss_rate": 0.351,
+      "validation_reject_rate": 0.234,
       "avg_retries": 0.0
     },
-    "validation_rejects": 119,
+    "validation_rejects": 80,
     "vip": {
       "status": "pass",
-      "lazy_score": 21,
+      "lazy_score": 24,
       "threshold": 60,
       "coverage": 1.0,
       "min_coverage": 1.0,
       "metrics": {
         "length_short_rate": 0.0,
-        "self_ref_miss_rate": 0.0,
-        "cross_similarity_rate": 1.0,
-        "anchor_miss_rate": 0.0,
-        "validation_reject_rate": 0.083,
+        "self_ref_miss_rate": 0.125,
+        "cross_similarity_rate": 0.761,
+        "anchor_miss_rate": 0.125,
+        "validation_reject_rate": 0.417,
         "avg_retries": 0.0
       },
-      "validation_rejects": 2,
+      "validation_rejects": 10,
       "market": "us",
       "requested_tickers": [
         "GOOG",
@@ -831,52 +820,55 @@
       "support_status": "pass",
       "history_min_samples": 3,
       "historical": {
-        "status": "stable",
-        "sample_count": 12,
+        "status": "regression",
+        "sample_count": 14,
         "min_samples": 3,
-        "median_lazy_score": 27.0,
+        "median_lazy_score": 24.0,
         "p95_lazy_score": 41.0,
         "median_coverage": 1.0,
-        "previous_repeat_rate": 0.542,
+        "previous_repeat_rate": 0.875,
         "compared_tickers": 24,
-        "flags": []
+        "flags": [
+          "vip_commentary_repeat"
+        ]
       }
     },
     "batch_size": 20,
     "batch_count": 18,
     "batch_workers": 1,
-    "fallback_batches": 17,
+    "fallback_batches": 15,
     "repair_attempts": 1,
     "raw_status": "pass",
     "historical": {
       "status": "stable",
-      "sample_count": 29,
+      "sample_count": 31,
       "min_samples": 3,
       "median_lazy_score": 29.0,
       "p95_lazy_score": 35.0,
       "median_coverage": 1.0,
-      "previous_repeat_rate": 0.395,
+      "previous_repeat_rate": 0.465,
       "compared_tickers": 342,
       "flags": [],
       "vip": {
-        "status": "stable",
-        "sample_count": 12,
+        "status": "regression",
+        "sample_count": 14,
         "min_samples": 3,
-        "median_lazy_score": 27.0,
+        "median_lazy_score": 24.0,
         "p95_lazy_score": 41.0,
         "median_coverage": 1.0,
-        "previous_repeat_rate": 0.542,
+        "previous_repeat_rate": 0.875,
         "compared_tickers": 24,
-        "flags": []
+        "flags": [
+          "vip_commentary_repeat"
+        ]
       }
     }
   },
   "sources_status": {
     "translation": "ok",
     "finnhub": "down",
-    "tradier": "partial",
-    "yfinance": "down",
-    "gemini": "ok"
+    "tradier": "ok",
+    "gemini": "partial"
   },
   "data_repo_committed": true
 }
