@@ -1,7 +1,7 @@
 {
-  "run_id": "0e2d9a7b-91fc-45eb-8529-5e2b2dfd7bc2",
-  "started_at": "2026-09-03T14:05:07.459598+00:00",
-  "finished_at": "2026-09-03T14:09:26.594857+00:00",
+  "run_id": "10bf8334-1ce8-457f-b82f-73ff7edb24a0",
+  "started_at": "2026-09-04T14:05:09.822028+00:00",
+  "finished_at": "2026-09-04T14:12:18.958467+00:00",
   "tickers_attempted": [
     "GOOG",
     "BABA",
@@ -72,37 +72,37 @@
     "delay_applied_seconds": 0,
     "duration_seconds": 0.0
   },
-  "ai_commentary_count": 0,
+  "ai_commentary_count": 25,
   "ai_quality": {
     "status": "pass",
-    "lazy_score": 20,
+    "lazy_score": 28,
     "threshold": 60,
     "coverage": 1.0,
     "min_coverage": 0.9,
     "metrics": {
       "length_short_rate": 0.0,
-      "self_ref_miss_rate": 0.0,
-      "cross_similarity_rate": 1.0,
-      "anchor_miss_rate": 0.0,
-      "validation_reject_rate": 0.0,
+      "self_ref_miss_rate": 0.6,
+      "cross_similarity_rate": 0.15,
+      "anchor_miss_rate": 0.6,
+      "validation_reject_rate": 0.4,
       "avg_retries": 0.0
     },
-    "validation_rejects": 0,
+    "validation_rejects": 10,
     "vip": {
       "status": "pass",
-      "lazy_score": 20,
+      "lazy_score": 28,
       "threshold": 60,
       "coverage": 1.0,
       "min_coverage": 1.0,
       "metrics": {
         "length_short_rate": 0.0,
-        "self_ref_miss_rate": 0.0,
-        "cross_similarity_rate": 1.0,
-        "anchor_miss_rate": 0.0,
-        "validation_reject_rate": 0.0,
+        "self_ref_miss_rate": 0.6,
+        "cross_similarity_rate": 0.15,
+        "anchor_miss_rate": 0.6,
+        "validation_reject_rate": 0.4,
         "avg_retries": 0.0
       },
-      "validation_rejects": 0,
+      "validation_rejects": 10,
       "market": "us",
       "requested_tickers": [
         "GOOG",
@@ -190,12 +190,12 @@
       "history_min_samples": 3,
       "historical": {
         "status": "stable",
-        "sample_count": 12,
+        "sample_count": 14,
         "min_samples": 3,
-        "median_lazy_score": 24.0,
+        "median_lazy_score": 23.0,
         "p95_lazy_score": 35.0,
         "median_coverage": 1.0,
-        "previous_repeat_rate": 0.0,
+        "previous_repeat_rate": 0.4,
         "compared_tickers": 25,
         "flags": []
       }
@@ -203,34 +203,34 @@
     "batch_size": 10,
     "batch_count": 3,
     "batch_workers": 1,
-    "fallback_batches": 3,
+    "fallback_batches": 1,
     "repair_attempts": 1,
     "raw_status": "pass",
     "historical": {
       "status": "stable",
-      "sample_count": 21,
+      "sample_count": 23,
       "min_samples": 3,
       "median_lazy_score": 28.0,
       "p95_lazy_score": 35.0,
       "median_coverage": 1.0,
-      "previous_repeat_rate": 0.0,
+      "previous_repeat_rate": 0.4,
       "compared_tickers": 25,
       "flags": [],
       "vip": {
         "status": "stable",
-        "sample_count": 12,
+        "sample_count": 14,
         "min_samples": 3,
-        "median_lazy_score": 24.0,
+        "median_lazy_score": 23.0,
         "p95_lazy_score": 35.0,
         "median_coverage": 1.0,
-        "previous_repeat_rate": 0.0,
+        "previous_repeat_rate": 0.4,
         "compared_tickers": 25,
         "flags": []
       }
     }
   },
   "sources_status": {
-    "translation": "down",
+    "translation": "ok",
     "finnhub": "down",
     "tradier": "ok",
     "gemini": "ok"
