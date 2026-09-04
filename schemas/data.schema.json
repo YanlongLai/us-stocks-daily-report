@@ -157,8 +157,30 @@
                 "url":     { "type": "string" },
                 "source":  { "type": "string" },
                 "date":    { "type": "string" },
-                "summary": { "type": "string" }
+                "summary": { "type": "string" },
+                "provider": { "type": "string" },
+                "provider_id": { "type": "string" },
+                "published_at_utc": { "type": "string", "format": "date-time" }
               }
+            }
+          },
+          "news_provenance": {
+            "type": "object",
+            "description": "Provider and freshness evidence for the news snapshot; optional for backward compatibility.",
+            "additionalProperties": true,
+            "properties": {
+              "contract_version": { "type": "string" },
+              "fetched_at_utc": { "type": ["string", "null"] },
+              "window_days": { "type": "integer", "minimum": 0 },
+              "requested_limit": { "type": "integer", "minimum": 0 },
+              "status": { "type": "string", "enum": ["ok", "degraded", "empty", "unknown"] },
+              "primary_provider": { "type": ["string", "null"] },
+              "selected_providers": { "type": "array", "items": { "type": "string" } },
+              "items_returned": { "type": "integer", "minimum": 0 },
+              "freshest_news_date": { "type": ["string", "null"] },
+              "freshest_published_at_utc": { "type": ["string", "null"] },
+              "freshness_status": { "type": "string", "enum": ["current_day", "recent", "date_only", "empty", "unknown"] },
+              "providers": { "type": "array", "items": { "type": "object", "additionalProperties": true } }
             }
           },
           "news_commentary": {
