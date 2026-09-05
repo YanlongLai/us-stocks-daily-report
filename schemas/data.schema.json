@@ -259,6 +259,34 @@
               "quality": { "type": "object", "additionalProperties": true }
             }
           },
+          "valuation_model": {
+            "type": ["object", "null"],
+            "description": "Optional DappGo composite valuation range; not investment advice or a price target.",
+            "additionalProperties": true,
+            "properties": {
+              "status": { "type": "string", "enum": ["ok", "degraded", "insufficient_data", "not_applicable", "unavailable"] },
+              "model_version": { "type": "string" },
+              "as_of_date": { "type": "string", "format": "date" },
+              "current_price": { "type": ["number", "null"] },
+              "range": {
+                "type": ["object", "null"],
+                "properties": {
+                  "low": { "type": "number" },
+                  "base": { "type": "number" },
+                  "high": { "type": "number" }
+                },
+                "additionalProperties": true
+              },
+              "distance": { "type": ["object", "null"], "additionalProperties": true },
+              "signal": { "type": "string" },
+              "confidence": { "type": "string", "enum": ["low", "medium", "high"] },
+              "method": { "type": "string" },
+              "components": { "type": "array", "items": { "type": "object", "additionalProperties": true } },
+              "inputs": { "type": "object", "additionalProperties": true },
+              "assumptions": { "type": "object", "additionalProperties": true },
+              "warnings": { "type": "array", "items": { "type": "string" } }
+            }
+          },
           "short_interest": {
             "type": "object",
             "description": "Short float %, days-to-cover from yfinance (best-effort, may be {}).",
