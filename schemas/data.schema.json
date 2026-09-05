@@ -183,6 +183,28 @@
               "providers": { "type": "array", "items": { "type": "object", "additionalProperties": true } }
             }
           },
+          "rss_news_signal": {
+            "type": "object",
+            "description": "Optional bounded, freshness-checked RSS event context; never a direct numeric valuation input.",
+            "additionalProperties": true,
+            "properties": {
+              "schema_version": { "type": "string", "const": "rss-news-signal-v1" },
+              "generated_at_utc": { "type": "string", "format": "date-time" },
+              "as_of_date": { "type": "string", "format": "date" },
+              "direction": { "type": "string", "enum": ["positive", "negative", "mixed", "neutral"] },
+              "confidence": { "type": "number", "minimum": 0, "maximum": 1 },
+              "event_types": { "type": "array", "items": { "type": "string" }, "maxItems": 4 },
+              "items": {
+                "type": "array",
+                "maxItems": 3,
+                "items": {
+                  "type": "object",
+                  "required": ["source", "title"],
+                  "additionalProperties": true
+                }
+              }
+            }
+          },
           "news_commentary": {
             "type": "string",
             "description": "AI-generated 2-3 sentence Traditional Chinese summary of recent news. Only present when AI generated one."
