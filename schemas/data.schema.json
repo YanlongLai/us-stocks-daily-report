@@ -160,7 +160,15 @@
                 "summary": { "type": "string" },
                 "provider": { "type": "string" },
                 "provider_id": { "type": "string" },
-                "published_at_utc": { "type": "string", "format": "date-time" }
+                "published_at_utc": { "type": "string", "format": "date-time" },
+                "image_url": { "type": ["string", "null"], "format": "uri" },
+                "image_source": { "type": ["string", "null"], "enum": ["og:image", null] },
+                "image_status": { "type": "string", "enum": ["available", "missing", "blocked", "invalid", "stale", "disabled"] },
+                "image_fetched_at_utc": { "type": ["string", "null"], "format": "date-time" },
+                "image_expires_at_utc": { "type": ["string", "null"], "format": "date-time" },
+                "image_content_type": { "type": "string" },
+                "image_width": { "type": "integer", "minimum": 1 },
+                "image_height": { "type": "integer", "minimum": 1 }
               }
             }
           },
