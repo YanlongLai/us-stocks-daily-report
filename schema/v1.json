@@ -149,6 +149,49 @@
               },
               "additionalProperties": true
             },
+            "forecast": {
+              "type": ["object", "null"],
+              "description": "Optional bounded calendar-year model scenarios derived from validated TTM growth; not analyst consensus or an SEC forecast.",
+              "additionalProperties": true,
+              "properties": {
+                "status": { "type": "string", "enum": ["ok", "disabled", "unavailable"] },
+                "type": { "type": "string" },
+                "calendar_year_proxy": { "type": "boolean" },
+                "not_analyst_consensus": { "type": "boolean" },
+                "growth_rate_pct": { "type": ["number", "null"] },
+                "raw_growth_rate_pct": { "type": ["number", "null"] },
+                "growth_source": { "type": ["string", "null"] },
+                "periods": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "additionalProperties": true,
+                    "properties": {
+                      "period": { "type": "string", "pattern": "^[0-9]{4}E$" },
+                      "year": { "type": "integer" },
+                      "horizon_years": { "type": "integer", "minimum": 1 },
+                      "status": { "type": "string", "const": "model_scenario" },
+                      "range": {
+                        "type": ["object", "null"],
+                        "properties": {
+                          "low": { "type": "number" },
+                          "base": { "type": "number" },
+                          "high": { "type": "number" }
+                        },
+                        "additionalProperties": true
+                      },
+                      "distance": { "type": ["object", "null"], "additionalProperties": true },
+                      "signal": { "type": "string" },
+                      "confidence": { "type": "string", "const": "low" },
+                      "growth_rate_pct": { "type": ["number", "null"] },
+                      "band_pct": { "type": ["number", "null"] },
+                      "source": { "type": ["string", "null"] }
+                    }
+                  }
+                },
+                "warnings": { "type": "array", "items": { "type": "string" } }
+              }
+            },
             "distance": { "type": ["object", "null"], "additionalProperties": true },
             "signal": { "type": "string" },
             "confidence": { "type": "string", "enum": ["low", "medium", "high"] },

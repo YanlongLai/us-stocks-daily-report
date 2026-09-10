@@ -1,7 +1,7 @@
 {
-  "run_id": "87fedccc-cb08-40a3-a34d-fcf4be4eff5c",
-  "started_at": "2026-09-09T14:05:08.626077+00:00",
-  "finished_at": "2026-09-09T14:12:38.289680+00:00",
+  "run_id": "6c9c8b07-e37b-4a04-9957-28ebf4e22cbd",
+  "started_at": "2026-09-10T14:05:08.361738+00:00",
+  "finished_at": "2026-09-10T14:12:06.179726+00:00",
   "tickers_attempted": [
     "GOOG",
     "BABA",
@@ -112,8 +112,8 @@
     "repair_attempts": 1,
     "raw_status": "pass",
     "historical": {
-      "status": "baseline_building",
-      "sample_count": 2,
+      "status": "stable",
+      "sample_count": 3,
       "min_samples": 3,
       "median_lazy_score": 35.0,
       "p95_lazy_score": 37.0,
