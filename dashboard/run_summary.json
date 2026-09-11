@@ -1,7 +1,7 @@
 {
-  "run_id": "33c048b2-2f93-4abf-9f1a-3a2362fced16",
-  "started_at": "2026-09-11T18:24:07.238678+00:00",
-  "finished_at": "2026-09-11T18:30:37.926617+00:00",
+  "run_id": "8cb2a72d-c381-4448-bc5c-52cbf35621d6",
+  "started_at": "2026-09-11T19:16:12.872584+00:00",
+  "finished_at": "2026-09-11T19:23:01.454562+00:00",
   "tickers_attempted": [
     "GOOG",
     "BABA",
@@ -77,15 +77,15 @@
   "ai_commentary_count": 26,
   "ai_quality": {
     "status": "pass",
-    "lazy_score": 32,
+    "lazy_score": 35,
     "threshold": 60,
     "coverage": 1.0,
     "min_coverage": 0.9,
     "metrics": {
       "length_short_rate": 0.0,
-      "self_ref_miss_rate": 0.923,
+      "self_ref_miss_rate": 1.0,
       "cross_similarity_rate": 0.0,
-      "anchor_miss_rate": 0.923,
+      "anchor_miss_rate": 1.0,
       "validation_reject_rate": 0.0,
       "avg_retries": 0.0
     },
@@ -115,13 +115,13 @@
     "raw_status": "pass",
     "historical": {
       "status": "stable",
-      "sample_count": 5,
+      "sample_count": 6,
       "min_samples": 3,
       "median_lazy_score": 35.0,
       "p95_lazy_score": 37.0,
       "median_coverage": 1.0,
       "previous_repeat_rate": 0.0,
-      "compared_tickers": 25,
+      "compared_tickers": 26,
       "flags": [],
       "vip": {
         "status": "disabled",
