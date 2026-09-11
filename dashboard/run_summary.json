@@ -1,7 +1,7 @@
 {
-  "run_id": "6c9c8b07-e37b-4a04-9957-28ebf4e22cbd",
-  "started_at": "2026-09-10T14:05:08.361738+00:00",
-  "finished_at": "2026-09-10T14:12:06.179726+00:00",
+  "run_id": "3f7299af-6ca7-4015-b79d-7885162c72ac",
+  "started_at": "2026-09-11T14:05:10.383020+00:00",
+  "finished_at": "2026-09-11T14:14:28.473637+00:00",
   "tickers_attempted": [
     "GOOG",
     "BABA",
@@ -75,15 +75,15 @@
   "ai_commentary_count": 25,
   "ai_quality": {
     "status": "pass",
-    "lazy_score": 35,
+    "lazy_score": 34,
     "threshold": 60,
     "coverage": 1.0,
     "min_coverage": 0.9,
     "metrics": {
       "length_short_rate": 0.0,
-      "self_ref_miss_rate": 1.0,
+      "self_ref_miss_rate": 0.96,
       "cross_similarity_rate": 0.0,
-      "anchor_miss_rate": 1.0,
+      "anchor_miss_rate": 0.96,
       "validation_reject_rate": 0.0,
       "avg_retries": 0.0
     },
@@ -113,7 +113,7 @@
     "raw_status": "pass",
     "historical": {
       "status": "stable",
-      "sample_count": 3,
+      "sample_count": 4,
       "min_samples": 3,
       "median_lazy_score": 35.0,
       "p95_lazy_score": 37.0,
@@ -130,7 +130,7 @@
     }
   },
   "sources_status": {
-    "translation": "ok",
+    "translation": "down",
     "tradier": "ok",
     "gemini": "ok"
   },
