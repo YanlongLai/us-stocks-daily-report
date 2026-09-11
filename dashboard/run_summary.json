@@ -1,7 +1,7 @@
 {
-  "run_id": "3f7299af-6ca7-4015-b79d-7885162c72ac",
-  "started_at": "2026-09-11T14:05:10.383020+00:00",
-  "finished_at": "2026-09-11T14:14:28.473637+00:00",
+  "run_id": "33c048b2-2f93-4abf-9f1a-3a2362fced16",
+  "started_at": "2026-09-11T18:24:07.238678+00:00",
+  "finished_at": "2026-09-11T18:30:37.926617+00:00",
   "tickers_attempted": [
     "GOOG",
     "BABA",
@@ -27,7 +27,8 @@
     "AVGO",
     "SPCX",
     "EWT",
-    "ISRG"
+    "ISRG",
+    "MRVL"
   ],
   "tickers_succeeded": [
     "GOOG",
@@ -54,7 +55,8 @@
     "AVGO",
     "SPCX",
     "EWT",
-    "ISRG"
+    "ISRG",
+    "MRVL"
   ],
   "tickers_failed": [],
   "tickers_recovered": [],
@@ -72,18 +74,18 @@
     "delay_applied_seconds": 0,
     "duration_seconds": 0.0
   },
-  "ai_commentary_count": 25,
+  "ai_commentary_count": 26,
   "ai_quality": {
     "status": "pass",
-    "lazy_score": 34,
+    "lazy_score": 32,
     "threshold": 60,
     "coverage": 1.0,
     "min_coverage": 0.9,
     "metrics": {
       "length_short_rate": 0.0,
-      "self_ref_miss_rate": 0.96,
+      "self_ref_miss_rate": 0.923,
       "cross_similarity_rate": 0.0,
-      "anchor_miss_rate": 0.96,
+      "anchor_miss_rate": 0.923,
       "validation_reject_rate": 0.0,
       "avg_retries": 0.0
     },
@@ -113,7 +115,7 @@
     "raw_status": "pass",
     "historical": {
       "status": "stable",
-      "sample_count": 4,
+      "sample_count": 5,
       "min_samples": 3,
       "median_lazy_score": 35.0,
       "p95_lazy_score": 37.0,
@@ -130,7 +132,7 @@
     }
   },
   "sources_status": {
-    "translation": "down",
+    "translation": "ok",
     "tradier": "ok",
     "gemini": "ok"
   },
