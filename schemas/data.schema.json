@@ -13,6 +13,20 @@
       "type": "string",
       "description": "Date of this snapshot (YYYY-MM-DD, US Eastern Time)."
     },
+    "universe": {
+      "type": "object",
+      "description": "Versioned producer universe contract used to generate this snapshot.",
+      "required": ["id", "market", "target_count", "manifest_version", "manifest_sha256"],
+      "properties": {
+        "id": { "type": "string", "minLength": 1 },
+        "market": { "type": "string", "minLength": 1 },
+        "target_count": { "type": "integer", "minimum": 1 },
+        "selection_method": { "type": "string" },
+        "manifest_version": { "type": "integer", "minimum": 1 },
+        "manifest_sha256": { "type": "string", "pattern": "^[a-f0-9]{64}$" }
+      },
+      "additionalProperties": true
+    },
     "tickers": {
       "type": "array",
       "items": { "type": "string", "pattern": "^[A-Z][A-Z0-9.\\-]{0,9}$" }
