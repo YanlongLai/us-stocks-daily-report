@@ -13,6 +13,20 @@
       "type": "string",
       "description": "Date of this snapshot (YYYY-MM-DD, US Eastern Time)."
     },
+    "universe": {
+      "type": "object",
+      "description": "Versioned producer universe contract used to generate this snapshot.",
+      "required": ["id", "market", "target_count", "manifest_version", "manifest_sha256"],
+      "properties": {
+        "id": { "type": "string", "minLength": 1 },
+        "market": { "type": "string", "minLength": 1 },
+        "target_count": { "type": "integer", "minimum": 1 },
+        "selection_method": { "type": "string" },
+        "manifest_version": { "type": "integer", "minimum": 1 },
+        "manifest_sha256": { "type": "string", "pattern": "^[a-f0-9]{64}$" }
+      },
+      "additionalProperties": true
+    },
     "tickers": {
       "type": "array",
       "items": { "type": "string", "pattern": "^[A-Z][A-Z0-9.\\-]{0,9}$" }
@@ -160,7 +174,19 @@
                 "summary": { "type": "string" },
                 "provider": { "type": "string" },
                 "provider_id": { "type": "string" },
-                "published_at_utc": { "type": "string", "format": "date-time" }
+                "published_at_utc": { "type": "string", "format": "date-time" },
+                "image_url": { "type": ["string", "null"], "format": "uri" },
+                "image_source": {
+                  "type": ["string", "null"],
+                  "enum": ["og:image", "twitter:image", null],
+                  "description": "Metadata source that supplied image_url. Providers may expose Open Graph or Twitter Card images."
+                },
+                "image_status": { "type": "string", "enum": ["available", "missing", "blocked", "invalid", "stale", "disabled"] },
+                "image_fetched_at_utc": { "type": ["string", "null"], "format": "date-time" },
+                "image_expires_at_utc": { "type": ["string", "null"], "format": "date-time" },
+                "image_content_type": { "type": "string" },
+                "image_width": { "type": "integer", "minimum": 1 },
+                "image_height": { "type": "integer", "minimum": 1 }
               }
             }
           },
