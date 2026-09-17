@@ -240,7 +240,6 @@
             "fetched_at_utc": { "type": ["string", "null"] },
             "window_days": { "type": "integer", "minimum": 0 },
             "requested_limit": { "type": "integer", "minimum": 0 },
-            "filtered_out_count": { "type": "integer", "minimum": 0 },
             "status": { "type": "string", "enum": ["ok", "degraded", "empty", "unknown"] },
             "primary_provider": { "type": ["string", "null"] },
             "selected_providers": { "type": "array", "items": { "type": "string" } },
@@ -444,10 +443,6 @@
         "provider": { "type": "string" },
         "provider_id": { "type": "string" },
         "published_at_utc": { "type": "string", "format": "date-time" },
-        "relevance": {
-          "type": "string",
-          "enum": ["symbol", "company_name", "company_alias"]
-        },
         "image_url": { "type": ["string", "null"], "format": "uri" },
         "image_source": {
           "type": ["string", "null"],
