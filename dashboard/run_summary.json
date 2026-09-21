@@ -1,7 +1,7 @@
 {
-  "run_id": "fdc09e20-9cb7-4aab-8a76-f4e5c7d508e2",
-  "started_at": "2026-09-17T14:06:14.023163+00:00",
-  "finished_at": "2026-09-17T14:18:52.287590+00:00",
+  "run_id": "dcbb0720-6bf6-4fe1-9d39-27348396c4c1",
+  "started_at": "2026-09-21T14:06:14.197446+00:00",
+  "finished_at": "2026-09-21T14:14:23.026466+00:00",
   "tickers_attempted": [
     "GOOG",
     "BABA",
@@ -84,7 +84,7 @@
     "metrics": {
       "length_short_rate": 0.0,
       "self_ref_miss_rate": 1.0,
-      "cross_similarity_rate": 0.006,
+      "cross_similarity_rate": 0.0,
       "anchor_miss_rate": 1.0,
       "validation_reject_rate": 0.0,
       "avg_retries": 0.0
