@@ -1,7 +1,7 @@
 {
-  "run_id": "51de918d-b54c-4d36-9e60-3d3ccd668be8",
-  "started_at": "2026-10-01T15:10:09.288630+00:00",
-  "finished_at": "2026-10-01T15:19:24.319689+00:00",
+  "run_id": "5ab13c27-8e7c-4f5e-a392-615642efcc57",
+  "started_at": "2026-10-01T16:10:08.795405+00:00",
+  "finished_at": "2026-10-01T16:16:41.194640+00:00",
   "tickers_attempted": [
     "GOOG",
     "BABA",
@@ -77,19 +77,19 @@
   "ai_commentary_count": 26,
   "ai_quality": {
     "status": "degraded",
-    "lazy_score": 32,
+    "lazy_score": 35,
     "threshold": 60,
     "coverage": 1.0,
     "min_coverage": 0.9,
     "metrics": {
       "length_short_rate": 0.0,
-      "self_ref_miss_rate": 0.808,
+      "self_ref_miss_rate": 1.0,
       "cross_similarity_rate": 0.0,
-      "anchor_miss_rate": 0.808,
-      "validation_reject_rate": 0.385,
+      "anchor_miss_rate": 1.0,
+      "validation_reject_rate": 0.0,
       "avg_retries": 0.0
     },
-    "validation_rejects": 10,
+    "validation_rejects": 0,
     "grounding_gate": {
       "status": "fail",
       "max_self_ref_miss_rate": 0.5,
@@ -99,13 +99,13 @@
       {
         "code": "self_reference_miss_rate_exceeded",
         "metric": "self_ref_miss_rate",
-        "actual": 0.808,
+        "actual": 1.0,
         "maximum": 0.5
       },
       {
         "code": "anchor_miss_rate_exceeded",
         "metric": "anchor_miss_rate",
-        "actual": 0.808,
+        "actual": 1.0,
         "maximum": 0.5
       }
     ],
