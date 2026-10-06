@@ -182,6 +182,7 @@
                   "description": "Metadata source that supplied image_url. Providers may expose Open Graph, Twitter Card, or RSS media images."
                 },
                 "image_status": { "type": "string", "enum": ["available", "missing", "blocked", "invalid", "stale", "disabled"] },
+                "image_usage": { "type": "string", "enum": ["public_feed", "discovery_only", "licensed"] },
                 "image_fetched_at_utc": { "type": ["string", "null"], "format": "date-time" },
                 "image_expires_at_utc": { "type": ["string", "null"], "format": "date-time" },
                 "image_content_type": { "type": "string" },

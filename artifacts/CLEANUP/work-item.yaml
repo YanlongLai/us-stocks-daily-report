@@ -1,0 +1,9 @@
+schema_version: 0.1.0
+id: CLEANUP-REPORT-SCHEMA-20261006
+project: dappgo-studio
+provenance:
+  codex_task_id: 01a109a1-c0f5-75b0-9ed7-e337ccf10e67
+  host_id: local
+  repository: https://github.com/YanlongLai/us-stocks-daily-report.git
+  branch: integrate/cleanup-report-schema-20261006
+  worktree: cleanup-report-schema-20261006
