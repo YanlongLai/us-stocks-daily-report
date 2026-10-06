@@ -1,7 +1,7 @@
 {
-  "run_id": "5818fa04-abf4-44e0-bc92-bc9c0ce11197",
-  "started_at": "2026-10-06T18:10:08.727614+00:00",
-  "finished_at": "2026-10-06T18:46:41.061003+00:00",
+  "run_id": "f00fce96-23c8-4326-b790-dfeb9bc84013",
+  "started_at": "2026-10-06T19:10:08.622653+00:00",
+  "finished_at": "2026-10-06T19:22:27.117228+00:00",
   "tickers_attempted": [
     "GOOG",
     "BABA",
@@ -129,7 +129,7 @@
     "batch_size": 10,
     "batch_count": 3,
     "batch_workers": 1,
-    "fallback_batches": 1,
+    "fallback_batches": 0,
     "repair_attempts": 1,
     "raw_status": "degraded",
     "historical": {
