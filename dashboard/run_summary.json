@@ -1,7 +1,7 @@
 {
-  "run_id": "c60e77df-34ab-4d65-a17b-549a223c5c66",
-  "started_at": "2026-10-05T19:10:08.982807+00:00",
-  "finished_at": "2026-10-05T19:18:49.900162+00:00",
+  "run_id": "09825ac9-e2ea-473a-841d-db1cedf3c5bf",
+  "started_at": "2026-10-06T14:10:09.234524+00:00",
+  "finished_at": "2026-10-06T14:19:58.371450+00:00",
   "tickers_attempted": [
     "GOOG",
     "BABA",
@@ -151,7 +151,7 @@
     }
   },
   "sources_status": {
-    "translation": "ok",
+    "translation": "down",
     "tradier": "ok",
     "gemini": "partial"
   },
