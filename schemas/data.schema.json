@@ -178,8 +178,8 @@
                 "image_url": { "type": ["string", "null"], "format": "uri" },
                 "image_source": {
                   "type": ["string", "null"],
-                  "enum": ["og:image", "twitter:image", null],
-                  "description": "Metadata source that supplied image_url. Providers may expose Open Graph or Twitter Card images."
+                  "enum": ["og:image", "twitter:image", "rss:media", null],
+                  "description": "Metadata source that supplied image_url. Providers may expose Open Graph, Twitter Card, or RSS media images."
                 },
                 "image_status": { "type": "string", "enum": ["available", "missing", "blocked", "invalid", "stale", "disabled"] },
                 "image_fetched_at_utc": { "type": ["string", "null"], "format": "date-time" },
