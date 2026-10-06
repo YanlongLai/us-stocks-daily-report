@@ -27,3 +27,37 @@ jobs:
           else
             echo "dashboard/data.json missing — skip"
           fi
+          ajv validate \
+            --spec=draft2020 \
+            --strict=false \
+            -s schemas/data.schema.json \
+            -d tests/fixtures/rss-media-news.json \
+            --all-errors --verbose
+          if ajv validate \
+            --spec=draft2020 \
+            --strict=false \
+            -s schemas/data.schema.json \
+            -d tests/fixtures/rss-media-news-invalid-source.json \
+            --all-errors --verbose; then
+            echo "unsupported image source was accepted"
+            exit 1
+          else
+            echo "ok: unsupported image source rejected"
+          fi
+          ajv validate \
+            --spec=draft2020 \
+            --strict=false \
+            -s schema/v1.json \
+            -d tests/fixtures/rss-media-report-v1.json \
+            --all-errors --verbose
+          if ajv validate \
+            --spec=draft2020 \
+            --strict=false \
+            -s schema/v1.json \
+            -d tests/fixtures/rss-media-report-v1-invalid-source.json \
+            --all-errors --verbose; then
+            echo "unsupported report image source was accepted"
+            exit 1
+          else
+            echo "ok: unsupported report image source rejected"
+          fi

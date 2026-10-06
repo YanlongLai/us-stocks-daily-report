@@ -1,0 +1,32 @@
+{
+  "schema_version": "1.0.0",
+  "generated_at_utc": "2026-10-06T00:00:00Z",
+  "source": "us-stocks-core",
+  "ticker_count": 1,
+  "data": {
+    "SPCX": {
+      "symbol": "SPCX",
+      "name": "SpaceX",
+      "sector": "Aerospace",
+      "price_change_pct": null,
+      "indicators": {
+        "latest_close": 1,
+        "rsi_14": 50
+      },
+      "ownership": {},
+      "signals": {
+        "verdict": "neutral"
+      },
+      "price_history": [],
+      "news": [
+        {
+          "title": "RSS media contract invalid-source fixture",
+          "image_url": "https://example.com/rss-media-fixture.png",
+          "image_source": "unsupported:image",
+          "image_status": "available",
+          "image_fetched_at_utc": "2026-10-06T00:00:00Z"
+        }
+      ]
+    }
+  }
+}
