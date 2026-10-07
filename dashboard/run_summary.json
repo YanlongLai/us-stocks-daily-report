@@ -1,7 +1,7 @@
 {
-  "run_id": "e9e1723a-456e-451c-a738-8e725875834e",
-  "started_at": "2026-10-07T15:10:10.554918+00:00",
-  "finished_at": "2026-10-07T15:18:04.782856+00:00",
+  "run_id": "e2158b96-83a6-4340-b6da-232ddf39baf4",
+  "started_at": "2026-10-07T16:10:09.435462+00:00",
+  "finished_at": "2026-10-07T16:22:28.236463+00:00",
   "tickers_attempted": [
     "GOOG",
     "BABA",
@@ -77,7 +77,7 @@
   "ai_commentary_count": 26,
   "ai_quality": {},
   "sources_status": {
-    "translation": "ok",
+    "translation": "down",
     "tradier": "ok",
     "gemini": "ok"
   },
