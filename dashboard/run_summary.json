@@ -1,7 +1,7 @@
 {
-  "run_id": "97a5e6cc-d8b7-48ab-a20a-1f51d33ddcfb",
-  "started_at": "2026-10-08T18:10:09.188864+00:00",
-  "finished_at": "2026-10-08T18:20:19.666893+00:00",
+  "run_id": "9d968423-fd35-4177-87e0-b0c38201d0b8",
+  "started_at": "2026-10-08T19:10:09.538915+00:00",
+  "finished_at": "2026-10-08T19:17:21.409516+00:00",
   "tickers_attempted": [
     "GOOG",
     "BABA",
@@ -78,9 +78,7 @@
   "ai_quality": {},
   "sources_status": {
     "translation": "ok",
-    "tradier": "partial",
-    "yfinance": "ok",
-    "finnhub": "quota_exhausted",
+    "tradier": "ok",
     "gemini": "ok"
   },
   "data_repo_committed": true
