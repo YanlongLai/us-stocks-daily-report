@@ -1,7 +1,7 @@
 {
-  "run_id": "8b25712e-e20d-4ac4-8ff7-e6c70ca8a6de",
-  "started_at": "2026-10-13T15:10:09.273163+00:00",
-  "finished_at": "2026-10-13T15:15:50.191685+00:00",
+  "run_id": "4b759413-1e3b-4e4d-a61c-97ba0bb27d9a",
+  "started_at": "2026-10-13T16:10:10.560742+00:00",
+  "finished_at": "2026-10-13T16:20:08.425051+00:00",
   "tickers_attempted": [
     "GOOG",
     "BABA",
@@ -78,8 +78,7 @@
   "ai_quality": {},
   "sources_status": {
     "translation": "ok",
-    "tradier": "partial",
-    "yfinance": "ok",
+    "tradier": "ok",
     "gemini": "ok"
   },
   "data_repo_committed": true
