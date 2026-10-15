@@ -1,7 +1,7 @@
 {
-  "run_id": "4bf417e1-9b0b-4492-a50c-13e7a674574c",
-  "started_at": "2026-10-15T18:10:08.520943+00:00",
-  "finished_at": "2026-10-15T18:25:53.400230+00:00",
+  "run_id": "fa8f4a31-a239-4980-9290-af976e567165",
+  "started_at": "2026-10-15T19:10:07.328812+00:00",
+  "finished_at": "2026-10-15T19:22:41.355539+00:00",
   "tickers_attempted": [
     "GOOG",
     "BABA",
@@ -251,10 +251,10 @@
     "raw_status": "degraded",
     "historical": {
       "status": "stable",
-      "sample_count": 9,
+      "sample_count": 8,
       "min_samples": 3,
-      "median_lazy_score": 34.0,
-      "p95_lazy_score": 37.0,
+      "median_lazy_score": 32.0,
+      "p95_lazy_score": 35.0,
       "median_coverage": 1.0,
       "previous_repeat_rate": 0.0,
       "compared_tickers": 26,
