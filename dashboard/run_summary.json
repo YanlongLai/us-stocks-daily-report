@@ -1,7 +1,7 @@
 {
-  "run_id": "11e11d74-b005-48b1-843f-9a2fcde4f9a9",
-  "started_at": "2026-10-14T17:10:08.679906+00:00",
-  "finished_at": "2026-10-14T17:23:24.772145+00:00",
+  "run_id": "a9867d2e-6a1e-4faf-a70a-594c36b4884e",
+  "started_at": "2026-10-15T14:10:08.281622+00:00",
+  "finished_at": "2026-10-15T14:32:29.333849+00:00",
   "tickers_attempted": [
     "GOOG",
     "BABA",
@@ -75,11 +75,207 @@
     "duration_seconds": 0.0
   },
   "ai_commentary_count": 26,
-  "ai_quality": {},
+  "ai_quality": {
+    "status": "degraded",
+    "lazy_score": 35,
+    "threshold": 60,
+    "coverage": 1.0,
+    "min_coverage": 0.9,
+    "metrics": {
+      "length_short_rate": 0.0,
+      "self_ref_miss_rate": 1.0,
+      "cross_similarity_rate": 0.0,
+      "anchor_miss_rate": 1.0,
+      "validation_reject_rate": 0.0,
+      "avg_retries": 0.0
+    },
+    "validation_rejects": 0,
+    "grounding_gate": {
+      "status": "fail",
+      "max_self_ref_miss_rate": 0.5,
+      "max_anchor_miss_rate": 0.5
+    },
+    "quality_failures": [
+      {
+        "code": "self_reference_miss_rate_exceeded",
+        "metric": "self_ref_miss_rate",
+        "actual": 1.0,
+        "maximum": 0.5
+      },
+      {
+        "code": "anchor_miss_rate_exceeded",
+        "metric": "anchor_miss_rate",
+        "actual": 1.0,
+        "maximum": 0.5
+      }
+    ],
+    "vip": {
+      "status": "degraded",
+      "lazy_score": 35,
+      "threshold": 60,
+      "coverage": 1.0,
+      "min_coverage": 1.0,
+      "metrics": {
+        "length_short_rate": 0.0,
+        "self_ref_miss_rate": 1.0,
+        "cross_similarity_rate": 0.0,
+        "anchor_miss_rate": 1.0,
+        "validation_reject_rate": 0.0,
+        "avg_retries": 0.0
+      },
+      "validation_rejects": 0,
+      "grounding_gate": {
+        "status": "fail",
+        "max_self_ref_miss_rate": 0.5,
+        "max_anchor_miss_rate": 0.5
+      },
+      "quality_failures": [
+        {
+          "code": "self_reference_miss_rate_exceeded",
+          "metric": "self_ref_miss_rate",
+          "actual": 1.0,
+          "maximum": 0.5
+        },
+        {
+          "code": "anchor_miss_rate_exceeded",
+          "metric": "anchor_miss_rate",
+          "actual": 1.0,
+          "maximum": 0.5
+        }
+      ],
+      "market": "us",
+      "requested_tickers": [
+        "GOOG",
+        "BABA",
+        "NFLX",
+        "TLT",
+        "MSFT",
+        "AMZN",
+        "TSLA",
+        "SHEL",
+        "SBUX",
+        "COST",
+        "VOO",
+        "TSM",
+        "SPYV",
+        "NVDA",
+        "AMD",
+        "ARCC",
+        "AAPL",
+        "ABNB",
+        "META",
+        "INTC",
+        "UNH",
+        "AVGO",
+        "SPCX",
+        "EWT",
+        "ISRG",
+        "MRVL"
+      ],
+      "resolved_tickers": [
+        "GOOG",
+        "BABA",
+        "NFLX",
+        "TLT",
+        "MSFT",
+        "AMZN",
+        "TSLA",
+        "SHEL",
+        "SBUX",
+        "COST",
+        "VOO",
+        "TSM",
+        "SPYV",
+        "NVDA",
+        "AMD",
+        "ARCC",
+        "AAPL",
+        "ABNB",
+        "META",
+        "INTC",
+        "UNH",
+        "AVGO",
+        "SPCX",
+        "EWT",
+        "ISRG",
+        "MRVL"
+      ],
+      "active_tickers": [
+        "GOOG",
+        "BABA",
+        "NFLX",
+        "TLT",
+        "MSFT",
+        "AMZN",
+        "TSLA",
+        "SHEL",
+        "SBUX",
+        "COST",
+        "VOO",
+        "TSM",
+        "SPYV",
+        "NVDA",
+        "AMD",
+        "ARCC",
+        "AAPL",
+        "ABNB",
+        "META",
+        "INTC",
+        "UNH",
+        "AVGO",
+        "SPCX",
+        "EWT",
+        "ISRG",
+        "MRVL"
+      ],
+      "missing_from_universe": [],
+      "support_status": "pass",
+      "history_min_samples": 3,
+      "historical": {
+        "status": "stable",
+        "sample_count": 3,
+        "min_samples": 3,
+        "median_lazy_score": 20.0,
+        "p95_lazy_score": 22.0,
+        "median_coverage": 1.0,
+        "previous_repeat_rate": 0.0,
+        "compared_tickers": 26,
+        "flags": []
+      }
+    },
+    "batch_size": 10,
+    "batch_count": 3,
+    "batch_workers": 1,
+    "fallback_batches": 0,
+    "repair_attempts": 1,
+    "raw_status": "degraded",
+    "historical": {
+      "status": "stable",
+      "sample_count": 10,
+      "min_samples": 3,
+      "median_lazy_score": 34.0,
+      "p95_lazy_score": 37.0,
+      "median_coverage": 1.0,
+      "previous_repeat_rate": 0.0,
+      "compared_tickers": 26,
+      "flags": [],
+      "vip": {
+        "status": "stable",
+        "sample_count": 3,
+        "min_samples": 3,
+        "median_lazy_score": 20.0,
+        "p95_lazy_score": 22.0,
+        "median_coverage": 1.0,
+        "previous_repeat_rate": 0.0,
+        "compared_tickers": 26,
+        "flags": []
+      }
+    }
+  },
   "sources_status": {
     "translation": "ok",
     "tradier": "ok",
-    "gemini": "ok"
+    "gemini": "partial"
   },
   "data_repo_committed": true
 }
