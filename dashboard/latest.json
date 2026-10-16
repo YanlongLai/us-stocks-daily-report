@@ -1,11 +1,11 @@
 {
-  "hash": "5dba31fdbba85d749acf06ca187b88659fb15c230150192218e29ea89d3876b2",
+  "hash": "9c9f640cf04a85f73bbd3a4ef5b4e2790b01df5f2aa72446ecb5960a5df99a56",
   "schema_version": "1.2.0",
   "report_date": "2026-10-16",
-  "generated_at_utc": "2026-10-16T15:15:47Z",
-  "publication_slot": "us-20261016t0810",
+  "generated_at_utc": "2026-10-16T16:20:31Z",
+  "publication_slot": "us-20261016t0910",
   "publication_revision": 1,
-  "publication_run_id": "9b00fc91-7371-4fba-b07c-f463cf3c602a",
-  "data_url_v2": "dashboard/data-5dba31fdbba8.json",
+  "publication_run_id": "ba310c61-15bb-4a7d-8d59-e97f0dd451f0",
+  "data_url_v2": "dashboard/data-9c9f640cf04a.json",
   "data_url": "https://raw.githubusercontent.com/YanlongLai/us-stocks-daily-report/main/dashboard/data.json"
 }
