@@ -1,7 +1,7 @@
 {
-  "run_id": "3e55cb93-1654-43fc-8384-7c09b0a34b69",
-  "started_at": "2026-10-21T15:10:08.043178+00:00",
-  "finished_at": "2026-10-21T15:14:55.449578+00:00",
+  "run_id": "26a6c14f-83d1-45fd-8f93-1f019f2c0eef",
+  "started_at": "2026-10-21T16:10:08.312068+00:00",
+  "finished_at": "2026-10-21T16:18:08.468153+00:00",
   "tickers_attempted": [
     "GOOG",
     "BABA",
@@ -291,7 +291,7 @@
       "history_min_samples": 3,
       "historical": {
         "status": "stable",
-        "sample_count": 7,
+        "sample_count": 8,
         "min_samples": 3,
         "median_lazy_score": 16.0,
         "p95_lazy_score": 28.0,
@@ -414,7 +414,7 @@
           "history_min_samples": 3,
           "historical": {
             "status": "stable",
-            "sample_count": 7,
+            "sample_count": 8,
             "min_samples": 3,
             "median_lazy_score": 16.0,
             "p95_lazy_score": 28.0,
@@ -535,9 +535,9 @@
           "history_min_samples": 3,
           "historical": {
             "status": "stable",
-            "sample_count": 16,
+            "sample_count": 17,
             "min_samples": 3,
-            "median_lazy_score": 8.0,
+            "median_lazy_score": 11.0,
             "p95_lazy_score": 18.0,
             "median_coverage": 1.0,
             "previous_repeat_rate": 0.0,
@@ -551,7 +551,7 @@
     "raw_status": "pass",
     "historical": {
       "status": "stable",
-      "sample_count": 7,
+      "sample_count": 8,
       "min_samples": 3,
       "median_lazy_score": 16.0,
       "p95_lazy_score": 28.0,
@@ -561,7 +561,7 @@
       "flags": [],
       "vip": {
         "status": "stable",
-        "sample_count": 7,
+        "sample_count": 8,
         "min_samples": 3,
         "median_lazy_score": 16.0,
         "p95_lazy_score": 28.0,
@@ -790,7 +790,7 @@
           "history_min_samples": 3,
           "historical": {
             "status": "stable",
-            "sample_count": 7,
+            "sample_count": 8,
             "min_samples": 3,
             "median_lazy_score": 16.0,
             "p95_lazy_score": 28.0,
@@ -803,7 +803,7 @@
         "raw_status": "pass",
         "historical": {
           "status": "stable",
-          "sample_count": 7,
+          "sample_count": 8,
           "min_samples": 3,
           "median_lazy_score": 16.0,
           "p95_lazy_score": 28.0,
@@ -813,7 +813,7 @@
           "flags": [],
           "vip": {
             "status": "stable",
-            "sample_count": 7,
+            "sample_count": 8,
             "min_samples": 3,
             "median_lazy_score": 16.0,
             "p95_lazy_score": 28.0,
@@ -1040,9 +1040,9 @@
           "history_min_samples": 3,
           "historical": {
             "status": "stable",
-            "sample_count": 16,
+            "sample_count": 17,
             "min_samples": 3,
-            "median_lazy_score": 8.0,
+            "median_lazy_score": 11.0,
             "p95_lazy_score": 18.0,
             "median_coverage": 1.0,
             "previous_repeat_rate": 0.0,
@@ -1053,9 +1053,9 @@
         "raw_status": "pass",
         "historical": {
           "status": "stable",
-          "sample_count": 16,
+          "sample_count": 17,
           "min_samples": 3,
-          "median_lazy_score": 8.0,
+          "median_lazy_score": 11.0,
           "p95_lazy_score": 18.0,
           "median_coverage": 1.0,
           "previous_repeat_rate": 0.037,
@@ -1063,9 +1063,9 @@
           "flags": [],
           "vip": {
             "status": "stable",
-            "sample_count": 16,
+            "sample_count": 17,
             "min_samples": 3,
-            "median_lazy_score": 8.0,
+            "median_lazy_score": 11.0,
             "p95_lazy_score": 18.0,
             "median_coverage": 1.0,
             "previous_repeat_rate": 0.0,
@@ -1149,7 +1149,7 @@
       "contract": "US-NEWS-PLAN-v1",
       "status": "degraded",
       "accepted": 0,
-      "attempted": 14,
+      "attempted": 16,
       "coverage": 0.0,
       "terminal_rejects": {
         "GOOG": [
@@ -1164,9 +1164,6 @@
         "MSFT": [
           "news_plan_required"
         ],
-        "TSLA": [
-          "news_plan_required"
-        ],
         "SHEL": [
           "news_plan_required"
         ],
@@ -1177,6 +1174,12 @@
           "news_plan_required"
         ],
         "NVDA": [
+          "news_plan_required"
+        ],
+        "AMD": [
+          "news_plan_required"
+        ],
+        "AAPL": [
           "news_plan_required"
         ],
         "META": [
@@ -1191,11 +1194,14 @@
         "AVGO": [
           "news_plan_required"
         ],
+        "ISRG": [
+          "news_plan_required"
+        ],
         "MRVL": [
           "news_plan_required"
         ]
       },
-      "terminal_validation_rejects": 14,
+      "terminal_validation_rejects": 16,
       "tickers": {
         "GOOG": {
           "contract": "US-NEWS-PLAN-v1",
@@ -1261,13 +1267,11 @@
         },
         "TSLA": {
           "contract": "US-NEWS-PLAN-v1",
-          "status": "rejected",
-          "eligible": true,
+          "status": "not_used",
+          "eligible": false,
           "enabled": true,
-          "attempted": true,
-          "reasons": [
-            "news_plan_required"
-          ],
+          "attempted": false,
+          "reasons": [],
           "source_field_rejected": false
         },
         "SHEL": {
@@ -1343,11 +1347,13 @@
         },
         "AMD": {
           "contract": "US-NEWS-PLAN-v1",
-          "status": "not_used",
-          "eligible": false,
+          "status": "rejected",
+          "eligible": true,
           "enabled": true,
-          "attempted": false,
-          "reasons": [],
+          "attempted": true,
+          "reasons": [
+            "news_plan_required"
+          ],
           "source_field_rejected": false
         },
         "ARCC": {
@@ -1361,11 +1367,13 @@
         },
         "AAPL": {
           "contract": "US-NEWS-PLAN-v1",
-          "status": "not_used",
-          "eligible": false,
+          "status": "rejected",
+          "eligible": true,
           "enabled": true,
-          "attempted": false,
-          "reasons": [],
+          "attempted": true,
+          "reasons": [
+            "news_plan_required"
+          ],
           "source_field_rejected": false
         },
         "ABNB": {
@@ -1441,11 +1449,13 @@
         },
         "ISRG": {
           "contract": "US-NEWS-PLAN-v1",
-          "status": "not_used",
-          "eligible": false,
+          "status": "rejected",
+          "eligible": true,
           "enabled": true,
-          "attempted": false,
-          "reasons": [],
+          "attempted": true,
+          "reasons": [
+            "news_plan_required"
+          ],
           "source_field_rejected": false
         },
         "MRVL": {
@@ -1500,15 +1510,17 @@
         "BABA": "missing_or_invalid_news_plan",
         "NFLX": "missing_or_invalid_news_plan",
         "MSFT": "missing_or_invalid_news_plan",
-        "TSLA": "missing_or_invalid_news_plan",
         "SHEL": "missing_or_invalid_news_plan",
         "SBUX": "missing_or_invalid_news_plan",
         "TSM": "missing_or_invalid_news_plan",
         "NVDA": "missing_or_invalid_news_plan",
+        "AMD": "missing_or_invalid_news_plan",
+        "AAPL": "missing_or_invalid_news_plan",
         "META": "missing_or_invalid_news_plan",
         "INTC": "missing_or_invalid_news_plan",
         "UNH": "missing_or_invalid_news_plan",
         "AVGO": "missing_or_invalid_news_plan",
+        "ISRG": "missing_or_invalid_news_plan",
         "MRVL": "missing_or_invalid_news_plan"
       }
     }
