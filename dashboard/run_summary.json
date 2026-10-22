@@ -1,7 +1,7 @@
 {
-  "run_id": "0858def3-5004-453c-92e6-eb1e2e2303bb",
-  "started_at": "2026-10-22T17:10:08.637673+00:00",
-  "finished_at": "2026-10-22T17:12:47.049276+00:00",
+  "run_id": "1acf71cf-3abb-4d77-b6af-01f4d7bc7036",
+  "started_at": "2026-10-22T18:10:08.013188+00:00",
+  "finished_at": "2026-10-22T18:18:02.253998+00:00",
   "tickers_attempted": [
     "GOOG",
     "BABA",
@@ -291,7 +291,7 @@
       "history_min_samples": 3,
       "historical": {
         "status": "stable",
-        "sample_count": 15,
+        "sample_count": 16,
         "min_samples": 3,
         "median_lazy_score": 17.0,
         "p95_lazy_score": 28.0,
@@ -414,7 +414,7 @@
           "history_min_samples": 3,
           "historical": {
             "status": "stable",
-            "sample_count": 15,
+            "sample_count": 16,
             "min_samples": 3,
             "median_lazy_score": 17.0,
             "p95_lazy_score": 28.0,
@@ -433,7 +433,7 @@
           "metrics": {
             "length_short_rate": 0.0,
             "self_ref_miss_rate": 0.0,
-            "cross_similarity_rate": 0.363,
+            "cross_similarity_rate": 0.357,
             "anchor_miss_rate": 0.0,
             "validation_reject_rate": 1.0,
             "avg_retries": 0.0
@@ -535,7 +535,7 @@
           "history_min_samples": 3,
           "historical": {
             "status": "stable",
-            "sample_count": 24,
+            "sample_count": 25,
             "min_samples": 3,
             "median_lazy_score": 14.0,
             "p95_lazy_score": 17.0,
@@ -551,7 +551,7 @@
     "raw_status": "pass",
     "historical": {
       "status": "stable",
-      "sample_count": 15,
+      "sample_count": 16,
       "min_samples": 3,
       "median_lazy_score": 17.0,
       "p95_lazy_score": 28.0,
@@ -561,7 +561,7 @@
       "flags": [],
       "vip": {
         "status": "stable",
-        "sample_count": 15,
+        "sample_count": 16,
         "min_samples": 3,
         "median_lazy_score": 17.0,
         "p95_lazy_score": 28.0,
@@ -790,7 +790,7 @@
           "history_min_samples": 3,
           "historical": {
             "status": "stable",
-            "sample_count": 15,
+            "sample_count": 16,
             "min_samples": 3,
             "median_lazy_score": 17.0,
             "p95_lazy_score": 28.0,
@@ -803,7 +803,7 @@
         "raw_status": "pass",
         "historical": {
           "status": "stable",
-          "sample_count": 15,
+          "sample_count": 16,
           "min_samples": 3,
           "median_lazy_score": 17.0,
           "p95_lazy_score": 28.0,
@@ -813,7 +813,7 @@
           "flags": [],
           "vip": {
             "status": "stable",
-            "sample_count": 15,
+            "sample_count": 16,
             "min_samples": 3,
             "median_lazy_score": 17.0,
             "p95_lazy_score": 28.0,
@@ -833,7 +833,7 @@
         "metrics": {
           "length_short_rate": 0.0,
           "self_ref_miss_rate": 0.0,
-          "cross_similarity_rate": 0.363,
+          "cross_similarity_rate": 0.357,
           "anchor_miss_rate": 0.0,
           "validation_reject_rate": 1.0,
           "avg_retries": 0.0
@@ -938,7 +938,7 @@
           "metrics": {
             "length_short_rate": 0.0,
             "self_ref_miss_rate": 0.0,
-            "cross_similarity_rate": 0.363,
+            "cross_similarity_rate": 0.357,
             "anchor_miss_rate": 0.0,
             "validation_reject_rate": 1.0,
             "avg_retries": 0.0
@@ -1040,7 +1040,7 @@
           "history_min_samples": 3,
           "historical": {
             "status": "stable",
-            "sample_count": 24,
+            "sample_count": 25,
             "min_samples": 3,
             "median_lazy_score": 14.0,
             "p95_lazy_score": 17.0,
@@ -1053,7 +1053,7 @@
         "raw_status": "pass",
         "historical": {
           "status": "stable",
-          "sample_count": 24,
+          "sample_count": 25,
           "min_samples": 3,
           "median_lazy_score": 14.0,
           "p95_lazy_score": 17.0,
@@ -1063,7 +1063,7 @@
           "flags": [],
           "vip": {
             "status": "stable",
-            "sample_count": 24,
+            "sample_count": 25,
             "min_samples": 3,
             "median_lazy_score": 14.0,
             "p95_lazy_score": 17.0,
@@ -1149,12 +1149,9 @@
       "contract": "US-NEWS-PLAN-v1",
       "status": "degraded",
       "accepted": 0,
-      "attempted": 17,
+      "attempted": 16,
       "coverage": 0.0,
       "terminal_rejects": {
-        "GOOG": [
-          "news_plan_required"
-        ],
         "NFLX": [
           "news_plan_required"
         ],
@@ -1204,17 +1201,15 @@
           "news_plan_required"
         ]
       },
-      "terminal_validation_rejects": 17,
+      "terminal_validation_rejects": 16,
       "tickers": {
         "GOOG": {
           "contract": "US-NEWS-PLAN-v1",
-          "status": "rejected",
-          "eligible": true,
+          "status": "not_used",
+          "eligible": false,
           "enabled": true,
-          "attempted": true,
-          "reasons": [
-            "news_plan_required"
-          ],
+          "attempted": false,
+          "reasons": [],
           "source_field_rejected": false
         },
         "BABA": {
@@ -1511,7 +1506,6 @@
         "MRVL": "missing_or_invalid_bound_plan"
       },
       "rejected_news": {
-        "GOOG": "missing_or_invalid_news_plan",
         "NFLX": "missing_or_invalid_news_plan",
         "AMZN": "missing_or_invalid_news_plan",
         "TSLA": "missing_or_invalid_news_plan",
@@ -1535,7 +1529,9 @@
     "translation": "not_used",
     "english_report": "partial",
     "ai_news": "partial",
-    "tradier": "ok",
+    "tradier": "partial",
+    "yfinance": "ok",
+    "finnhub": "quota_exhausted",
     "gemini": "partial"
   },
   "data_repo_committed": true
