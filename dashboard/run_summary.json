@@ -1,7 +1,7 @@
 {
-  "run_id": "68092a9d-aebd-4c37-af9f-53cfb9d89d89",
-  "started_at": "2026-10-21T19:10:09.111766+00:00",
-  "finished_at": "2026-10-21T19:14:36.091730+00:00",
+  "run_id": "cf033522-75c3-4ff4-9d1e-806af81a7303",
+  "started_at": "2026-10-22T14:10:08.573006+00:00",
+  "finished_at": "2026-10-22T14:20:56.003371+00:00",
   "tickers_attempted": [
     "GOOG",
     "BABA",
@@ -84,7 +84,7 @@
     "metrics": {
       "length_short_rate": 0.0,
       "self_ref_miss_rate": 0.0,
-      "cross_similarity_rate": 0.335,
+      "cross_similarity_rate": 0.369,
       "anchor_miss_rate": 0.0,
       "validation_reject_rate": 1.0,
       "avg_retries": 0.0
@@ -189,7 +189,7 @@
       "metrics": {
         "length_short_rate": 0.0,
         "self_ref_miss_rate": 0.0,
-        "cross_similarity_rate": 0.335,
+        "cross_similarity_rate": 0.369,
         "anchor_miss_rate": 0.0,
         "validation_reject_rate": 1.0,
         "avg_retries": 0.0
@@ -291,7 +291,7 @@
       "history_min_samples": 3,
       "historical": {
         "status": "stable",
-        "sample_count": 11,
+        "sample_count": 12,
         "min_samples": 3,
         "median_lazy_score": 17.0,
         "p95_lazy_score": 28.0,
@@ -312,7 +312,7 @@
           "metrics": {
             "length_short_rate": 0.0,
             "self_ref_miss_rate": 0.0,
-            "cross_similarity_rate": 0.335,
+            "cross_similarity_rate": 0.369,
             "anchor_miss_rate": 0.0,
             "validation_reject_rate": 1.0,
             "avg_retries": 0.0
@@ -414,7 +414,7 @@
           "history_min_samples": 3,
           "historical": {
             "status": "stable",
-            "sample_count": 11,
+            "sample_count": 12,
             "min_samples": 3,
             "median_lazy_score": 17.0,
             "p95_lazy_score": 28.0,
@@ -433,7 +433,7 @@
           "metrics": {
             "length_short_rate": 0.0,
             "self_ref_miss_rate": 0.0,
-            "cross_similarity_rate": 0.28,
+            "cross_similarity_rate": 0.314,
             "anchor_miss_rate": 0.0,
             "validation_reject_rate": 1.0,
             "avg_retries": 0.0
@@ -535,9 +535,9 @@
           "history_min_samples": 3,
           "historical": {
             "status": "stable",
-            "sample_count": 20,
+            "sample_count": 21,
             "min_samples": 3,
-            "median_lazy_score": 12.0,
+            "median_lazy_score": 14.0,
             "p95_lazy_score": 17.0,
             "median_coverage": 1.0,
             "previous_repeat_rate": 0.0,
@@ -551,7 +551,7 @@
     "raw_status": "pass",
     "historical": {
       "status": "stable",
-      "sample_count": 11,
+      "sample_count": 12,
       "min_samples": 3,
       "median_lazy_score": 17.0,
       "p95_lazy_score": 28.0,
@@ -561,7 +561,7 @@
       "flags": [],
       "vip": {
         "status": "stable",
-        "sample_count": 11,
+        "sample_count": 12,
         "min_samples": 3,
         "median_lazy_score": 17.0,
         "p95_lazy_score": 28.0,
@@ -583,7 +583,7 @@
         "metrics": {
           "length_short_rate": 0.0,
           "self_ref_miss_rate": 0.0,
-          "cross_similarity_rate": 0.335,
+          "cross_similarity_rate": 0.369,
           "anchor_miss_rate": 0.0,
           "validation_reject_rate": 1.0,
           "avg_retries": 0.0
@@ -688,7 +688,7 @@
           "metrics": {
             "length_short_rate": 0.0,
             "self_ref_miss_rate": 0.0,
-            "cross_similarity_rate": 0.335,
+            "cross_similarity_rate": 0.369,
             "anchor_miss_rate": 0.0,
             "validation_reject_rate": 1.0,
             "avg_retries": 0.0
@@ -790,7 +790,7 @@
           "history_min_samples": 3,
           "historical": {
             "status": "stable",
-            "sample_count": 11,
+            "sample_count": 12,
             "min_samples": 3,
             "median_lazy_score": 17.0,
             "p95_lazy_score": 28.0,
@@ -803,7 +803,7 @@
         "raw_status": "pass",
         "historical": {
           "status": "stable",
-          "sample_count": 11,
+          "sample_count": 12,
           "min_samples": 3,
           "median_lazy_score": 17.0,
           "p95_lazy_score": 28.0,
@@ -813,7 +813,7 @@
           "flags": [],
           "vip": {
             "status": "stable",
-            "sample_count": 11,
+            "sample_count": 12,
             "min_samples": 3,
             "median_lazy_score": 17.0,
             "p95_lazy_score": 28.0,
@@ -833,7 +833,7 @@
         "metrics": {
           "length_short_rate": 0.0,
           "self_ref_miss_rate": 0.0,
-          "cross_similarity_rate": 0.28,
+          "cross_similarity_rate": 0.314,
           "anchor_miss_rate": 0.0,
           "validation_reject_rate": 1.0,
           "avg_retries": 0.0
@@ -938,7 +938,7 @@
           "metrics": {
             "length_short_rate": 0.0,
             "self_ref_miss_rate": 0.0,
-            "cross_similarity_rate": 0.28,
+            "cross_similarity_rate": 0.314,
             "anchor_miss_rate": 0.0,
             "validation_reject_rate": 1.0,
             "avg_retries": 0.0
@@ -1040,9 +1040,9 @@
           "history_min_samples": 3,
           "historical": {
             "status": "stable",
-            "sample_count": 20,
+            "sample_count": 21,
             "min_samples": 3,
-            "median_lazy_score": 12.0,
+            "median_lazy_score": 14.0,
             "p95_lazy_score": 17.0,
             "median_coverage": 1.0,
             "previous_repeat_rate": 0.0,
@@ -1053,9 +1053,9 @@
         "raw_status": "pass",
         "historical": {
           "status": "stable",
-          "sample_count": 20,
+          "sample_count": 21,
           "min_samples": 3,
-          "median_lazy_score": 12.0,
+          "median_lazy_score": 14.0,
           "p95_lazy_score": 17.0,
           "median_coverage": 1.0,
           "previous_repeat_rate": 0.037,
@@ -1063,9 +1063,9 @@
           "flags": [],
           "vip": {
             "status": "stable",
-            "sample_count": 20,
+            "sample_count": 21,
             "min_samples": 3,
-            "median_lazy_score": 12.0,
+            "median_lazy_score": 14.0,
             "p95_lazy_score": 17.0,
             "median_coverage": 1.0,
             "previous_repeat_rate": 0.0,
@@ -1149,16 +1149,19 @@
       "contract": "US-NEWS-PLAN-v1",
       "status": "degraded",
       "accepted": 0,
-      "attempted": 13,
+      "attempted": 17,
       "coverage": 0.0,
       "terminal_rejects": {
         "GOOG": [
           "news_plan_required"
         ],
-        "BABA": [
+        "NFLX": [
           "news_plan_required"
         ],
-        "NFLX": [
+        "AMZN": [
+          "news_plan_required"
+        ],
+        "TSLA": [
           "news_plan_required"
         ],
         "SHEL": [
@@ -1167,10 +1170,16 @@
         "SBUX": [
           "news_plan_required"
         ],
+        "TSM": [
+          "news_plan_required"
+        ],
         "NVDA": [
           "news_plan_required"
         ],
         "AMD": [
+          "news_plan_required"
+        ],
+        "ARCC": [
           "news_plan_required"
         ],
         "AAPL": [
@@ -1188,11 +1197,14 @@
         "AVGO": [
           "news_plan_required"
         ],
+        "ISRG": [
+          "news_plan_required"
+        ],
         "MRVL": [
           "news_plan_required"
         ]
       },
-      "terminal_validation_rejects": 13,
+      "terminal_validation_rejects": 17,
       "tickers": {
         "GOOG": {
           "contract": "US-NEWS-PLAN-v1",
@@ -1207,13 +1219,11 @@
         },
         "BABA": {
           "contract": "US-NEWS-PLAN-v1",
-          "status": "rejected",
-          "eligible": true,
+          "status": "not_used",
+          "eligible": false,
           "enabled": true,
-          "attempted": true,
-          "reasons": [
-            "news_plan_required"
-          ],
+          "attempted": false,
+          "reasons": [],
           "source_field_rejected": false
         },
         "NFLX": {
@@ -1247,20 +1257,24 @@
         },
         "AMZN": {
           "contract": "US-NEWS-PLAN-v1",
-          "status": "not_used",
-          "eligible": false,
+          "status": "rejected",
+          "eligible": true,
           "enabled": true,
-          "attempted": false,
-          "reasons": [],
+          "attempted": true,
+          "reasons": [
+            "news_plan_required"
+          ],
           "source_field_rejected": false
         },
         "TSLA": {
           "contract": "US-NEWS-PLAN-v1",
-          "status": "not_used",
-          "eligible": false,
+          "status": "rejected",
+          "eligible": true,
           "enabled": true,
-          "attempted": false,
-          "reasons": [],
+          "attempted": true,
+          "reasons": [
+            "news_plan_required"
+          ],
           "source_field_rejected": false
         },
         "SHEL": {
@@ -1305,11 +1319,13 @@
         },
         "TSM": {
           "contract": "US-NEWS-PLAN-v1",
-          "status": "not_used",
-          "eligible": false,
+          "status": "rejected",
+          "eligible": true,
           "enabled": true,
-          "attempted": false,
-          "reasons": [],
+          "attempted": true,
+          "reasons": [
+            "news_plan_required"
+          ],
           "source_field_rejected": false
         },
         "SPYV": {
@@ -1345,11 +1361,13 @@
         },
         "ARCC": {
           "contract": "US-NEWS-PLAN-v1",
-          "status": "not_used",
-          "eligible": false,
+          "status": "rejected",
+          "eligible": true,
           "enabled": true,
-          "attempted": false,
-          "reasons": [],
+          "attempted": true,
+          "reasons": [
+            "news_plan_required"
+          ],
           "source_field_rejected": false
         },
         "AAPL": {
@@ -1436,11 +1454,13 @@
         },
         "ISRG": {
           "contract": "US-NEWS-PLAN-v1",
-          "status": "not_used",
-          "eligible": false,
+          "status": "rejected",
+          "eligible": true,
           "enabled": true,
-          "attempted": false,
-          "reasons": [],
+          "attempted": true,
+          "reasons": [
+            "news_plan_required"
+          ],
           "source_field_rejected": false
         },
         "MRVL": {
@@ -1492,17 +1512,21 @@
       },
       "rejected_news": {
         "GOOG": "missing_or_invalid_news_plan",
-        "BABA": "missing_or_invalid_news_plan",
         "NFLX": "missing_or_invalid_news_plan",
+        "AMZN": "missing_or_invalid_news_plan",
+        "TSLA": "missing_or_invalid_news_plan",
         "SHEL": "missing_or_invalid_news_plan",
         "SBUX": "missing_or_invalid_news_plan",
+        "TSM": "missing_or_invalid_news_plan",
         "NVDA": "missing_or_invalid_news_plan",
         "AMD": "missing_or_invalid_news_plan",
+        "ARCC": "missing_or_invalid_news_plan",
         "AAPL": "missing_or_invalid_news_plan",
         "META": "missing_or_invalid_news_plan",
         "INTC": "missing_or_invalid_news_plan",
         "UNH": "missing_or_invalid_news_plan",
         "AVGO": "missing_or_invalid_news_plan",
+        "ISRG": "missing_or_invalid_news_plan",
         "MRVL": "missing_or_invalid_news_plan"
       }
     }
@@ -1511,9 +1535,7 @@
     "translation": "not_used",
     "english_report": "partial",
     "ai_news": "partial",
-    "tradier": "down",
-    "yfinance": "ok",
-    "finnhub": "quota_exhausted",
+    "tradier": "ok",
     "gemini": "partial"
   },
   "data_repo_committed": true
