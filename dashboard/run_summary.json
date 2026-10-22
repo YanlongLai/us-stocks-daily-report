@@ -1,7 +1,7 @@
 {
-  "run_id": "1acf71cf-3abb-4d77-b6af-01f4d7bc7036",
-  "started_at": "2026-10-22T18:10:08.013188+00:00",
-  "finished_at": "2026-10-22T18:18:02.253998+00:00",
+  "run_id": "587ac6d6-3a11-46b1-9016-5cd8e38395e2",
+  "started_at": "2026-10-22T19:10:08.138584+00:00",
+  "finished_at": "2026-10-22T19:12:38.249608+00:00",
   "tickers_attempted": [
     "GOOG",
     "BABA",
@@ -291,7 +291,7 @@
       "history_min_samples": 3,
       "historical": {
         "status": "stable",
-        "sample_count": 16,
+        "sample_count": 17,
         "min_samples": 3,
         "median_lazy_score": 17.0,
         "p95_lazy_score": 28.0,
@@ -414,7 +414,7 @@
           "history_min_samples": 3,
           "historical": {
             "status": "stable",
-            "sample_count": 16,
+            "sample_count": 17,
             "min_samples": 3,
             "median_lazy_score": 17.0,
             "p95_lazy_score": 28.0,
@@ -535,7 +535,7 @@
           "history_min_samples": 3,
           "historical": {
             "status": "stable",
-            "sample_count": 25,
+            "sample_count": 26,
             "min_samples": 3,
             "median_lazy_score": 14.0,
             "p95_lazy_score": 17.0,
@@ -551,7 +551,7 @@
     "raw_status": "pass",
     "historical": {
       "status": "stable",
-      "sample_count": 16,
+      "sample_count": 17,
       "min_samples": 3,
       "median_lazy_score": 17.0,
       "p95_lazy_score": 28.0,
@@ -561,7 +561,7 @@
       "flags": [],
       "vip": {
         "status": "stable",
-        "sample_count": 16,
+        "sample_count": 17,
         "min_samples": 3,
         "median_lazy_score": 17.0,
         "p95_lazy_score": 28.0,
@@ -790,7 +790,7 @@
           "history_min_samples": 3,
           "historical": {
             "status": "stable",
-            "sample_count": 16,
+            "sample_count": 17,
             "min_samples": 3,
             "median_lazy_score": 17.0,
             "p95_lazy_score": 28.0,
@@ -803,7 +803,7 @@
         "raw_status": "pass",
         "historical": {
           "status": "stable",
-          "sample_count": 16,
+          "sample_count": 17,
           "min_samples": 3,
           "median_lazy_score": 17.0,
           "p95_lazy_score": 28.0,
@@ -813,7 +813,7 @@
           "flags": [],
           "vip": {
             "status": "stable",
-            "sample_count": 16,
+            "sample_count": 17,
             "min_samples": 3,
             "median_lazy_score": 17.0,
             "p95_lazy_score": 28.0,
@@ -1040,7 +1040,7 @@
           "history_min_samples": 3,
           "historical": {
             "status": "stable",
-            "sample_count": 25,
+            "sample_count": 26,
             "min_samples": 3,
             "median_lazy_score": 14.0,
             "p95_lazy_score": 17.0,
@@ -1053,7 +1053,7 @@
         "raw_status": "pass",
         "historical": {
           "status": "stable",
-          "sample_count": 25,
+          "sample_count": 26,
           "min_samples": 3,
           "median_lazy_score": 14.0,
           "p95_lazy_score": 17.0,
@@ -1063,7 +1063,7 @@
           "flags": [],
           "vip": {
             "status": "stable",
-            "sample_count": 25,
+            "sample_count": 26,
             "min_samples": 3,
             "median_lazy_score": 14.0,
             "p95_lazy_score": 17.0,
@@ -1529,9 +1529,7 @@
     "translation": "not_used",
     "english_report": "partial",
     "ai_news": "partial",
-    "tradier": "partial",
-    "yfinance": "ok",
-    "finnhub": "quota_exhausted",
+    "tradier": "ok",
     "gemini": "partial"
   },
   "data_repo_committed": true
