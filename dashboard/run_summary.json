@@ -1,7 +1,7 @@
 {
-  "run_id": "fed40b2d-72e2-4fad-b9a2-58d714042b3d",
-  "started_at": "2026-10-26T17:10:07.763324+00:00",
-  "finished_at": "2026-10-26T17:12:33.277801+00:00",
+  "run_id": "8ac817b6-7d4d-4c7a-83cc-607353b19437",
+  "started_at": "2026-10-26T18:10:08.577963+00:00",
+  "finished_at": "2026-10-26T18:15:47.328374+00:00",
   "tickers_attempted": [
     "GOOG",
     "BABA",
@@ -291,12 +291,12 @@
       "history_min_samples": 3,
       "historical": {
         "status": "stable",
-        "sample_count": 27,
+        "sample_count": 28,
         "min_samples": 3,
         "median_lazy_score": 18.0,
         "p95_lazy_score": 24.0,
         "median_coverage": 1.0,
-        "previous_repeat_rate": 0.077,
+        "previous_repeat_rate": 0.0,
         "compared_tickers": 26,
         "flags": []
       },
@@ -414,12 +414,12 @@
           "history_min_samples": 3,
           "historical": {
             "status": "stable",
-            "sample_count": 27,
+            "sample_count": 28,
             "min_samples": 3,
             "median_lazy_score": 18.0,
             "p95_lazy_score": 24.0,
             "median_coverage": 1.0,
-            "previous_repeat_rate": 0.077,
+            "previous_repeat_rate": 0.0,
             "compared_tickers": 26,
             "flags": []
           }
@@ -535,12 +535,12 @@
           "history_min_samples": 3,
           "historical": {
             "status": "stable",
-            "sample_count": 36,
+            "sample_count": 37,
             "min_samples": 3,
             "median_lazy_score": 16.0,
             "p95_lazy_score": 18.0,
             "median_coverage": 1.0,
-            "previous_repeat_rate": 0.077,
+            "previous_repeat_rate": 0.0,
             "compared_tickers": 26,
             "flags": []
           }
@@ -551,22 +551,22 @@
     "raw_status": "pass",
     "historical": {
       "status": "stable",
-      "sample_count": 27,
+      "sample_count": 28,
       "min_samples": 3,
       "median_lazy_score": 18.0,
       "p95_lazy_score": 24.0,
       "median_coverage": 1.0,
-      "previous_repeat_rate": 0.111,
+      "previous_repeat_rate": 0.037,
       "compared_tickers": 27,
       "flags": [],
       "vip": {
         "status": "stable",
-        "sample_count": 27,
+        "sample_count": 28,
         "min_samples": 3,
         "median_lazy_score": 18.0,
         "p95_lazy_score": 24.0,
         "median_coverage": 1.0,
-        "previous_repeat_rate": 0.077,
+        "previous_repeat_rate": 0.0,
         "compared_tickers": 26,
         "flags": []
       }
@@ -790,12 +790,12 @@
           "history_min_samples": 3,
           "historical": {
             "status": "stable",
-            "sample_count": 27,
+            "sample_count": 28,
             "min_samples": 3,
             "median_lazy_score": 18.0,
             "p95_lazy_score": 24.0,
             "median_coverage": 1.0,
-            "previous_repeat_rate": 0.077,
+            "previous_repeat_rate": 0.0,
             "compared_tickers": 26,
             "flags": []
           }
@@ -803,22 +803,22 @@
         "raw_status": "pass",
         "historical": {
           "status": "stable",
-          "sample_count": 27,
+          "sample_count": 28,
           "min_samples": 3,
           "median_lazy_score": 18.0,
           "p95_lazy_score": 24.0,
           "median_coverage": 1.0,
-          "previous_repeat_rate": 0.111,
+          "previous_repeat_rate": 0.037,
           "compared_tickers": 27,
           "flags": [],
           "vip": {
             "status": "stable",
-            "sample_count": 27,
+            "sample_count": 28,
             "min_samples": 3,
             "median_lazy_score": 18.0,
             "p95_lazy_score": 24.0,
             "median_coverage": 1.0,
-            "previous_repeat_rate": 0.077,
+            "previous_repeat_rate": 0.0,
             "compared_tickers": 26,
             "flags": []
           }
@@ -1040,12 +1040,12 @@
           "history_min_samples": 3,
           "historical": {
             "status": "stable",
-            "sample_count": 36,
+            "sample_count": 37,
             "min_samples": 3,
             "median_lazy_score": 16.0,
             "p95_lazy_score": 18.0,
             "median_coverage": 1.0,
-            "previous_repeat_rate": 0.077,
+            "previous_repeat_rate": 0.0,
             "compared_tickers": 26,
             "flags": []
           }
@@ -1053,22 +1053,22 @@
         "raw_status": "pass",
         "historical": {
           "status": "stable",
-          "sample_count": 36,
+          "sample_count": 37,
           "min_samples": 3,
           "median_lazy_score": 16.0,
           "p95_lazy_score": 18.0,
           "median_coverage": 1.0,
-          "previous_repeat_rate": 0.111,
+          "previous_repeat_rate": 0.037,
           "compared_tickers": 27,
           "flags": [],
           "vip": {
             "status": "stable",
-            "sample_count": 36,
+            "sample_count": 37,
             "min_samples": 3,
             "median_lazy_score": 16.0,
             "p95_lazy_score": 18.0,
             "median_coverage": 1.0,
-            "previous_repeat_rate": 0.077,
+            "previous_repeat_rate": 0.0,
             "compared_tickers": 26,
             "flags": []
           }
@@ -1149,7 +1149,7 @@
       "contract": "US-NEWS-PLAN-v1",
       "status": "degraded",
       "accepted": 0,
-      "attempted": 17,
+      "attempted": 14,
       "coverage": 0.0,
       "terminal_rejects": {
         "GOOG": [
@@ -1182,9 +1182,6 @@
         "AAPL": [
           "news_plan_required"
         ],
-        "ABNB": [
-          "news_plan_required"
-        ],
         "META": [
           "news_plan_required"
         ],
@@ -1196,15 +1193,9 @@
         ],
         "SPCX": [
           "news_plan_required"
-        ],
-        "ISRG": [
-          "news_plan_required"
-        ],
-        "MRVL": [
-          "news_plan_required"
         ]
       },
-      "terminal_validation_rejects": 17,
+      "terminal_validation_rejects": 14,
       "tickers": {
         "GOOG": {
           "contract": "US-NEWS-PLAN-v1",
@@ -1381,13 +1372,11 @@
         },
         "ABNB": {
           "contract": "US-NEWS-PLAN-v1",
-          "status": "rejected",
-          "eligible": true,
+          "status": "not_used",
+          "eligible": false,
           "enabled": true,
-          "attempted": true,
-          "reasons": [
-            "news_plan_required"
-          ],
+          "attempted": false,
+          "reasons": [],
           "source_field_rejected": false
         },
         "META": {
@@ -1454,24 +1443,20 @@
         },
         "ISRG": {
           "contract": "US-NEWS-PLAN-v1",
-          "status": "rejected",
-          "eligible": true,
+          "status": "not_used",
+          "eligible": false,
           "enabled": true,
-          "attempted": true,
-          "reasons": [
-            "news_plan_required"
-          ],
+          "attempted": false,
+          "reasons": [],
           "source_field_rejected": false
         },
         "MRVL": {
           "contract": "US-NEWS-PLAN-v1",
-          "status": "rejected",
-          "eligible": true,
+          "status": "not_used",
+          "eligible": false,
           "enabled": true,
-          "attempted": true,
-          "reasons": [
-            "news_plan_required"
-          ],
+          "attempted": false,
+          "reasons": [],
           "source_field_rejected": false
         }
       }
@@ -1521,13 +1506,10 @@
         "NVDA": "missing_or_invalid_news_plan",
         "AMD": "missing_or_invalid_news_plan",
         "AAPL": "missing_or_invalid_news_plan",
-        "ABNB": "missing_or_invalid_news_plan",
         "META": "missing_or_invalid_news_plan",
         "INTC": "missing_or_invalid_news_plan",
         "UNH": "missing_or_invalid_news_plan",
-        "SPCX": "missing_or_invalid_news_plan",
-        "ISRG": "missing_or_invalid_news_plan",
-        "MRVL": "missing_or_invalid_news_plan"
+        "SPCX": "missing_or_invalid_news_plan"
       }
     }
   },
