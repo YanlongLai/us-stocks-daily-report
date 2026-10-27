@@ -1,7 +1,7 @@
 {
-  "run_id": "5d8e3282-7254-484b-bb2d-6f0e96b4716b",
-  "started_at": "2026-10-27T14:10:07.951620+00:00",
-  "finished_at": "2026-10-27T14:19:09.630380+00:00",
+  "run_id": "c186fabc-819d-4c8a-a5ac-b3abbdb70750",
+  "started_at": "2026-10-27T15:10:08.758415+00:00",
+  "finished_at": "2026-10-27T15:13:45.684149+00:00",
   "tickers_attempted": [
     "GOOG",
     "BABA",
@@ -77,14 +77,14 @@
   "ai_commentary_count": 0,
   "ai_quality": {
     "status": "degraded",
-    "lazy_score": 18,
+    "lazy_score": 16,
     "threshold": 60,
     "coverage": 1.0,
     "min_coverage": 0.9,
     "metrics": {
       "length_short_rate": 0.0,
       "self_ref_miss_rate": 0.0,
-      "cross_similarity_rate": 0.388,
+      "cross_similarity_rate": 0.323,
       "anchor_miss_rate": 0.0,
       "validation_reject_rate": 1.0,
       "avg_retries": 0.0
@@ -182,14 +182,14 @@
     },
     "vip": {
       "status": "pass",
-      "lazy_score": 18,
+      "lazy_score": 16,
       "threshold": 60,
       "coverage": 1.0,
       "min_coverage": 1.0,
       "metrics": {
         "length_short_rate": 0.0,
         "self_ref_miss_rate": 0.0,
-        "cross_similarity_rate": 0.388,
+        "cross_similarity_rate": 0.323,
         "anchor_miss_rate": 0.0,
         "validation_reject_rate": 1.0,
         "avg_retries": 0.0
@@ -291,7 +291,7 @@
       "history_min_samples": 3,
       "historical": {
         "status": "stable",
-        "sample_count": 30,
+        "sample_count": 31,
         "min_samples": 3,
         "median_lazy_score": 18.0,
         "p95_lazy_score": 24.0,
@@ -305,14 +305,14 @@
       "languages": {
         "zh": {
           "status": "pass",
-          "lazy_score": 18,
+          "lazy_score": 16,
           "threshold": 60,
           "coverage": 1.0,
           "min_coverage": 1.0,
           "metrics": {
             "length_short_rate": 0.0,
             "self_ref_miss_rate": 0.0,
-            "cross_similarity_rate": 0.388,
+            "cross_similarity_rate": 0.323,
             "anchor_miss_rate": 0.0,
             "validation_reject_rate": 1.0,
             "avg_retries": 0.0
@@ -414,7 +414,7 @@
           "history_min_samples": 3,
           "historical": {
             "status": "stable",
-            "sample_count": 30,
+            "sample_count": 31,
             "min_samples": 3,
             "median_lazy_score": 18.0,
             "p95_lazy_score": 24.0,
@@ -426,14 +426,14 @@
         },
         "en": {
           "status": "pass",
-          "lazy_score": 17,
+          "lazy_score": 16,
           "threshold": 60,
           "coverage": 1.0,
           "min_coverage": 1.0,
           "metrics": {
             "length_short_rate": 0.0,
             "self_ref_miss_rate": 0.0,
-            "cross_similarity_rate": 0.351,
+            "cross_similarity_rate": 0.323,
             "anchor_miss_rate": 0.0,
             "validation_reject_rate": 1.0,
             "avg_retries": 0.0
@@ -535,7 +535,7 @@
           "history_min_samples": 3,
           "historical": {
             "status": "stable",
-            "sample_count": 39,
+            "sample_count": 40,
             "min_samples": 3,
             "median_lazy_score": 16.0,
             "p95_lazy_score": 18.0,
@@ -551,7 +551,7 @@
     "raw_status": "pass",
     "historical": {
       "status": "stable",
-      "sample_count": 30,
+      "sample_count": 31,
       "min_samples": 3,
       "median_lazy_score": 18.0,
       "p95_lazy_score": 24.0,
@@ -561,7 +561,7 @@
       "flags": [],
       "vip": {
         "status": "stable",
-        "sample_count": 30,
+        "sample_count": 31,
         "min_samples": 3,
         "median_lazy_score": 18.0,
         "p95_lazy_score": 24.0,
@@ -576,14 +576,14 @@
     "languages": {
       "zh": {
         "status": "pass",
-        "lazy_score": 18,
+        "lazy_score": 16,
         "threshold": 60,
         "coverage": 1.0,
         "min_coverage": 0.9,
         "metrics": {
           "length_short_rate": 0.0,
           "self_ref_miss_rate": 0.0,
-          "cross_similarity_rate": 0.388,
+          "cross_similarity_rate": 0.323,
           "anchor_miss_rate": 0.0,
           "validation_reject_rate": 1.0,
           "avg_retries": 0.0
@@ -681,14 +681,14 @@
         },
         "vip": {
           "status": "pass",
-          "lazy_score": 18,
+          "lazy_score": 16,
           "threshold": 60,
           "coverage": 1.0,
           "min_coverage": 1.0,
           "metrics": {
             "length_short_rate": 0.0,
             "self_ref_miss_rate": 0.0,
-            "cross_similarity_rate": 0.388,
+            "cross_similarity_rate": 0.323,
             "anchor_miss_rate": 0.0,
             "validation_reject_rate": 1.0,
             "avg_retries": 0.0
@@ -790,7 +790,7 @@
           "history_min_samples": 3,
           "historical": {
             "status": "stable",
-            "sample_count": 30,
+            "sample_count": 31,
             "min_samples": 3,
             "median_lazy_score": 18.0,
             "p95_lazy_score": 24.0,
@@ -803,7 +803,7 @@
         "raw_status": "pass",
         "historical": {
           "status": "stable",
-          "sample_count": 30,
+          "sample_count": 31,
           "min_samples": 3,
           "median_lazy_score": 18.0,
           "p95_lazy_score": 24.0,
@@ -813,7 +813,7 @@
           "flags": [],
           "vip": {
             "status": "stable",
-            "sample_count": 30,
+            "sample_count": 31,
             "min_samples": 3,
             "median_lazy_score": 18.0,
             "p95_lazy_score": 24.0,
@@ -826,14 +826,14 @@
       },
       "en": {
         "status": "pass",
-        "lazy_score": 17,
+        "lazy_score": 16,
         "threshold": 60,
         "coverage": 1.0,
         "min_coverage": 0.9,
         "metrics": {
           "length_short_rate": 0.0,
           "self_ref_miss_rate": 0.0,
-          "cross_similarity_rate": 0.351,
+          "cross_similarity_rate": 0.323,
           "anchor_miss_rate": 0.0,
           "validation_reject_rate": 1.0,
           "avg_retries": 0.0
@@ -931,14 +931,14 @@
         },
         "vip": {
           "status": "pass",
-          "lazy_score": 17,
+          "lazy_score": 16,
           "threshold": 60,
           "coverage": 1.0,
           "min_coverage": 1.0,
           "metrics": {
             "length_short_rate": 0.0,
             "self_ref_miss_rate": 0.0,
-            "cross_similarity_rate": 0.351,
+            "cross_similarity_rate": 0.323,
             "anchor_miss_rate": 0.0,
             "validation_reject_rate": 1.0,
             "avg_retries": 0.0
@@ -1040,7 +1040,7 @@
           "history_min_samples": 3,
           "historical": {
             "status": "stable",
-            "sample_count": 39,
+            "sample_count": 40,
             "min_samples": 3,
             "median_lazy_score": 16.0,
             "p95_lazy_score": 18.0,
@@ -1053,7 +1053,7 @@
         "raw_status": "pass",
         "historical": {
           "status": "stable",
-          "sample_count": 39,
+          "sample_count": 40,
           "min_samples": 3,
           "median_lazy_score": 16.0,
           "p95_lazy_score": 18.0,
@@ -1063,7 +1063,7 @@
           "flags": [],
           "vip": {
             "status": "stable",
-            "sample_count": 39,
+            "sample_count": 40,
             "min_samples": 3,
             "median_lazy_score": 16.0,
             "p95_lazy_score": 18.0,
@@ -1149,7 +1149,7 @@
       "contract": "US-NEWS-PLAN-v1",
       "status": "degraded",
       "accepted": 0,
-      "attempted": 14,
+      "attempted": 15,
       "coverage": 0.0,
       "terminal_rejects": {
         "GOOG": [
@@ -1159,6 +1159,9 @@
           "news_plan_required"
         ],
         "NFLX": [
+          "news_plan_required"
+        ],
+        "MSFT": [
           "news_plan_required"
         ],
         "SHEL": [
@@ -1195,7 +1198,7 @@
           "news_plan_required"
         ]
       },
-      "terminal_validation_rejects": 14,
+      "terminal_validation_rejects": 15,
       "tickers": {
         "GOOG": {
           "contract": "US-NEWS-PLAN-v1",
@@ -1241,11 +1244,13 @@
         },
         "MSFT": {
           "contract": "US-NEWS-PLAN-v1",
-          "status": "not_used",
-          "eligible": false,
+          "status": "rejected",
+          "eligible": true,
           "enabled": true,
-          "attempted": false,
-          "reasons": [],
+          "attempted": true,
+          "reasons": [
+            "news_plan_required"
+          ],
           "source_field_rejected": false
         },
         "AMZN": {
@@ -1499,6 +1504,7 @@
         "GOOG": "missing_or_invalid_news_plan",
         "BABA": "missing_or_invalid_news_plan",
         "NFLX": "missing_or_invalid_news_plan",
+        "MSFT": "missing_or_invalid_news_plan",
         "SHEL": "missing_or_invalid_news_plan",
         "SBUX": "missing_or_invalid_news_plan",
         "TSM": "missing_or_invalid_news_plan",
