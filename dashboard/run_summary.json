@@ -1,7 +1,7 @@
 {
-  "run_id": "ae519835-3f51-46f4-8c2b-fc394b5ed359",
-  "started_at": "2026-10-28T17:13:13.540219+00:00",
-  "finished_at": "2026-10-28T17:20:48.897303+00:00",
+  "run_id": "2efa08a4-65b4-4102-9e28-90241a45be45",
+  "started_at": "2026-10-28T17:28:04.788034+00:00",
+  "finished_at": "2026-10-28T17:30:34.156389+00:00",
   "tickers_attempted": [
     "GOOG",
     "BABA",
@@ -84,7 +84,7 @@
     "metrics": {
       "length_short_rate": 0.0,
       "self_ref_miss_rate": 0.0,
-      "cross_similarity_rate": 0.338,
+      "cross_similarity_rate": 0.326,
       "anchor_miss_rate": 0.0,
       "validation_reject_rate": 1.0,
       "avg_retries": 0.0
@@ -189,7 +189,7 @@
       "metrics": {
         "length_short_rate": 0.0,
         "self_ref_miss_rate": 0.0,
-        "cross_similarity_rate": 0.338,
+        "cross_similarity_rate": 0.326,
         "anchor_miss_rate": 0.0,
         "validation_reject_rate": 1.0,
         "avg_retries": 0.0
@@ -291,9 +291,9 @@
       "history_min_samples": 3,
       "historical": {
         "status": "stable",
-        "sample_count": 35,
+        "sample_count": 36,
         "min_samples": 3,
-        "median_lazy_score": 18.0,
+        "median_lazy_score": 17.0,
         "p95_lazy_score": 18.0,
         "median_coverage": 1.0,
         "previous_repeat_rate": 0.0,
@@ -312,7 +312,7 @@
           "metrics": {
             "length_short_rate": 0.0,
             "self_ref_miss_rate": 0.0,
-            "cross_similarity_rate": 0.338,
+            "cross_similarity_rate": 0.326,
             "anchor_miss_rate": 0.0,
             "validation_reject_rate": 1.0,
             "avg_retries": 0.0
@@ -414,9 +414,9 @@
           "history_min_samples": 3,
           "historical": {
             "status": "stable",
-            "sample_count": 35,
+            "sample_count": 36,
             "min_samples": 3,
-            "median_lazy_score": 18.0,
+            "median_lazy_score": 17.0,
             "p95_lazy_score": 18.0,
             "median_coverage": 1.0,
             "previous_repeat_rate": 0.0,
@@ -433,7 +433,7 @@
           "metrics": {
             "length_short_rate": 0.0,
             "self_ref_miss_rate": 0.0,
-            "cross_similarity_rate": 0.308,
+            "cross_similarity_rate": 0.295,
             "anchor_miss_rate": 0.0,
             "validation_reject_rate": 1.0,
             "avg_retries": 0.0
@@ -551,9 +551,9 @@
     "raw_status": "pass",
     "historical": {
       "status": "stable",
-      "sample_count": 35,
+      "sample_count": 36,
       "min_samples": 3,
-      "median_lazy_score": 18.0,
+      "median_lazy_score": 17.0,
       "p95_lazy_score": 18.0,
       "median_coverage": 1.0,
       "previous_repeat_rate": 0.037,
@@ -561,9 +561,9 @@
       "flags": [],
       "vip": {
         "status": "stable",
-        "sample_count": 35,
+        "sample_count": 36,
         "min_samples": 3,
-        "median_lazy_score": 18.0,
+        "median_lazy_score": 17.0,
         "p95_lazy_score": 18.0,
         "median_coverage": 1.0,
         "previous_repeat_rate": 0.0,
@@ -583,7 +583,7 @@
         "metrics": {
           "length_short_rate": 0.0,
           "self_ref_miss_rate": 0.0,
-          "cross_similarity_rate": 0.338,
+          "cross_similarity_rate": 0.326,
           "anchor_miss_rate": 0.0,
           "validation_reject_rate": 1.0,
           "avg_retries": 0.0
@@ -688,7 +688,7 @@
           "metrics": {
             "length_short_rate": 0.0,
             "self_ref_miss_rate": 0.0,
-            "cross_similarity_rate": 0.338,
+            "cross_similarity_rate": 0.326,
             "anchor_miss_rate": 0.0,
             "validation_reject_rate": 1.0,
             "avg_retries": 0.0
@@ -790,9 +790,9 @@
           "history_min_samples": 3,
           "historical": {
             "status": "stable",
-            "sample_count": 35,
+            "sample_count": 36,
             "min_samples": 3,
-            "median_lazy_score": 18.0,
+            "median_lazy_score": 17.0,
             "p95_lazy_score": 18.0,
             "median_coverage": 1.0,
             "previous_repeat_rate": 0.0,
@@ -803,9 +803,9 @@
         "raw_status": "pass",
         "historical": {
           "status": "stable",
-          "sample_count": 35,
+          "sample_count": 36,
           "min_samples": 3,
-          "median_lazy_score": 18.0,
+          "median_lazy_score": 17.0,
           "p95_lazy_score": 18.0,
           "median_coverage": 1.0,
           "previous_repeat_rate": 0.037,
@@ -813,9 +813,9 @@
           "flags": [],
           "vip": {
             "status": "stable",
-            "sample_count": 35,
+            "sample_count": 36,
             "min_samples": 3,
-            "median_lazy_score": 18.0,
+            "median_lazy_score": 17.0,
             "p95_lazy_score": 18.0,
             "median_coverage": 1.0,
             "previous_repeat_rate": 0.0,
@@ -833,7 +833,7 @@
         "metrics": {
           "length_short_rate": 0.0,
           "self_ref_miss_rate": 0.0,
-          "cross_similarity_rate": 0.308,
+          "cross_similarity_rate": 0.295,
           "anchor_miss_rate": 0.0,
           "validation_reject_rate": 1.0,
           "avg_retries": 0.0
@@ -938,7 +938,7 @@
           "metrics": {
             "length_short_rate": 0.0,
             "self_ref_miss_rate": 0.0,
-            "cross_similarity_rate": 0.308,
+            "cross_similarity_rate": 0.295,
             "anchor_miss_rate": 0.0,
             "validation_reject_rate": 1.0,
             "avg_retries": 0.0
