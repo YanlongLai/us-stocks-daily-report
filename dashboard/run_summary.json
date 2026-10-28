@@ -1,7 +1,7 @@
 {
-  "run_id": "2efa08a4-65b4-4102-9e28-90241a45be45",
-  "started_at": "2026-10-28T17:28:04.788034+00:00",
-  "finished_at": "2026-10-28T17:30:34.156389+00:00",
+  "run_id": "2576c96a-1824-43d7-acda-31ecd884212b",
+  "started_at": "2026-10-28T18:10:08.479672+00:00",
+  "finished_at": "2026-10-28T18:12:13.516604+00:00",
   "tickers_attempted": [
     "GOOG",
     "BABA",
@@ -291,12 +291,12 @@
       "history_min_samples": 3,
       "historical": {
         "status": "stable",
-        "sample_count": 36,
+        "sample_count": 37,
         "min_samples": 3,
         "median_lazy_score": 17.0,
         "p95_lazy_score": 18.0,
         "median_coverage": 1.0,
-        "previous_repeat_rate": 0.0,
+        "previous_repeat_rate": 0.038,
         "compared_tickers": 26,
         "flags": []
       },
@@ -414,12 +414,12 @@
           "history_min_samples": 3,
           "historical": {
             "status": "stable",
-            "sample_count": 36,
+            "sample_count": 37,
             "min_samples": 3,
             "median_lazy_score": 17.0,
             "p95_lazy_score": 18.0,
             "median_coverage": 1.0,
-            "previous_repeat_rate": 0.0,
+            "previous_repeat_rate": 0.038,
             "compared_tickers": 26,
             "flags": []
           }
@@ -540,7 +540,7 @@
             "median_lazy_score": 16.0,
             "p95_lazy_score": 18.0,
             "median_coverage": 1.0,
-            "previous_repeat_rate": 0.0,
+            "previous_repeat_rate": 0.038,
             "compared_tickers": 26,
             "flags": []
           }
@@ -551,22 +551,22 @@
     "raw_status": "pass",
     "historical": {
       "status": "stable",
-      "sample_count": 36,
+      "sample_count": 37,
       "min_samples": 3,
       "median_lazy_score": 17.0,
       "p95_lazy_score": 18.0,
       "median_coverage": 1.0,
-      "previous_repeat_rate": 0.037,
+      "previous_repeat_rate": 0.074,
       "compared_tickers": 27,
       "flags": [],
       "vip": {
         "status": "stable",
-        "sample_count": 36,
+        "sample_count": 37,
         "min_samples": 3,
         "median_lazy_score": 17.0,
         "p95_lazy_score": 18.0,
         "median_coverage": 1.0,
-        "previous_repeat_rate": 0.0,
+        "previous_repeat_rate": 0.038,
         "compared_tickers": 26,
         "flags": []
       }
@@ -790,12 +790,12 @@
           "history_min_samples": 3,
           "historical": {
             "status": "stable",
-            "sample_count": 36,
+            "sample_count": 37,
             "min_samples": 3,
             "median_lazy_score": 17.0,
             "p95_lazy_score": 18.0,
             "median_coverage": 1.0,
-            "previous_repeat_rate": 0.0,
+            "previous_repeat_rate": 0.038,
             "compared_tickers": 26,
             "flags": []
           }
@@ -803,22 +803,22 @@
         "raw_status": "pass",
         "historical": {
           "status": "stable",
-          "sample_count": 36,
+          "sample_count": 37,
           "min_samples": 3,
           "median_lazy_score": 17.0,
           "p95_lazy_score": 18.0,
           "median_coverage": 1.0,
-          "previous_repeat_rate": 0.037,
+          "previous_repeat_rate": 0.074,
           "compared_tickers": 27,
           "flags": [],
           "vip": {
             "status": "stable",
-            "sample_count": 36,
+            "sample_count": 37,
             "min_samples": 3,
             "median_lazy_score": 17.0,
             "p95_lazy_score": 18.0,
             "median_coverage": 1.0,
-            "previous_repeat_rate": 0.0,
+            "previous_repeat_rate": 0.038,
             "compared_tickers": 26,
             "flags": []
           }
@@ -1045,7 +1045,7 @@
             "median_lazy_score": 16.0,
             "p95_lazy_score": 18.0,
             "median_coverage": 1.0,
-            "previous_repeat_rate": 0.0,
+            "previous_repeat_rate": 0.038,
             "compared_tickers": 26,
             "flags": []
           }
@@ -1058,7 +1058,7 @@
           "median_lazy_score": 16.0,
           "p95_lazy_score": 18.0,
           "median_coverage": 1.0,
-          "previous_repeat_rate": 0.037,
+          "previous_repeat_rate": 0.074,
           "compared_tickers": 27,
           "flags": [],
           "vip": {
@@ -1068,7 +1068,7 @@
             "median_lazy_score": 16.0,
             "p95_lazy_score": 18.0,
             "median_coverage": 1.0,
-            "previous_repeat_rate": 0.0,
+            "previous_repeat_rate": 0.038,
             "compared_tickers": 26,
             "flags": []
           }
