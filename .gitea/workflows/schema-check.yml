@@ -15,7 +15,7 @@ on:
 
 jobs:
   validate:
-    runs-on: dappgo-linux-host
+    runs-on: dappgo-ci
     timeout-minutes: 10
     steps:
       - name: Checkout
@@ -24,12 +24,10 @@ jobs:
       - name: Validate JSON schemas
         run: |
           set -Eeuo pipefail
-          venv="$HOME/a001/tools/report-schema-venv"
-          if [ ! -x "$venv/bin/python" ]; then
-            python3 -m venv "$venv"
-            "$venv/bin/pip" install --disable-pip-version-check --quiet 'jsonschema>=4.20,<5'
-          fi
-          "$venv/bin/python" - <<'PY'
+          # jsonschema is pinned per run on the dappgo-ci image; nothing is
+          # kept in the production account's tools directory.
+          uv run --no-project --python /usr/bin/python3.12 \
+            --with 'jsonschema==4.25.1' python - <<'PY'
           import json
           from jsonschema import Draft202012Validator
           from pathlib import Path
