@@ -1,7 +1,7 @@
 {
-  "run_id": "80a147a7-7e86-461f-b248-4bfccfcdaac0",
-  "started_at": "2026-10-29T14:10:08.412320+00:00",
-  "finished_at": "2026-10-29T14:17:35.637499+00:00",
+  "run_id": "c979dd0d-f7b8-4a61-b7e2-3488541cadcb",
+  "started_at": "2026-10-29T15:10:11.232871+00:00",
+  "finished_at": "2026-10-29T15:12:22.587016+00:00",
   "tickers_attempted": [
     "GOOG",
     "BABA",
@@ -84,7 +84,7 @@
     "metrics": {
       "length_short_rate": 0.0,
       "self_ref_miss_rate": 0.0,
-      "cross_similarity_rate": 0.369,
+      "cross_similarity_rate": 0.345,
       "anchor_miss_rate": 0.0,
       "validation_reject_rate": 1.0,
       "avg_retries": 0.0
@@ -189,7 +189,7 @@
       "metrics": {
         "length_short_rate": 0.0,
         "self_ref_miss_rate": 0.0,
-        "cross_similarity_rate": 0.369,
+        "cross_similarity_rate": 0.345,
         "anchor_miss_rate": 0.0,
         "validation_reject_rate": 1.0,
         "avg_retries": 0.0
@@ -291,7 +291,7 @@
       "history_min_samples": 3,
       "historical": {
         "status": "stable",
-        "sample_count": 38,
+        "sample_count": 39,
         "min_samples": 3,
         "median_lazy_score": 17.0,
         "p95_lazy_score": 18.0,
@@ -312,7 +312,7 @@
           "metrics": {
             "length_short_rate": 0.0,
             "self_ref_miss_rate": 0.0,
-            "cross_similarity_rate": 0.369,
+            "cross_similarity_rate": 0.345,
             "anchor_miss_rate": 0.0,
             "validation_reject_rate": 1.0,
             "avg_retries": 0.0
@@ -414,7 +414,7 @@
           "history_min_samples": 3,
           "historical": {
             "status": "stable",
-            "sample_count": 38,
+            "sample_count": 39,
             "min_samples": 3,
             "median_lazy_score": 17.0,
             "p95_lazy_score": 18.0,
@@ -433,7 +433,7 @@
           "metrics": {
             "length_short_rate": 0.0,
             "self_ref_miss_rate": 0.0,
-            "cross_similarity_rate": 0.289,
+            "cross_similarity_rate": 0.286,
             "anchor_miss_rate": 0.0,
             "validation_reject_rate": 1.0,
             "avg_retries": 0.0
@@ -551,7 +551,7 @@
     "raw_status": "pass",
     "historical": {
       "status": "stable",
-      "sample_count": 38,
+      "sample_count": 39,
       "min_samples": 3,
       "median_lazy_score": 17.0,
       "p95_lazy_score": 18.0,
@@ -561,7 +561,7 @@
       "flags": [],
       "vip": {
         "status": "stable",
-        "sample_count": 38,
+        "sample_count": 39,
         "min_samples": 3,
         "median_lazy_score": 17.0,
         "p95_lazy_score": 18.0,
@@ -583,7 +583,7 @@
         "metrics": {
           "length_short_rate": 0.0,
           "self_ref_miss_rate": 0.0,
-          "cross_similarity_rate": 0.369,
+          "cross_similarity_rate": 0.345,
           "anchor_miss_rate": 0.0,
           "validation_reject_rate": 1.0,
           "avg_retries": 0.0
@@ -688,7 +688,7 @@
           "metrics": {
             "length_short_rate": 0.0,
             "self_ref_miss_rate": 0.0,
-            "cross_similarity_rate": 0.369,
+            "cross_similarity_rate": 0.345,
             "anchor_miss_rate": 0.0,
             "validation_reject_rate": 1.0,
             "avg_retries": 0.0
@@ -790,7 +790,7 @@
           "history_min_samples": 3,
           "historical": {
             "status": "stable",
-            "sample_count": 38,
+            "sample_count": 39,
             "min_samples": 3,
             "median_lazy_score": 17.0,
             "p95_lazy_score": 18.0,
@@ -803,7 +803,7 @@
         "raw_status": "pass",
         "historical": {
           "status": "stable",
-          "sample_count": 38,
+          "sample_count": 39,
           "min_samples": 3,
           "median_lazy_score": 17.0,
           "p95_lazy_score": 18.0,
@@ -813,7 +813,7 @@
           "flags": [],
           "vip": {
             "status": "stable",
-            "sample_count": 38,
+            "sample_count": 39,
             "min_samples": 3,
             "median_lazy_score": 17.0,
             "p95_lazy_score": 18.0,
@@ -833,7 +833,7 @@
         "metrics": {
           "length_short_rate": 0.0,
           "self_ref_miss_rate": 0.0,
-          "cross_similarity_rate": 0.289,
+          "cross_similarity_rate": 0.286,
           "anchor_miss_rate": 0.0,
           "validation_reject_rate": 1.0,
           "avg_retries": 0.0
@@ -938,7 +938,7 @@
           "metrics": {
             "length_short_rate": 0.0,
             "self_ref_miss_rate": 0.0,
-            "cross_similarity_rate": 0.289,
+            "cross_similarity_rate": 0.286,
             "anchor_miss_rate": 0.0,
             "validation_reject_rate": 1.0,
             "avg_retries": 0.0
