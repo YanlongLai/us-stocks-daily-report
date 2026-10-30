@@ -1,7 +1,7 @@
 {
-  "run_id": "2d7c1ab4-5715-4e9f-b0e5-530dc2cd207a",
-  "started_at": "2026-10-30T16:10:08.634939+00:00",
-  "finished_at": "2026-10-30T16:17:17.267142+00:00",
+  "run_id": "ee13c40c-aed3-4835-89b7-a9b999ab5d5f",
+  "started_at": "2026-10-30T17:10:08.599188+00:00",
+  "finished_at": "2026-10-30T17:12:28.512745+00:00",
   "tickers_attempted": [
     "GOOG",
     "BABA",
@@ -291,7 +291,7 @@
       "history_min_samples": 3,
       "historical": {
         "status": "stable",
-        "sample_count": 44,
+        "sample_count": 45,
         "min_samples": 3,
         "median_lazy_score": 18.0,
         "p95_lazy_score": 19.0,
@@ -414,7 +414,7 @@
           "history_min_samples": 3,
           "historical": {
             "status": "stable",
-            "sample_count": 44,
+            "sample_count": 45,
             "min_samples": 3,
             "median_lazy_score": 18.0,
             "p95_lazy_score": 19.0,
@@ -433,7 +433,7 @@
           "metrics": {
             "length_short_rate": 0.0,
             "self_ref_miss_rate": 0.0,
-            "cross_similarity_rate": 0.345,
+            "cross_similarity_rate": 0.357,
             "anchor_miss_rate": 0.0,
             "validation_reject_rate": 1.0,
             "avg_retries": 0.0
@@ -551,7 +551,7 @@
     "raw_status": "pass",
     "historical": {
       "status": "stable",
-      "sample_count": 44,
+      "sample_count": 45,
       "min_samples": 3,
       "median_lazy_score": 18.0,
       "p95_lazy_score": 19.0,
@@ -561,7 +561,7 @@
       "flags": [],
       "vip": {
         "status": "stable",
-        "sample_count": 44,
+        "sample_count": 45,
         "min_samples": 3,
         "median_lazy_score": 18.0,
         "p95_lazy_score": 19.0,
@@ -790,7 +790,7 @@
           "history_min_samples": 3,
           "historical": {
             "status": "stable",
-            "sample_count": 44,
+            "sample_count": 45,
             "min_samples": 3,
             "median_lazy_score": 18.0,
             "p95_lazy_score": 19.0,
@@ -803,7 +803,7 @@
         "raw_status": "pass",
         "historical": {
           "status": "stable",
-          "sample_count": 44,
+          "sample_count": 45,
           "min_samples": 3,
           "median_lazy_score": 18.0,
           "p95_lazy_score": 19.0,
@@ -813,7 +813,7 @@
           "flags": [],
           "vip": {
             "status": "stable",
-            "sample_count": 44,
+            "sample_count": 45,
             "min_samples": 3,
             "median_lazy_score": 18.0,
             "p95_lazy_score": 19.0,
@@ -833,7 +833,7 @@
         "metrics": {
           "length_short_rate": 0.0,
           "self_ref_miss_rate": 0.0,
-          "cross_similarity_rate": 0.345,
+          "cross_similarity_rate": 0.357,
           "anchor_miss_rate": 0.0,
           "validation_reject_rate": 1.0,
           "avg_retries": 0.0
@@ -938,7 +938,7 @@
           "metrics": {
             "length_short_rate": 0.0,
             "self_ref_miss_rate": 0.0,
-            "cross_similarity_rate": 0.345,
+            "cross_similarity_rate": 0.357,
             "anchor_miss_rate": 0.0,
             "validation_reject_rate": 1.0,
             "avg_retries": 0.0
