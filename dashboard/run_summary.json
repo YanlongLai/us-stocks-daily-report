@@ -1,7 +1,7 @@
 {
-  "run_id": "48468dae-2a87-4a16-a3e9-cf2e9bdeaf58",
-  "started_at": "2026-10-30T14:10:08.396484+00:00",
-  "finished_at": "2026-10-30T14:19:58.766870+00:00",
+  "run_id": "524f7cdb-04de-44ca-8935-d552c42b6b17",
+  "started_at": "2026-10-30T15:10:08.132419+00:00",
+  "finished_at": "2026-10-30T15:12:47.913267+00:00",
   "tickers_attempted": [
     "GOOG",
     "BABA",
@@ -291,9 +291,9 @@
       "history_min_samples": 3,
       "historical": {
         "status": "stable",
-        "sample_count": 42,
+        "sample_count": 43,
         "min_samples": 3,
-        "median_lazy_score": 17.0,
+        "median_lazy_score": 18.0,
         "p95_lazy_score": 18.0,
         "median_coverage": 1.0,
         "previous_repeat_rate": 0.0,
@@ -414,9 +414,9 @@
           "history_min_samples": 3,
           "historical": {
             "status": "stable",
-            "sample_count": 42,
+            "sample_count": 43,
             "min_samples": 3,
-            "median_lazy_score": 17.0,
+            "median_lazy_score": 18.0,
             "p95_lazy_score": 18.0,
             "median_coverage": 1.0,
             "previous_repeat_rate": 0.0,
@@ -426,14 +426,14 @@
         },
         "en": {
           "status": "pass",
-          "lazy_score": 16,
+          "lazy_score": 17,
           "threshold": 60,
           "coverage": 1.0,
           "min_coverage": 1.0,
           "metrics": {
             "length_short_rate": 0.0,
             "self_ref_miss_rate": 0.0,
-            "cross_similarity_rate": 0.308,
+            "cross_similarity_rate": 0.357,
             "anchor_miss_rate": 0.0,
             "validation_reject_rate": 1.0,
             "avg_retries": 0.0
@@ -551,9 +551,9 @@
     "raw_status": "pass",
     "historical": {
       "status": "stable",
-      "sample_count": 42,
+      "sample_count": 43,
       "min_samples": 3,
-      "median_lazy_score": 17.0,
+      "median_lazy_score": 18.0,
       "p95_lazy_score": 18.0,
       "median_coverage": 1.0,
       "previous_repeat_rate": 0.037,
@@ -561,9 +561,9 @@
       "flags": [],
       "vip": {
         "status": "stable",
-        "sample_count": 42,
+        "sample_count": 43,
         "min_samples": 3,
-        "median_lazy_score": 17.0,
+        "median_lazy_score": 18.0,
         "p95_lazy_score": 18.0,
         "median_coverage": 1.0,
         "previous_repeat_rate": 0.0,
@@ -790,9 +790,9 @@
           "history_min_samples": 3,
           "historical": {
             "status": "stable",
-            "sample_count": 42,
+            "sample_count": 43,
             "min_samples": 3,
-            "median_lazy_score": 17.0,
+            "median_lazy_score": 18.0,
             "p95_lazy_score": 18.0,
             "median_coverage": 1.0,
             "previous_repeat_rate": 0.0,
@@ -803,9 +803,9 @@
         "raw_status": "pass",
         "historical": {
           "status": "stable",
-          "sample_count": 42,
+          "sample_count": 43,
           "min_samples": 3,
-          "median_lazy_score": 17.0,
+          "median_lazy_score": 18.0,
           "p95_lazy_score": 18.0,
           "median_coverage": 1.0,
           "previous_repeat_rate": 0.037,
@@ -813,9 +813,9 @@
           "flags": [],
           "vip": {
             "status": "stable",
-            "sample_count": 42,
+            "sample_count": 43,
             "min_samples": 3,
-            "median_lazy_score": 17.0,
+            "median_lazy_score": 18.0,
             "p95_lazy_score": 18.0,
             "median_coverage": 1.0,
             "previous_repeat_rate": 0.0,
@@ -826,14 +826,14 @@
       },
       "en": {
         "status": "pass",
-        "lazy_score": 16,
+        "lazy_score": 17,
         "threshold": 60,
         "coverage": 1.0,
         "min_coverage": 0.9,
         "metrics": {
           "length_short_rate": 0.0,
           "self_ref_miss_rate": 0.0,
-          "cross_similarity_rate": 0.308,
+          "cross_similarity_rate": 0.357,
           "anchor_miss_rate": 0.0,
           "validation_reject_rate": 1.0,
           "avg_retries": 0.0
@@ -931,14 +931,14 @@
         },
         "vip": {
           "status": "pass",
-          "lazy_score": 16,
+          "lazy_score": 17,
           "threshold": 60,
           "coverage": 1.0,
           "min_coverage": 1.0,
           "metrics": {
             "length_short_rate": 0.0,
             "self_ref_miss_rate": 0.0,
-            "cross_similarity_rate": 0.308,
+            "cross_similarity_rate": 0.357,
             "anchor_miss_rate": 0.0,
             "validation_reject_rate": 1.0,
             "avg_retries": 0.0
