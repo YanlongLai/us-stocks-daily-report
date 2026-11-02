@@ -1,7 +1,7 @@
 {
-  "run_id": "c4a828d2-acc2-4005-ba5e-ccd56e25cf88",
-  "started_at": "2026-11-02T16:10:08.136241+00:00",
-  "finished_at": "2026-11-02T16:12:59.079087+00:00",
+  "run_id": "0fac48e6-5803-43b1-9a6e-dc3b2b91fc51",
+  "started_at": "2026-11-02T17:10:08.897404+00:00",
+  "finished_at": "2026-11-02T17:17:30.625425+00:00",
   "tickers_attempted": [
     "GOOG",
     "BABA",
@@ -433,7 +433,7 @@
           "metrics": {
             "length_short_rate": 0.0,
             "self_ref_miss_rate": 0.0,
-            "cross_similarity_rate": 0.311,
+            "cross_similarity_rate": 0.289,
             "anchor_miss_rate": 0.0,
             "validation_reject_rate": 1.0,
             "avg_retries": 0.0
@@ -833,7 +833,7 @@
         "metrics": {
           "length_short_rate": 0.0,
           "self_ref_miss_rate": 0.0,
-          "cross_similarity_rate": 0.311,
+          "cross_similarity_rate": 0.289,
           "anchor_miss_rate": 0.0,
           "validation_reject_rate": 1.0,
           "avg_retries": 0.0
@@ -938,7 +938,7 @@
           "metrics": {
             "length_short_rate": 0.0,
             "self_ref_miss_rate": 0.0,
-            "cross_similarity_rate": 0.311,
+            "cross_similarity_rate": 0.289,
             "anchor_miss_rate": 0.0,
             "validation_reject_rate": 1.0,
             "avg_retries": 0.0
@@ -1182,7 +1182,7 @@
         "AAPL": [
           "news_plan_required"
         ],
-        "ABNB": [
+        "META": [
           "news_plan_required"
         ],
         "INTC": [
@@ -1381,6 +1381,15 @@
         },
         "ABNB": {
           "contract": "US-NEWS-PLAN-v1",
+          "status": "not_used",
+          "eligible": false,
+          "enabled": true,
+          "attempted": false,
+          "reasons": [],
+          "source_field_rejected": false
+        },
+        "META": {
+          "contract": "US-NEWS-PLAN-v1",
           "status": "rejected",
           "eligible": true,
           "enabled": true,
@@ -1388,15 +1397,6 @@
           "reasons": [
             "news_plan_required"
           ],
-          "source_field_rejected": false
-        },
-        "META": {
-          "contract": "US-NEWS-PLAN-v1",
-          "status": "not_used",
-          "eligible": false,
-          "enabled": true,
-          "attempted": false,
-          "reasons": [],
           "source_field_rejected": false
         },
         "INTC": {
@@ -1521,7 +1521,7 @@
         "AMD": "missing_or_invalid_news_plan",
         "ARCC": "missing_or_invalid_news_plan",
         "AAPL": "missing_or_invalid_news_plan",
-        "ABNB": "missing_or_invalid_news_plan",
+        "META": "missing_or_invalid_news_plan",
         "INTC": "missing_or_invalid_news_plan",
         "UNH": "missing_or_invalid_news_plan",
         "AVGO": "missing_or_invalid_news_plan",
