@@ -1,7 +1,7 @@
 {
-  "run_id": "5411b844-b116-4d98-9c4d-31c756730763",
-  "started_at": "2026-11-02T20:10:08.340604+00:00",
-  "finished_at": "2026-11-02T20:12:32.142699+00:00",
+  "run_id": "1fadcb37-340e-486d-87c4-0eed38a5d6d8",
+  "started_at": "2026-11-03T15:10:08.587275+00:00",
+  "finished_at": "2026-11-03T15:30:56.693519+00:00",
   "tickers_attempted": [
     "GOOG",
     "BABA",
@@ -84,7 +84,7 @@
     "metrics": {
       "length_short_rate": 0.0,
       "self_ref_miss_rate": 0.0,
-      "cross_similarity_rate": 0.422,
+      "cross_similarity_rate": 0.4,
       "anchor_miss_rate": 0.0,
       "validation_reject_rate": 1.0,
       "avg_retries": 0.0
@@ -189,7 +189,7 @@
       "metrics": {
         "length_short_rate": 0.0,
         "self_ref_miss_rate": 0.0,
-        "cross_similarity_rate": 0.422,
+        "cross_similarity_rate": 0.4,
         "anchor_miss_rate": 0.0,
         "validation_reject_rate": 1.0,
         "avg_retries": 0.0
@@ -312,7 +312,7 @@
           "metrics": {
             "length_short_rate": 0.0,
             "self_ref_miss_rate": 0.0,
-            "cross_similarity_rate": 0.422,
+            "cross_similarity_rate": 0.4,
             "anchor_miss_rate": 0.0,
             "validation_reject_rate": 1.0,
             "avg_retries": 0.0
@@ -433,7 +433,7 @@
           "metrics": {
             "length_short_rate": 0.0,
             "self_ref_miss_rate": 0.0,
-            "cross_similarity_rate": 0.292,
+            "cross_similarity_rate": 0.289,
             "anchor_miss_rate": 0.0,
             "validation_reject_rate": 1.0,
             "avg_retries": 0.0
@@ -583,7 +583,7 @@
         "metrics": {
           "length_short_rate": 0.0,
           "self_ref_miss_rate": 0.0,
-          "cross_similarity_rate": 0.422,
+          "cross_similarity_rate": 0.4,
           "anchor_miss_rate": 0.0,
           "validation_reject_rate": 1.0,
           "avg_retries": 0.0
@@ -688,7 +688,7 @@
           "metrics": {
             "length_short_rate": 0.0,
             "self_ref_miss_rate": 0.0,
-            "cross_similarity_rate": 0.422,
+            "cross_similarity_rate": 0.4,
             "anchor_miss_rate": 0.0,
             "validation_reject_rate": 1.0,
             "avg_retries": 0.0
@@ -833,7 +833,7 @@
         "metrics": {
           "length_short_rate": 0.0,
           "self_ref_miss_rate": 0.0,
-          "cross_similarity_rate": 0.292,
+          "cross_similarity_rate": 0.289,
           "anchor_miss_rate": 0.0,
           "validation_reject_rate": 1.0,
           "avg_retries": 0.0
@@ -938,7 +938,7 @@
           "metrics": {
             "length_short_rate": 0.0,
             "self_ref_miss_rate": 0.0,
-            "cross_similarity_rate": 0.292,
+            "cross_similarity_rate": 0.289,
             "anchor_miss_rate": 0.0,
             "validation_reject_rate": 1.0,
             "avg_retries": 0.0
@@ -1149,9 +1149,12 @@
       "contract": "US-NEWS-PLAN-v1",
       "status": "degraded",
       "accepted": 0,
-      "attempted": 16,
+      "attempted": 15,
       "coverage": 0.0,
       "terminal_rejects": {
+        "GOOG": [
+          "news_plan_required"
+        ],
         "BABA": [
           "news_plan_required"
         ],
@@ -1182,16 +1185,10 @@
         "AAPL": [
           "news_plan_required"
         ],
-        "META": [
-          "news_plan_required"
-        ],
-        "UNH": [
+        "INTC": [
           "news_plan_required"
         ],
         "AVGO": [
-          "news_plan_required"
-        ],
-        "SPCX": [
           "news_plan_required"
         ],
         "ISRG": [
@@ -1201,15 +1198,17 @@
           "news_plan_required"
         ]
       },
-      "terminal_validation_rejects": 16,
+      "terminal_validation_rejects": 15,
       "tickers": {
         "GOOG": {
           "contract": "US-NEWS-PLAN-v1",
-          "status": "not_used",
-          "eligible": false,
+          "status": "rejected",
+          "eligible": true,
           "enabled": true,
-          "attempted": false,
-          "reasons": [],
+          "attempted": true,
+          "reasons": [
+            "news_plan_required"
+          ],
           "source_field_rejected": false
         },
         "BABA": {
@@ -1387,17 +1386,6 @@
         },
         "META": {
           "contract": "US-NEWS-PLAN-v1",
-          "status": "rejected",
-          "eligible": true,
-          "enabled": true,
-          "attempted": true,
-          "reasons": [
-            "news_plan_required"
-          ],
-          "source_field_rejected": false
-        },
-        "INTC": {
-          "contract": "US-NEWS-PLAN-v1",
           "status": "not_used",
           "eligible": false,
           "enabled": true,
@@ -1405,7 +1393,7 @@
           "reasons": [],
           "source_field_rejected": false
         },
-        "UNH": {
+        "INTC": {
           "contract": "US-NEWS-PLAN-v1",
           "status": "rejected",
           "eligible": true,
@@ -1414,6 +1402,15 @@
           "reasons": [
             "news_plan_required"
           ],
+          "source_field_rejected": false
+        },
+        "UNH": {
+          "contract": "US-NEWS-PLAN-v1",
+          "status": "not_used",
+          "eligible": false,
+          "enabled": true,
+          "attempted": false,
+          "reasons": [],
           "source_field_rejected": false
         },
         "AVGO": {
@@ -1429,13 +1426,11 @@
         },
         "SPCX": {
           "contract": "US-NEWS-PLAN-v1",
-          "status": "rejected",
-          "eligible": true,
+          "status": "not_used",
+          "eligible": false,
           "enabled": true,
-          "attempted": true,
-          "reasons": [
-            "news_plan_required"
-          ],
+          "attempted": false,
+          "reasons": [],
           "source_field_rejected": false
         },
         "EWT": {
@@ -1506,6 +1501,7 @@
         "MRVL": "missing_or_invalid_bound_plan"
       },
       "rejected_news": {
+        "GOOG": "missing_or_invalid_news_plan",
         "BABA": "missing_or_invalid_news_plan",
         "NFLX": "missing_or_invalid_news_plan",
         "AMZN": "missing_or_invalid_news_plan",
@@ -1516,10 +1512,8 @@
         "AMD": "missing_or_invalid_news_plan",
         "ARCC": "missing_or_invalid_news_plan",
         "AAPL": "missing_or_invalid_news_plan",
-        "META": "missing_or_invalid_news_plan",
-        "UNH": "missing_or_invalid_news_plan",
+        "INTC": "missing_or_invalid_news_plan",
         "AVGO": "missing_or_invalid_news_plan",
-        "SPCX": "missing_or_invalid_news_plan",
         "ISRG": "missing_or_invalid_news_plan",
         "MRVL": "missing_or_invalid_news_plan"
       }
