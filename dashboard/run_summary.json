@@ -1,7 +1,7 @@
 {
-  "run_id": "4e89ef56-4189-41d7-9d2d-41661f5e9dcd",
-  "started_at": "2026-11-03T16:10:08.832684+00:00",
-  "finished_at": "2026-11-03T16:13:28.189739+00:00",
+  "run_id": "a4270a56-0fc8-4831-a02b-1d877d319f46",
+  "started_at": "2026-11-03T17:12:11.314633+00:00",
+  "finished_at": "2026-11-03T17:22:41.785947+00:00",
   "tickers_attempted": [
     "GOOG",
     "BABA",
@@ -537,7 +537,7 @@
             "status": "stable",
             "sample_count": 45,
             "min_samples": 3,
-            "median_lazy_score": 17.0,
+            "median_lazy_score": 16.0,
             "p95_lazy_score": 18.0,
             "median_coverage": 1.0,
             "previous_repeat_rate": 0.0,
@@ -1042,7 +1042,7 @@
             "status": "stable",
             "sample_count": 45,
             "min_samples": 3,
-            "median_lazy_score": 17.0,
+            "median_lazy_score": 16.0,
             "p95_lazy_score": 18.0,
             "median_coverage": 1.0,
             "previous_repeat_rate": 0.0,
@@ -1055,7 +1055,7 @@
           "status": "stable",
           "sample_count": 45,
           "min_samples": 3,
-          "median_lazy_score": 17.0,
+          "median_lazy_score": 16.0,
           "p95_lazy_score": 18.0,
           "median_coverage": 1.0,
           "previous_repeat_rate": 0.037,
@@ -1065,7 +1065,7 @@
             "status": "stable",
             "sample_count": 45,
             "min_samples": 3,
-            "median_lazy_score": 17.0,
+            "median_lazy_score": 16.0,
             "p95_lazy_score": 18.0,
             "median_coverage": 1.0,
             "previous_repeat_rate": 0.0,
@@ -1149,7 +1149,7 @@
       "contract": "US-NEWS-PLAN-v1",
       "status": "degraded",
       "accepted": 0,
-      "attempted": 15,
+      "attempted": 16,
       "coverage": 0.0,
       "terminal_rejects": {
         "GOOG": [
@@ -1185,6 +1185,9 @@
         "AAPL": [
           "news_plan_required"
         ],
+        "META": [
+          "news_plan_required"
+        ],
         "INTC": [
           "news_plan_required"
         ],
@@ -1198,7 +1201,7 @@
           "news_plan_required"
         ]
       },
-      "terminal_validation_rejects": 15,
+      "terminal_validation_rejects": 16,
       "tickers": {
         "GOOG": {
           "contract": "US-NEWS-PLAN-v1",
@@ -1386,11 +1389,13 @@
         },
         "META": {
           "contract": "US-NEWS-PLAN-v1",
-          "status": "not_used",
-          "eligible": false,
+          "status": "rejected",
+          "eligible": true,
           "enabled": true,
-          "attempted": false,
-          "reasons": [],
+          "attempted": true,
+          "reasons": [
+            "news_plan_required"
+          ],
           "source_field_rejected": false
         },
         "INTC": {
@@ -1512,6 +1517,7 @@
         "AMD": "missing_or_invalid_news_plan",
         "ARCC": "missing_or_invalid_news_plan",
         "AAPL": "missing_or_invalid_news_plan",
+        "META": "missing_or_invalid_news_plan",
         "INTC": "missing_or_invalid_news_plan",
         "AVGO": "missing_or_invalid_news_plan",
         "ISRG": "missing_or_invalid_news_plan",
