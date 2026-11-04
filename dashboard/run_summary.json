@@ -1,7 +1,7 @@
 {
-  "run_id": "09e206fa-be48-45d6-a388-7ae9bfa05211",
-  "started_at": "2026-11-04T15:10:08.022505+00:00",
-  "finished_at": "2026-11-04T15:19:41.750162+00:00",
+  "run_id": "2633466f-aafd-4d64-889c-f795e500fbcd",
+  "started_at": "2026-11-04T16:10:08.064899+00:00",
+  "finished_at": "2026-11-04T16:12:44.726946+00:00",
   "tickers_attempted": [
     "GOOG",
     "BABA",
@@ -84,7 +84,7 @@
     "metrics": {
       "length_short_rate": 0.0,
       "self_ref_miss_rate": 0.0,
-      "cross_similarity_rate": 0.382,
+      "cross_similarity_rate": 0.409,
       "anchor_miss_rate": 0.0,
       "validation_reject_rate": 1.0,
       "avg_retries": 0.0
@@ -189,7 +189,7 @@
       "metrics": {
         "length_short_rate": 0.0,
         "self_ref_miss_rate": 0.0,
-        "cross_similarity_rate": 0.382,
+        "cross_similarity_rate": 0.409,
         "anchor_miss_rate": 0.0,
         "validation_reject_rate": 1.0,
         "avg_retries": 0.0
@@ -312,7 +312,7 @@
           "metrics": {
             "length_short_rate": 0.0,
             "self_ref_miss_rate": 0.0,
-            "cross_similarity_rate": 0.382,
+            "cross_similarity_rate": 0.409,
             "anchor_miss_rate": 0.0,
             "validation_reject_rate": 1.0,
             "avg_retries": 0.0
@@ -583,7 +583,7 @@
         "metrics": {
           "length_short_rate": 0.0,
           "self_ref_miss_rate": 0.0,
-          "cross_similarity_rate": 0.382,
+          "cross_similarity_rate": 0.409,
           "anchor_miss_rate": 0.0,
           "validation_reject_rate": 1.0,
           "avg_retries": 0.0
@@ -688,7 +688,7 @@
           "metrics": {
             "length_short_rate": 0.0,
             "self_ref_miss_rate": 0.0,
-            "cross_similarity_rate": 0.382,
+            "cross_similarity_rate": 0.409,
             "anchor_miss_rate": 0.0,
             "validation_reject_rate": 1.0,
             "avg_retries": 0.0
