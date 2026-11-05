@@ -1,7 +1,7 @@
 {
-  "run_id": "60d91c5c-5fae-48df-93e0-596a7eed6f75",
-  "started_at": "2026-11-04T20:10:09.255729+00:00",
-  "finished_at": "2026-11-04T20:13:55.714160+00:00",
+  "run_id": "18e491b8-4a68-4bac-b4cf-6d9d887a912f",
+  "started_at": "2026-11-05T18:57:31.874421+00:00",
+  "finished_at": "2026-11-05T19:12:36.747945+00:00",
   "tickers_attempted": [
     "GOOG",
     "BABA",
@@ -84,7 +84,7 @@
     "metrics": {
       "length_short_rate": 0.0,
       "self_ref_miss_rate": 0.0,
-      "cross_similarity_rate": 0.409,
+      "cross_similarity_rate": 0.375,
       "anchor_miss_rate": 0.0,
       "validation_reject_rate": 1.0,
       "avg_retries": 0.0
@@ -189,7 +189,7 @@
       "metrics": {
         "length_short_rate": 0.0,
         "self_ref_miss_rate": 0.0,
-        "cross_similarity_rate": 0.409,
+        "cross_similarity_rate": 0.375,
         "anchor_miss_rate": 0.0,
         "validation_reject_rate": 1.0,
         "avg_retries": 0.0
@@ -312,7 +312,7 @@
           "metrics": {
             "length_short_rate": 0.0,
             "self_ref_miss_rate": 0.0,
-            "cross_similarity_rate": 0.409,
+            "cross_similarity_rate": 0.375,
             "anchor_miss_rate": 0.0,
             "validation_reject_rate": 1.0,
             "avg_retries": 0.0
@@ -426,14 +426,14 @@
         },
         "en": {
           "status": "pass",
-          "lazy_score": 15,
+          "lazy_score": 14,
           "threshold": 60,
           "coverage": 1.0,
           "min_coverage": 1.0,
           "metrics": {
             "length_short_rate": 0.0,
             "self_ref_miss_rate": 0.0,
-            "cross_similarity_rate": 0.271,
+            "cross_similarity_rate": 0.212,
             "anchor_miss_rate": 0.0,
             "validation_reject_rate": 1.0,
             "avg_retries": 0.0
@@ -583,7 +583,7 @@
         "metrics": {
           "length_short_rate": 0.0,
           "self_ref_miss_rate": 0.0,
-          "cross_similarity_rate": 0.409,
+          "cross_similarity_rate": 0.375,
           "anchor_miss_rate": 0.0,
           "validation_reject_rate": 1.0,
           "avg_retries": 0.0
@@ -688,7 +688,7 @@
           "metrics": {
             "length_short_rate": 0.0,
             "self_ref_miss_rate": 0.0,
-            "cross_similarity_rate": 0.409,
+            "cross_similarity_rate": 0.375,
             "anchor_miss_rate": 0.0,
             "validation_reject_rate": 1.0,
             "avg_retries": 0.0
@@ -826,14 +826,14 @@
       },
       "en": {
         "status": "pass",
-        "lazy_score": 15,
+        "lazy_score": 14,
         "threshold": 60,
         "coverage": 1.0,
         "min_coverage": 0.9,
         "metrics": {
           "length_short_rate": 0.0,
           "self_ref_miss_rate": 0.0,
-          "cross_similarity_rate": 0.271,
+          "cross_similarity_rate": 0.212,
           "anchor_miss_rate": 0.0,
           "validation_reject_rate": 1.0,
           "avg_retries": 0.0
@@ -931,14 +931,14 @@
         },
         "vip": {
           "status": "pass",
-          "lazy_score": 15,
+          "lazy_score": 14,
           "threshold": 60,
           "coverage": 1.0,
           "min_coverage": 1.0,
           "metrics": {
             "length_short_rate": 0.0,
             "self_ref_miss_rate": 0.0,
-            "cross_similarity_rate": 0.271,
+            "cross_similarity_rate": 0.212,
             "anchor_miss_rate": 0.0,
             "validation_reject_rate": 1.0,
             "avg_retries": 0.0
@@ -1149,19 +1149,16 @@
       "contract": "US-NEWS-PLAN-v1",
       "status": "degraded",
       "accepted": 0,
-      "attempted": 17,
+      "attempted": 11,
       "coverage": 0.0,
       "terminal_rejects": {
+        "GOOG": [
+          "news_plan_required"
+        ],
         "BABA": [
           "news_plan_required"
         ],
         "MSFT": [
-          "news_plan_required"
-        ],
-        "AMZN": [
-          "news_plan_required"
-        ],
-        "TSLA": [
           "news_plan_required"
         ],
         "SHEL": [
@@ -1170,49 +1167,36 @@
         "SBUX": [
           "news_plan_required"
         ],
-        "TSM": [
-          "news_plan_required"
-        ],
-        "NVDA": [
-          "news_plan_required"
-        ],
         "AMD": [
           "news_plan_required"
         ],
         "ARCC": [
           "news_plan_required"
         ],
-        "AAPL": [
-          "news_plan_required"
-        ],
         "META": [
-          "news_plan_required"
-        ],
-        "INTC": [
           "news_plan_required"
         ],
         "UNH": [
           "news_plan_required"
         ],
-        "SPCX": [
-          "news_plan_required"
-        ],
-        "ISRG": [
+        "AVGO": [
           "news_plan_required"
         ],
         "MRVL": [
           "news_plan_required"
         ]
       },
-      "terminal_validation_rejects": 17,
+      "terminal_validation_rejects": 11,
       "tickers": {
         "GOOG": {
           "contract": "US-NEWS-PLAN-v1",
-          "status": "not_used",
-          "eligible": false,
+          "status": "rejected",
+          "eligible": true,
           "enabled": true,
-          "attempted": false,
-          "reasons": [],
+          "attempted": true,
+          "reasons": [
+            "news_plan_required"
+          ],
           "source_field_rejected": false
         },
         "BABA": {
@@ -1257,24 +1241,20 @@
         },
         "AMZN": {
           "contract": "US-NEWS-PLAN-v1",
-          "status": "rejected",
-          "eligible": true,
+          "status": "not_used",
+          "eligible": false,
           "enabled": true,
-          "attempted": true,
-          "reasons": [
-            "news_plan_required"
-          ],
+          "attempted": false,
+          "reasons": [],
           "source_field_rejected": false
         },
         "TSLA": {
           "contract": "US-NEWS-PLAN-v1",
-          "status": "rejected",
-          "eligible": true,
+          "status": "not_used",
+          "eligible": false,
           "enabled": true,
-          "attempted": true,
-          "reasons": [
-            "news_plan_required"
-          ],
+          "attempted": false,
+          "reasons": [],
           "source_field_rejected": false
         },
         "SHEL": {
@@ -1319,13 +1299,11 @@
         },
         "TSM": {
           "contract": "US-NEWS-PLAN-v1",
-          "status": "rejected",
-          "eligible": true,
+          "status": "not_used",
+          "eligible": false,
           "enabled": true,
-          "attempted": true,
-          "reasons": [
-            "news_plan_required"
-          ],
+          "attempted": false,
+          "reasons": [],
           "source_field_rejected": false
         },
         "SPYV": {
@@ -1339,13 +1317,11 @@
         },
         "NVDA": {
           "contract": "US-NEWS-PLAN-v1",
-          "status": "rejected",
-          "eligible": true,
+          "status": "not_used",
+          "eligible": false,
           "enabled": true,
-          "attempted": true,
-          "reasons": [
-            "news_plan_required"
-          ],
+          "attempted": false,
+          "reasons": [],
           "source_field_rejected": false
         },
         "AMD": {
@@ -1372,13 +1348,11 @@
         },
         "AAPL": {
           "contract": "US-NEWS-PLAN-v1",
-          "status": "rejected",
-          "eligible": true,
+          "status": "not_used",
+          "eligible": false,
           "enabled": true,
-          "attempted": true,
-          "reasons": [
-            "news_plan_required"
-          ],
+          "attempted": false,
+          "reasons": [],
           "source_field_rejected": false
         },
         "ABNB": {
@@ -1403,13 +1377,11 @@
         },
         "INTC": {
           "contract": "US-NEWS-PLAN-v1",
-          "status": "rejected",
-          "eligible": true,
+          "status": "not_used",
+          "eligible": false,
           "enabled": true,
-          "attempted": true,
-          "reasons": [
-            "news_plan_required"
-          ],
+          "attempted": false,
+          "reasons": [],
           "source_field_rejected": false
         },
         "UNH": {
@@ -1425,15 +1397,6 @@
         },
         "AVGO": {
           "contract": "US-NEWS-PLAN-v1",
-          "status": "not_used",
-          "eligible": false,
-          "enabled": true,
-          "attempted": false,
-          "reasons": [],
-          "source_field_rejected": false
-        },
-        "SPCX": {
-          "contract": "US-NEWS-PLAN-v1",
           "status": "rejected",
           "eligible": true,
           "enabled": true,
@@ -1441,6 +1404,15 @@
           "reasons": [
             "news_plan_required"
           ],
+          "source_field_rejected": false
+        },
+        "SPCX": {
+          "contract": "US-NEWS-PLAN-v1",
+          "status": "not_used",
+          "eligible": false,
+          "enabled": true,
+          "attempted": false,
+          "reasons": [],
           "source_field_rejected": false
         },
         "EWT": {
@@ -1454,13 +1426,11 @@
         },
         "ISRG": {
           "contract": "US-NEWS-PLAN-v1",
-          "status": "rejected",
-          "eligible": true,
+          "status": "not_used",
+          "eligible": false,
           "enabled": true,
-          "attempted": true,
-          "reasons": [
-            "news_plan_required"
-          ],
+          "attempted": false,
+          "reasons": [],
           "source_field_rejected": false
         },
         "MRVL": {
@@ -1511,22 +1481,16 @@
         "MRVL": "missing_or_invalid_bound_plan"
       },
       "rejected_news": {
+        "GOOG": "missing_or_invalid_news_plan",
         "BABA": "missing_or_invalid_news_plan",
         "MSFT": "missing_or_invalid_news_plan",
-        "AMZN": "missing_or_invalid_news_plan",
-        "TSLA": "missing_or_invalid_news_plan",
         "SHEL": "missing_or_invalid_news_plan",
         "SBUX": "missing_or_invalid_news_plan",
-        "TSM": "missing_or_invalid_news_plan",
-        "NVDA": "missing_or_invalid_news_plan",
         "AMD": "missing_or_invalid_news_plan",
         "ARCC": "missing_or_invalid_news_plan",
-        "AAPL": "missing_or_invalid_news_plan",
         "META": "missing_or_invalid_news_plan",
-        "INTC": "missing_or_invalid_news_plan",
         "UNH": "missing_or_invalid_news_plan",
-        "SPCX": "missing_or_invalid_news_plan",
-        "ISRG": "missing_or_invalid_news_plan",
+        "AVGO": "missing_or_invalid_news_plan",
         "MRVL": "missing_or_invalid_news_plan"
       }
     }
