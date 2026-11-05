@@ -1,0 +1,12 @@
+{
+  "billing_period": {
+    "end": "2026-12-01T00:00:00Z",
+    "start": "2026-11-01T00:00:00Z"
+  },
+  "enabled": true,
+  "reason": "below_threshold",
+  "rollout_percent": 100,
+  "threshold": 900,
+  "updated_at": "2026-11-05T00:40:41.693444Z",
+  "updated_users": 0
+}
