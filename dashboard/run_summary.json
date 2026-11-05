@@ -1,7 +1,7 @@
 {
-  "run_id": "18e491b8-4a68-4bac-b4cf-6d9d887a912f",
-  "started_at": "2026-11-05T18:57:31.874421+00:00",
-  "finished_at": "2026-11-05T19:12:36.747945+00:00",
+  "run_id": "d96714ce-dad0-487d-a9e3-f4bbb140f006",
+  "started_at": "2026-11-05T19:31:29.480095+00:00",
+  "finished_at": "2026-11-05T19:34:30.513645+00:00",
   "tickers_attempted": [
     "GOOG",
     "BABA",
@@ -433,7 +433,7 @@
           "metrics": {
             "length_short_rate": 0.0,
             "self_ref_miss_rate": 0.0,
-            "cross_similarity_rate": 0.212,
+            "cross_similarity_rate": 0.209,
             "anchor_miss_rate": 0.0,
             "validation_reject_rate": 1.0,
             "avg_retries": 0.0
@@ -833,7 +833,7 @@
         "metrics": {
           "length_short_rate": 0.0,
           "self_ref_miss_rate": 0.0,
-          "cross_similarity_rate": 0.212,
+          "cross_similarity_rate": 0.209,
           "anchor_miss_rate": 0.0,
           "validation_reject_rate": 1.0,
           "avg_retries": 0.0
@@ -938,7 +938,7 @@
           "metrics": {
             "length_short_rate": 0.0,
             "self_ref_miss_rate": 0.0,
-            "cross_similarity_rate": 0.212,
+            "cross_similarity_rate": 0.209,
             "anchor_miss_rate": 0.0,
             "validation_reject_rate": 1.0,
             "avg_retries": 0.0
