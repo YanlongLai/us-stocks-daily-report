@@ -1,7 +1,7 @@
 {
-  "run_id": "a0fd1177-643f-4fad-b051-ecf1002b913c",
-  "started_at": "2026-11-05T23:37:58.106366+00:00",
-  "finished_at": "2026-11-05T23:42:41.977158+00:00",
+  "run_id": "ab29e24d-666e-4121-a57d-448416f7cd00",
+  "started_at": "2026-11-06T00:08:48.956577+00:00",
+  "finished_at": "2026-11-06T00:12:54.984242+00:00",
   "tickers_attempted": [
     "GOOG",
     "BABA",
@@ -290,17 +290,15 @@
       "support_status": "pass",
       "history_min_samples": 3,
       "historical": {
-        "status": "regression",
+        "status": "stable",
         "sample_count": 45,
         "min_samples": 3,
         "median_lazy_score": 18.0,
         "p95_lazy_score": 19.0,
         "median_coverage": 1.0,
-        "previous_repeat_rate": 1.0,
+        "previous_repeat_rate": 0.0,
         "compared_tickers": 26,
-        "flags": [
-          "vip_commentary_repeat"
-        ]
+        "flags": []
       },
       "quality_locale": "zh",
       "aggregation": "worst-requested-language",
@@ -415,17 +413,15 @@
           "support_status": "pass",
           "history_min_samples": 3,
           "historical": {
-            "status": "regression",
+            "status": "stable",
             "sample_count": 45,
             "min_samples": 3,
             "median_lazy_score": 18.0,
             "p95_lazy_score": 19.0,
             "median_coverage": 1.0,
-            "previous_repeat_rate": 1.0,
+            "previous_repeat_rate": 0.0,
             "compared_tickers": 26,
-            "flags": [
-              "vip_commentary_repeat"
-            ]
+            "flags": []
           }
         },
         "en": {
@@ -538,17 +534,15 @@
           "support_status": "pass",
           "history_min_samples": 3,
           "historical": {
-            "status": "regression",
+            "status": "stable",
             "sample_count": 45,
             "min_samples": 3,
             "median_lazy_score": 16.0,
-            "p95_lazy_score": 18.0,
+            "p95_lazy_score": 17.0,
             "median_coverage": 1.0,
-            "previous_repeat_rate": 1.0,
+            "previous_repeat_rate": 0.0,
             "compared_tickers": 26,
-            "flags": [
-              "vip_commentary_repeat"
-            ]
+            "flags": []
           }
         }
       },
@@ -556,36 +550,32 @@
     },
     "raw_status": "pass",
     "historical": {
-      "status": "regression",
+      "status": "stable",
       "sample_count": 45,
       "min_samples": 3,
       "median_lazy_score": 18.0,
       "p95_lazy_score": 19.0,
       "median_coverage": 1.0,
-      "previous_repeat_rate": 1.0,
+      "previous_repeat_rate": 0.037,
       "compared_tickers": 27,
-      "flags": [
-        "cross_day_commentary_repeat"
-      ],
+      "flags": [],
       "vip": {
-        "status": "regression",
+        "status": "stable",
         "sample_count": 45,
         "min_samples": 3,
         "median_lazy_score": 18.0,
         "p95_lazy_score": 19.0,
         "median_coverage": 1.0,
-        "previous_repeat_rate": 1.0,
+        "previous_repeat_rate": 0.0,
         "compared_tickers": 26,
-        "flags": [
-          "vip_commentary_repeat"
-        ]
+        "flags": []
       }
     },
     "quality_locale": "zh",
     "aggregation": "worst-requested-language",
     "languages": {
       "zh": {
-        "status": "degraded",
+        "status": "pass",
         "lazy_score": 18,
         "threshold": 60,
         "coverage": 1.0,
@@ -799,49 +789,43 @@
           "support_status": "pass",
           "history_min_samples": 3,
           "historical": {
-            "status": "regression",
+            "status": "stable",
             "sample_count": 45,
             "min_samples": 3,
             "median_lazy_score": 18.0,
             "p95_lazy_score": 19.0,
             "median_coverage": 1.0,
-            "previous_repeat_rate": 1.0,
+            "previous_repeat_rate": 0.0,
             "compared_tickers": 26,
-            "flags": [
-              "vip_commentary_repeat"
-            ]
+            "flags": []
           }
         },
         "raw_status": "pass",
         "historical": {
-          "status": "regression",
+          "status": "stable",
           "sample_count": 45,
           "min_samples": 3,
           "median_lazy_score": 18.0,
           "p95_lazy_score": 19.0,
           "median_coverage": 1.0,
-          "previous_repeat_rate": 1.0,
+          "previous_repeat_rate": 0.037,
           "compared_tickers": 27,
-          "flags": [
-            "cross_day_commentary_repeat"
-          ],
+          "flags": [],
           "vip": {
-            "status": "regression",
+            "status": "stable",
             "sample_count": 45,
             "min_samples": 3,
             "median_lazy_score": 18.0,
             "p95_lazy_score": 19.0,
             "median_coverage": 1.0,
-            "previous_repeat_rate": 1.0,
+            "previous_repeat_rate": 0.0,
             "compared_tickers": 26,
-            "flags": [
-              "vip_commentary_repeat"
-            ]
+            "flags": []
           }
         }
       },
       "en": {
-        "status": "degraded",
+        "status": "pass",
         "lazy_score": 14,
         "threshold": 60,
         "coverage": 1.0,
@@ -1055,44 +1039,38 @@
           "support_status": "pass",
           "history_min_samples": 3,
           "historical": {
-            "status": "regression",
+            "status": "stable",
             "sample_count": 45,
             "min_samples": 3,
             "median_lazy_score": 16.0,
-            "p95_lazy_score": 18.0,
+            "p95_lazy_score": 17.0,
             "median_coverage": 1.0,
-            "previous_repeat_rate": 1.0,
+            "previous_repeat_rate": 0.0,
             "compared_tickers": 26,
-            "flags": [
-              "vip_commentary_repeat"
-            ]
+            "flags": []
           }
         },
         "raw_status": "pass",
         "historical": {
-          "status": "regression",
+          "status": "stable",
           "sample_count": 45,
           "min_samples": 3,
           "median_lazy_score": 16.0,
-          "p95_lazy_score": 18.0,
+          "p95_lazy_score": 17.0,
           "median_coverage": 1.0,
-          "previous_repeat_rate": 1.0,
+          "previous_repeat_rate": 0.037,
           "compared_tickers": 27,
-          "flags": [
-            "cross_day_commentary_repeat"
-          ],
+          "flags": [],
           "vip": {
-            "status": "regression",
+            "status": "stable",
             "sample_count": 45,
             "min_samples": 3,
             "median_lazy_score": 16.0,
-            "p95_lazy_score": 18.0,
+            "p95_lazy_score": 17.0,
             "median_coverage": 1.0,
-            "previous_repeat_rate": 1.0,
+            "previous_repeat_rate": 0.0,
             "compared_tickers": 26,
-            "flags": [
-              "vip_commentary_repeat"
-            ]
+            "flags": []
           }
         }
       }
@@ -1166,7 +1144,7 @@
       ]
     },
     "public_viewpoint_policy": "model-prose-or-legacy-grounded-fallback",
-    "batch_status": "degraded",
+    "batch_status": "pass",
     "optional_news": {
       "contract": "US-NEWS-PLAN-v1",
       "status": "degraded",
