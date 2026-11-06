@@ -1,7 +1,7 @@
 {
-  "run_id": "552c8e35-6dbb-4298-be7b-89ba9d7f841b",
-  "started_at": "2026-11-06T18:10:22.201803+00:00",
-  "finished_at": "2026-11-06T18:13:00.477386+00:00",
+  "run_id": "dbd81f6b-7585-4300-b57c-f5f7ba83c163",
+  "started_at": "2026-11-06T19:10:21.426121+00:00",
+  "finished_at": "2026-11-06T19:16:16.843829+00:00",
   "tickers_attempted": [
     "GOOG",
     "BABA",
@@ -84,7 +84,7 @@
     "metrics": {
       "length_short_rate": 0.0,
       "self_ref_miss_rate": 0.0,
-      "cross_similarity_rate": 0.345,
+      "cross_similarity_rate": 0.357,
       "anchor_miss_rate": 0.0,
       "validation_reject_rate": 1.0,
       "avg_retries": 0.0
@@ -189,7 +189,7 @@
       "metrics": {
         "length_short_rate": 0.0,
         "self_ref_miss_rate": 0.0,
-        "cross_similarity_rate": 0.345,
+        "cross_similarity_rate": 0.357,
         "anchor_miss_rate": 0.0,
         "validation_reject_rate": 1.0,
         "avg_retries": 0.0
@@ -312,7 +312,7 @@
           "metrics": {
             "length_short_rate": 0.0,
             "self_ref_miss_rate": 0.0,
-            "cross_similarity_rate": 0.345,
+            "cross_similarity_rate": 0.357,
             "anchor_miss_rate": 0.0,
             "validation_reject_rate": 1.0,
             "avg_retries": 0.0
@@ -433,7 +433,7 @@
           "metrics": {
             "length_short_rate": 0.0,
             "self_ref_miss_rate": 0.0,
-            "cross_similarity_rate": 0.237,
+            "cross_similarity_rate": 0.265,
             "anchor_miss_rate": 0.0,
             "validation_reject_rate": 1.0,
             "avg_retries": 0.0
@@ -583,7 +583,7 @@
         "metrics": {
           "length_short_rate": 0.0,
           "self_ref_miss_rate": 0.0,
-          "cross_similarity_rate": 0.345,
+          "cross_similarity_rate": 0.357,
           "anchor_miss_rate": 0.0,
           "validation_reject_rate": 1.0,
           "avg_retries": 0.0
@@ -688,7 +688,7 @@
           "metrics": {
             "length_short_rate": 0.0,
             "self_ref_miss_rate": 0.0,
-            "cross_similarity_rate": 0.345,
+            "cross_similarity_rate": 0.357,
             "anchor_miss_rate": 0.0,
             "validation_reject_rate": 1.0,
             "avg_retries": 0.0
@@ -833,7 +833,7 @@
         "metrics": {
           "length_short_rate": 0.0,
           "self_ref_miss_rate": 0.0,
-          "cross_similarity_rate": 0.237,
+          "cross_similarity_rate": 0.265,
           "anchor_miss_rate": 0.0,
           "validation_reject_rate": 1.0,
           "avg_retries": 0.0
@@ -938,7 +938,7 @@
           "metrics": {
             "length_short_rate": 0.0,
             "self_ref_miss_rate": 0.0,
-            "cross_similarity_rate": 0.237,
+            "cross_similarity_rate": 0.265,
             "anchor_miss_rate": 0.0,
             "validation_reject_rate": 1.0,
             "avg_retries": 0.0
@@ -1149,7 +1149,7 @@
       "contract": "US-NEWS-PLAN-v1",
       "status": "degraded",
       "accepted": 0,
-      "attempted": 15,
+      "attempted": 17,
       "coverage": 0.0,
       "terminal_rejects": {
         "BABA": [
@@ -1159,6 +1159,9 @@
           "news_plan_required"
         ],
         "AMZN": [
+          "news_plan_required"
+        ],
+        "TSLA": [
           "news_plan_required"
         ],
         "SHEL": [
@@ -1174,6 +1177,9 @@
           "news_plan_required"
         ],
         "ARCC": [
+          "news_plan_required"
+        ],
+        "AAPL": [
           "news_plan_required"
         ],
         "ABNB": [
@@ -1198,7 +1204,7 @@
           "news_plan_required"
         ]
       },
-      "terminal_validation_rejects": 15,
+      "terminal_validation_rejects": 17,
       "tickers": {
         "GOOG": {
           "contract": "US-NEWS-PLAN-v1",
@@ -1262,11 +1268,13 @@
         },
         "TSLA": {
           "contract": "US-NEWS-PLAN-v1",
-          "status": "not_used",
-          "eligible": false,
+          "status": "rejected",
+          "eligible": true,
           "enabled": true,
-          "attempted": false,
-          "reasons": [],
+          "attempted": true,
+          "reasons": [
+            "news_plan_required"
+          ],
           "source_field_rejected": false
         },
         "SHEL": {
@@ -1362,11 +1370,13 @@
         },
         "AAPL": {
           "contract": "US-NEWS-PLAN-v1",
-          "status": "not_used",
-          "eligible": false,
+          "status": "rejected",
+          "eligible": true,
           "enabled": true,
-          "attempted": false,
-          "reasons": [],
+          "attempted": true,
+          "reasons": [
+            "news_plan_required"
+          ],
           "source_field_rejected": false
         },
         "ABNB": {
@@ -1504,11 +1514,13 @@
         "BABA": "missing_or_invalid_news_plan",
         "MSFT": "missing_or_invalid_news_plan",
         "AMZN": "missing_or_invalid_news_plan",
+        "TSLA": "missing_or_invalid_news_plan",
         "SHEL": "missing_or_invalid_news_plan",
         "SBUX": "missing_or_invalid_news_plan",
         "COST": "missing_or_invalid_news_plan",
         "AMD": "missing_or_invalid_news_plan",
         "ARCC": "missing_or_invalid_news_plan",
+        "AAPL": "missing_or_invalid_news_plan",
         "ABNB": "missing_or_invalid_news_plan",
         "META": "missing_or_invalid_news_plan",
         "INTC": "missing_or_invalid_news_plan",
