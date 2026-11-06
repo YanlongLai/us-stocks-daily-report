@@ -1,7 +1,7 @@
 {
-  "run_id": "e644f143-c919-4b18-b129-99fe3b8d4c0a",
-  "started_at": "2026-11-06T16:10:21.944537+00:00",
-  "finished_at": "2026-11-06T16:12:48.803845+00:00",
+  "run_id": "1fd9637f-a504-4e6f-87b4-cce16b37b2db",
+  "started_at": "2026-11-06T17:10:21.588062+00:00",
+  "finished_at": "2026-11-06T17:16:05.083816+00:00",
   "tickers_attempted": [
     "GOOG",
     "BABA",
@@ -1149,7 +1149,7 @@
       "contract": "US-NEWS-PLAN-v1",
       "status": "degraded",
       "accepted": 0,
-      "attempted": 18,
+      "attempted": 15,
       "coverage": 0.0,
       "terminal_rejects": {
         "BABA": [
@@ -1161,9 +1161,6 @@
         "AMZN": [
           "news_plan_required"
         ],
-        "TSLA": [
-          "news_plan_required"
-        ],
         "SHEL": [
           "news_plan_required"
         ],
@@ -1173,16 +1170,10 @@
         "COST": [
           "news_plan_required"
         ],
-        "NVDA": [
-          "news_plan_required"
-        ],
         "AMD": [
           "news_plan_required"
         ],
         "ARCC": [
-          "news_plan_required"
-        ],
-        "AAPL": [
           "news_plan_required"
         ],
         "ABNB": [
@@ -1207,7 +1198,7 @@
           "news_plan_required"
         ]
       },
-      "terminal_validation_rejects": 18,
+      "terminal_validation_rejects": 15,
       "tickers": {
         "GOOG": {
           "contract": "US-NEWS-PLAN-v1",
@@ -1271,13 +1262,11 @@
         },
         "TSLA": {
           "contract": "US-NEWS-PLAN-v1",
-          "status": "rejected",
-          "eligible": true,
+          "status": "not_used",
+          "eligible": false,
           "enabled": true,
-          "attempted": true,
-          "reasons": [
-            "news_plan_required"
-          ],
+          "attempted": false,
+          "reasons": [],
           "source_field_rejected": false
         },
         "SHEL": {
@@ -1342,13 +1331,11 @@
         },
         "NVDA": {
           "contract": "US-NEWS-PLAN-v1",
-          "status": "rejected",
-          "eligible": true,
+          "status": "not_used",
+          "eligible": false,
           "enabled": true,
-          "attempted": true,
-          "reasons": [
-            "news_plan_required"
-          ],
+          "attempted": false,
+          "reasons": [],
           "source_field_rejected": false
         },
         "AMD": {
@@ -1375,13 +1362,11 @@
         },
         "AAPL": {
           "contract": "US-NEWS-PLAN-v1",
-          "status": "rejected",
-          "eligible": true,
+          "status": "not_used",
+          "eligible": false,
           "enabled": true,
-          "attempted": true,
-          "reasons": [
-            "news_plan_required"
-          ],
+          "attempted": false,
+          "reasons": [],
           "source_field_rejected": false
         },
         "ABNB": {
@@ -1519,14 +1504,11 @@
         "BABA": "missing_or_invalid_news_plan",
         "MSFT": "missing_or_invalid_news_plan",
         "AMZN": "missing_or_invalid_news_plan",
-        "TSLA": "missing_or_invalid_news_plan",
         "SHEL": "missing_or_invalid_news_plan",
         "SBUX": "missing_or_invalid_news_plan",
         "COST": "missing_or_invalid_news_plan",
-        "NVDA": "missing_or_invalid_news_plan",
         "AMD": "missing_or_invalid_news_plan",
         "ARCC": "missing_or_invalid_news_plan",
-        "AAPL": "missing_or_invalid_news_plan",
         "ABNB": "missing_or_invalid_news_plan",
         "META": "missing_or_invalid_news_plan",
         "INTC": "missing_or_invalid_news_plan",
