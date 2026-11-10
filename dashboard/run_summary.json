@@ -1,7 +1,7 @@
 {
-  "run_id": "d87af5ab-06e7-4c8f-89e1-8af9cdcd43fe",
-  "started_at": "2026-11-10T15:10:23.038458+00:00",
-  "finished_at": "2026-11-10T15:29:48.493975+00:00",
+  "run_id": "19829a9f-d9ea-4382-9a41-4a3bc18b93eb",
+  "started_at": "2026-11-10T16:10:26.529045+00:00",
+  "finished_at": "2026-11-10T16:20:11.072852+00:00",
   "tickers_attempted": [
     "GOOG",
     "BABA",
@@ -94,22 +94,22 @@
     "delay_applied_seconds": 0,
     "duration_seconds": 0.0
   },
-  "ai_commentary_count": 19,
+  "ai_commentary_count": 18,
   "ai_quality": {
     "status": "degraded",
-    "lazy_score": 20,
+    "lazy_score": 25,
     "threshold": 60,
     "coverage": 1.0,
     "min_coverage": 0.9,
     "metrics": {
       "length_short_rate": 0.0,
-      "self_ref_miss_rate": 0.556,
-      "cross_similarity_rate": 0.063,
+      "self_ref_miss_rate": 0.889,
+      "cross_similarity_rate": 0.005,
       "anchor_miss_rate": 0.0,
-      "validation_reject_rate": 0.722,
+      "validation_reject_rate": 0.667,
       "avg_retries": 0.0
     },
-    "validation_rejects": 26,
+    "validation_rejects": 24,
     "grounding_gate": {
       "status": "fail",
       "max_self_ref_miss_rate": 0.5,
@@ -119,7 +119,7 @@
       {
         "code": "self_reference_miss_rate_exceeded",
         "metric": "self_ref_miss_rate",
-        "actual": 0.556,
+        "actual": 0.889,
         "maximum": 0.5
       }
     ],
@@ -135,63 +135,27 @@
       ],
       "TLT": [
         "assertion_plan_required"
-      ],
-      "MSFT": [
-        "assertion_plan_required"
-      ],
-      "AMZN": [
-        "assertion_plan_required"
-      ],
-      "TSLA": [
-        "assertion_plan_required"
-      ],
-      "SHEL": [
-        "assertion_plan_required"
-      ],
-      "SBUX": [
-        "assertion_plan_required"
-      ],
-      "COST": [
-        "assertion_plan_required"
-      ],
-      "QQQ": [
-        "assertion_plan_required"
-      ],
-      "SKHY": [
-        "assertion_plan_required"
-      ],
-      "NET": [
-        "assertion_plan_required"
-      ],
-      "QCOM": [
-        "assertion_plan_required"
-      ],
-      "ORCL": [
-        "assertion_plan_required"
-      ],
-      "IREN": [
-        "assertion_plan_required"
       ]
     },
-    "terminal_validation_rejects": 32,
+    "terminal_validation_rejects": 14,
     "reject_reason_counts": {
-      "assertion_plan_required": 16
+      "assertion_plan_required": 4
     },
     "vip": {
       "status": "degraded",
-      "lazy_score": 20,
+      "lazy_score": 25,
       "threshold": 60,
       "coverage": 1.0,
       "min_coverage": 1.0,
       "metrics": {
         "length_short_rate": 0.0,
-        "self_ref_miss_rate": 0.556,
-        "cross_similarity_rate": 0.063,
+        "self_ref_miss_rate": 0.889,
+        "cross_similarity_rate": 0.005,
         "anchor_miss_rate": 0.0,
-        "validation_reject_rate": 0.722,
+        "validation_reject_rate": 0.667,
         "avg_retries": 0.0
       },
-      "validation_rejects": 26,
+      "validation_rejects": 24,
       "grounding_gate": {
         "status": "fail",
         "max_self_ref_miss_rate": 0.5,
@@ -201,7 +165,7 @@
         {
           "code": "self_reference_miss_rate_exceeded",
           "metric": "self_ref_miss_rate",
-          "actual": 0.556,
+          "actual": 0.889,
           "maximum": 0.5
         }
       ],
@@ -325,7 +289,7 @@
       "history_min_samples": 3,
       "historical": {
         "status": "stable",
-        "sample_count": 41,
+        "sample_count": 40,
         "min_samples": 3,
         "median_lazy_score": 18.0,
         "p95_lazy_score": 19.0,
@@ -339,19 +303,19 @@
       "languages": {
         "zh": {
           "status": "degraded",
-          "lazy_score": 20,
+          "lazy_score": 25,
           "threshold": 60,
           "coverage": 1.0,
           "min_coverage": 1.0,
           "metrics": {
             "length_short_rate": 0.0,
-            "self_ref_miss_rate": 0.556,
-            "cross_similarity_rate": 0.063,
+            "self_ref_miss_rate": 0.889,
+            "cross_similarity_rate": 0.005,
             "anchor_miss_rate": 0.0,
-            "validation_reject_rate": 0.722,
+            "validation_reject_rate": 0.667,
             "avg_retries": 0.0
           },
-          "validation_rejects": 26,
+          "validation_rejects": 24,
           "grounding_gate": {
             "status": "fail",
             "max_self_ref_miss_rate": 0.5,
@@ -361,7 +325,7 @@
             {
               "code": "self_reference_miss_rate_exceeded",
               "metric": "self_ref_miss_rate",
-              "actual": 0.556,
+              "actual": 0.889,
               "maximum": 0.5
             }
           ],
@@ -485,7 +449,7 @@
           "history_min_samples": 3,
           "historical": {
             "status": "stable",
-            "sample_count": 41,
+            "sample_count": 40,
             "min_samples": 3,
             "median_lazy_score": 18.0,
             "p95_lazy_score": 19.0,
@@ -497,19 +461,19 @@
         },
         "en": {
           "status": "pass",
-          "lazy_score": 9,
+          "lazy_score": 6,
           "threshold": 60,
           "coverage": 1.0,
           "min_coverage": 1.0,
           "metrics": {
             "length_short_rate": 0.0,
             "self_ref_miss_rate": 0.0,
-            "cross_similarity_rate": 0.087,
+            "cross_similarity_rate": 0.021,
             "anchor_miss_rate": 0.0,
-            "validation_reject_rate": 0.722,
+            "validation_reject_rate": 0.556,
             "avg_retries": 0.0
           },
-          "validation_rejects": 26,
+          "validation_rejects": 20,
           "grounding_gate": {
             "status": "pass",
             "max_self_ref_miss_rate": 0.5,
@@ -647,12 +611,12 @@
           }
         }
       },
-      "terminal_validation_rejects": 52
+      "terminal_validation_rejects": 44
     },
     "raw_status": "degraded",
     "historical": {
       "status": "stable",
-      "sample_count": 41,
+      "sample_count": 40,
       "min_samples": 3,
       "median_lazy_score": 18.0,
       "p95_lazy_score": 19.0,
@@ -662,7 +626,7 @@
       "flags": [],
       "vip": {
         "status": "stable",
-        "sample_count": 41,
+        "sample_count": 40,
         "min_samples": 3,
         "median_lazy_score": 18.0,
         "p95_lazy_score": 19.0,
@@ -677,19 +641,19 @@
     "languages": {
       "zh": {
         "status": "degraded",
-        "lazy_score": 20,
+        "lazy_score": 25,
         "threshold": 60,
         "coverage": 1.0,
         "min_coverage": 0.9,
         "metrics": {
           "length_short_rate": 0.0,
-          "self_ref_miss_rate": 0.556,
-          "cross_similarity_rate": 0.063,
+          "self_ref_miss_rate": 0.889,
+          "cross_similarity_rate": 0.005,
           "anchor_miss_rate": 0.0,
-          "validation_reject_rate": 0.722,
+          "validation_reject_rate": 0.667,
           "avg_retries": 0.0
         },
-        "validation_rejects": 26,
+        "validation_rejects": 24,
         "grounding_gate": {
           "status": "fail",
           "max_self_ref_miss_rate": 0.5,
@@ -699,7 +663,7 @@
           {
             "code": "self_reference_miss_rate_exceeded",
             "metric": "self_ref_miss_rate",
-            "actual": 0.556,
+            "actual": 0.889,
             "maximum": 0.5
           }
         ],
@@ -715,63 +679,27 @@
           ],
           "TLT": [
             "assertion_plan_required"
-          ],
-          "MSFT": [
-            "assertion_plan_required"
-          ],
-          "AMZN": [
-            "assertion_plan_required"
-          ],
-          "TSLA": [
-            "assertion_plan_required"
-          ],
-          "SHEL": [
-            "assertion_plan_required"
-          ],
-          "SBUX": [
-            "assertion_plan_required"
-          ],
-          "COST": [
-            "assertion_plan_required"
-          ],
-          "QQQ": [
-            "assertion_plan_required"
-          ],
-          "SKHY": [
-            "assertion_plan_required"
-          ],
-          "NET": [
-            "assertion_plan_required"
-          ],
-          "QCOM": [
-            "assertion_plan_required"
-          ],
-          "ORCL": [
-            "assertion_plan_required"
-          ],
-          "IREN": [
-            "assertion_plan_required"
           ]
         },
-        "terminal_validation_rejects": 16,
+        "terminal_validation_rejects": 4,
         "reject_reason_counts": {
-          "assertion_plan_required": 16
+          "assertion_plan_required": 4
         },
         "vip": {
           "status": "degraded",
-          "lazy_score": 20,
+          "lazy_score": 25,
           "threshold": 60,
           "coverage": 1.0,
           "min_coverage": 1.0,
           "metrics": {
             "length_short_rate": 0.0,
-            "self_ref_miss_rate": 0.556,
-            "cross_similarity_rate": 0.063,
+            "self_ref_miss_rate": 0.889,
+            "cross_similarity_rate": 0.005,
             "anchor_miss_rate": 0.0,
-            "validation_reject_rate": 0.722,
+            "validation_reject_rate": 0.667,
             "avg_retries": 0.0
           },
-          "validation_rejects": 26,
+          "validation_rejects": 24,
           "grounding_gate": {
             "status": "fail",
             "max_self_ref_miss_rate": 0.5,
@@ -781,7 +709,7 @@
             {
               "code": "self_reference_miss_rate_exceeded",
               "metric": "self_ref_miss_rate",
-              "actual": 0.556,
+              "actual": 0.889,
               "maximum": 0.5
             }
           ],
@@ -905,7 +833,7 @@
           "history_min_samples": 3,
           "historical": {
             "status": "stable",
-            "sample_count": 41,
+            "sample_count": 40,
             "min_samples": 3,
             "median_lazy_score": 18.0,
             "p95_lazy_score": 19.0,
@@ -918,7 +846,7 @@
         "raw_status": "degraded",
         "historical": {
           "status": "stable",
-          "sample_count": 41,
+          "sample_count": 40,
           "min_samples": 3,
           "median_lazy_score": 18.0,
           "p95_lazy_score": 19.0,
@@ -928,7 +856,7 @@
           "flags": [],
           "vip": {
             "status": "stable",
-            "sample_count": 41,
+            "sample_count": 40,
             "min_samples": 3,
             "median_lazy_score": 18.0,
             "p95_lazy_score": 19.0,
@@ -941,19 +869,19 @@
       },
       "en": {
         "status": "pass",
-        "lazy_score": 9,
+        "lazy_score": 6,
         "threshold": 60,
         "coverage": 1.0,
         "min_coverage": 0.9,
         "metrics": {
           "length_short_rate": 0.0,
           "self_ref_miss_rate": 0.0,
-          "cross_similarity_rate": 0.087,
+          "cross_similarity_rate": 0.021,
           "anchor_miss_rate": 0.0,
-          "validation_reject_rate": 0.722,
+          "validation_reject_rate": 0.556,
           "avg_retries": 0.0
         },
-        "validation_rejects": 26,
+        "validation_rejects": 20,
         "grounding_gate": {
           "status": "pass",
           "max_self_ref_miss_rate": 0.5,
@@ -961,74 +889,56 @@
         },
         "quality_failures": [],
         "terminal_rejects": {
-          "UNH": [
+          "GOOG": [
             "assertion_plan_required"
           ],
-          "AVGO": [
+          "BABA": [
             "assertion_plan_required"
           ],
-          "SPCX": [
+          "NFLX": [
             "assertion_plan_required"
           ],
-          "EWT": [
+          "TLT": [
             "assertion_plan_required"
           ],
-          "ISRG": [
+          "MSFT": [
             "assertion_plan_required"
           ],
-          "MRVL": [
+          "AMZN": [
             "assertion_plan_required"
           ],
-          "OKLO": [
+          "TSLA": [
             "assertion_plan_required"
           ],
-          "MU": [
+          "SHEL": [
             "assertion_plan_required"
           ],
-          "SOXL": [
+          "SBUX": [
             "assertion_plan_required"
           ],
-          "SNDK": [
-            "assertion_plan_required"
-          ],
-          "QQQ": [
-            "assertion_plan_required"
-          ],
-          "SKHY": [
-            "assertion_plan_required"
-          ],
-          "NET": [
-            "assertion_plan_required"
-          ],
-          "QCOM": [
-            "assertion_plan_required"
-          ],
-          "ORCL": [
-            "assertion_plan_required"
-          ],
-          "IREN": [
+          "COST": [
             "assertion_plan_required"
           ]
         },
-        "terminal_validation_rejects": 16,
+        "terminal_validation_rejects": 10,
         "reject_reason_counts": {
-          "assertion_plan_required": 16
+          "assertion_plan_required": 10
         },
         "vip": {
           "status": "pass",
-          "lazy_score": 9,
+          "lazy_score": 6,
           "threshold": 60,
           "coverage": 1.0,
           "min_coverage": 1.0,
           "metrics": {
             "length_short_rate": 0.0,
             "self_ref_miss_rate": 0.0,
-            "cross_similarity_rate": 0.087,
+            "cross_similarity_rate": 0.021,
             "anchor_miss_rate": 0.0,
-            "validation_reject_rate": 0.722,
+            "validation_reject_rate": 0.556,
             "avg_retries": 0.0
           },
-          "validation_rejects": 26,
+          "validation_rejects": 20,
           "grounding_gate": {
             "status": "pass",
             "max_self_ref_miss_rate": 0.5,
@@ -1193,15 +1103,21 @@
     "batch_size": 10,
     "batch_count": 4,
     "batch_workers": 1,
-    "fallback_batches": 2,
+    "fallback_batches": 1,
     "repair_attempts": 1,
     "rejected_attempt_entries": {
-      "zh": 26,
-      "en": 26
+      "zh": 24,
+      "en": 20
     },
     "grounding_contract": "US-ASSERTION-PLAN-v2",
     "legacy_grounded_fallbacks": {
       "zh": [
+        "GOOG",
+        "BABA",
+        "NFLX",
+        "TLT"
+      ],
+      "en": [
         "GOOG",
         "BABA",
         "NFLX",
@@ -1211,39 +1127,15 @@
         "TSLA",
         "SHEL",
         "SBUX",
-        "COST",
-        "QQQ",
-        "SKHY",
-        "NET",
-        "QCOM",
-        "ORCL",
-        "IREN"
-      ],
-      "en": [
-        "UNH",
-        "AVGO",
-        "SPCX",
-        "EWT",
-        "ISRG",
-        "MRVL",
-        "OKLO",
-        "MU",
-        "SOXL",
-        "SNDK",
-        "QQQ",
-        "SKHY",
-        "NET",
-        "QCOM",
-        "ORCL",
-        "IREN"
+        "COST"
       ]
     },
     "public_viewpoint_policy": "model-prose-or-legacy-grounded-fallback",
     "ai_calls": {
-      "count": 71,
-      "p50_duration_ms": 10627.757,
-      "p95_duration_ms": 23408.676,
-      "max_duration_ms": 35486.12,
+      "count": 45,
+      "p50_duration_ms": 10176.812,
+      "p95_duration_ms": 25997.913,
+      "max_duration_ms": 36792.228,
       "timeouts": 0
     },
     "budget_exhausted": false,
@@ -1252,12 +1144,16 @@
     "batch_status": "degraded",
     "optional_news": {
       "contract": "US-NEWS-PLAN-v1",
-      "status": "pass",
-      "accepted": 19,
+      "status": "degraded",
+      "accepted": 18,
       "attempted": 19,
-      "coverage": 1.0,
-      "terminal_rejects": {},
-      "terminal_validation_rejects": 0,
+      "coverage": 0.9473684210526315,
+      "terminal_rejects": {
+        "META": [
+          "news_plan_required"
+        ]
+      },
+      "terminal_validation_rejects": 1,
       "tickers": {
         "GOOG": {
           "contract": "US-NEWS-PLAN-v1",
@@ -1423,11 +1319,13 @@
         },
         "META": {
           "contract": "US-NEWS-PLAN-v1",
-          "status": "accepted",
+          "status": "rejected",
           "eligible": true,
           "enabled": true,
           "attempted": true,
-          "reasons": [],
+          "reasons": [
+            "news_plan_required"
+          ],
           "source_field_rejected": false
         },
         "INTC": {
@@ -1589,33 +1487,29 @@
       "method": "source_bound_english_v1",
       "status": "partial",
       "ticker_count": 36,
-      "assertion_accepted": 20,
-      "news_accepted": 19,
+      "assertion_accepted": 26,
+      "news_accepted": 18,
       "rejected_assertions": {
-        "UNH": "missing_or_invalid_bound_plan",
-        "AVGO": "missing_or_invalid_bound_plan",
-        "SPCX": "missing_or_invalid_bound_plan",
-        "EWT": "missing_or_invalid_bound_plan",
-        "ISRG": "missing_or_invalid_bound_plan",
-        "MRVL": "missing_or_invalid_bound_plan",
-        "OKLO": "missing_or_invalid_bound_plan",
-        "MU": "missing_or_invalid_bound_plan",
-        "SOXL": "missing_or_invalid_bound_plan",
-        "SNDK": "missing_or_invalid_bound_plan",
-        "QQQ": "missing_or_invalid_bound_plan",
-        "SKHY": "missing_or_invalid_bound_plan",
-        "NET": "missing_or_invalid_bound_plan",
-        "QCOM": "missing_or_invalid_bound_plan",
-        "ORCL": "missing_or_invalid_bound_plan",
-        "IREN": "missing_or_invalid_bound_plan"
+        "GOOG": "missing_or_invalid_bound_plan",
+        "BABA": "missing_or_invalid_bound_plan",
+        "NFLX": "missing_or_invalid_bound_plan",
+        "TLT": "missing_or_invalid_bound_plan",
+        "MSFT": "missing_or_invalid_bound_plan",
+        "AMZN": "missing_or_invalid_bound_plan",
+        "TSLA": "missing_or_invalid_bound_plan",
+        "SHEL": "missing_or_invalid_bound_plan",
+        "SBUX": "missing_or_invalid_bound_plan",
+        "COST": "missing_or_invalid_bound_plan"
       },
-      "rejected_news": {}
+      "rejected_news": {
+        "META": "missing_or_invalid_news_plan"
+      }
     }
   },
   "sources_status": {
     "translation": "not_used",
     "english_report": "partial",
-    "ai_news": "ok",
+    "ai_news": "partial",
     "tradier": "ok",
     "gemini": "partial"
   },
