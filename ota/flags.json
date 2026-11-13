@@ -3,10 +3,10 @@
     "end": "2026-12-01T00:00:00Z",
     "start": "2026-11-01T00:00:00Z"
   },
-  "enabled": true,
-  "reason": "below_threshold",
-  "rollout_percent": 100,
+  "enabled": false,
+  "reason": "ota_retired",
+  "rollout_percent": 0,
   "threshold": 900,
-  "updated_at": "2026-11-12T22:30:01.483542Z",
+  "updated_at": "2026-11-13T22:30:01.200366Z",
   "updated_users": 1
 }
