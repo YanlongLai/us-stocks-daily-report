@@ -1,7 +1,7 @@
 {
-  "run_id": "72abd17f-f117-4ad6-a503-8f4e96fe0b0d",
-  "started_at": "2026-11-13T20:10:24.428279+00:00",
-  "finished_at": "2026-11-13T20:16:47.374415+00:00",
+  "run_id": "b9f464ec-f06e-4f95-8dc5-1c6629ec3439",
+  "started_at": "2026-11-14T20:46:43.188945+00:00",
+  "finished_at": "2026-11-14T21:00:47.807456+00:00",
   "tickers_attempted": [
     "GOOG",
     "BABA",
@@ -94,22 +94,22 @@
     "delay_applied_seconds": 0,
     "duration_seconds": 0.0
   },
-  "ai_commentary_count": 16,
+  "ai_commentary_count": 14,
   "ai_quality": {
     "status": "degraded",
-    "lazy_score": 21,
+    "lazy_score": 27,
     "threshold": 60,
     "coverage": 1.0,
     "min_coverage": 0.9,
     "metrics": {
       "length_short_rate": 0.0,
-      "self_ref_miss_rate": 0.806,
-      "cross_similarity_rate": 0.019,
+      "self_ref_miss_rate": 0.833,
+      "cross_similarity_rate": 0.016,
       "anchor_miss_rate": 0.0,
-      "validation_reject_rate": 0.472,
+      "validation_reject_rate": 1.0,
       "avg_retries": 0.0
     },
-    "validation_rejects": 17,
+    "validation_rejects": 36,
     "grounding_gate": {
       "status": "fail",
       "max_self_ref_miss_rate": 0.5,
@@ -119,14 +119,11 @@
       {
         "code": "self_reference_miss_rate_exceeded",
         "metric": "self_ref_miss_rate",
-        "actual": 0.806,
+        "actual": 0.833,
         "maximum": 0.5
       }
     ],
     "terminal_rejects": {
-      "COST": [
-        "unverified_business_claim"
-      ],
       "QQQ": [
         "assertion_plan_required"
       ],
@@ -146,26 +143,25 @@
         "assertion_plan_required"
       ]
     },
-    "terminal_validation_rejects": 17,
+    "terminal_validation_rejects": 16,
     "reject_reason_counts": {
-      "unverified_business_claim": 1,
       "assertion_plan_required": 6
     },
     "vip": {
       "status": "degraded",
-      "lazy_score": 21,
+      "lazy_score": 27,
       "threshold": 60,
       "coverage": 1.0,
       "min_coverage": 1.0,
       "metrics": {
         "length_short_rate": 0.0,
-        "self_ref_miss_rate": 0.806,
-        "cross_similarity_rate": 0.019,
+        "self_ref_miss_rate": 0.833,
+        "cross_similarity_rate": 0.016,
         "anchor_miss_rate": 0.0,
-        "validation_reject_rate": 0.472,
+        "validation_reject_rate": 1.0,
         "avg_retries": 0.0
       },
-      "validation_rejects": 17,
+      "validation_rejects": 36,
       "grounding_gate": {
         "status": "fail",
         "max_self_ref_miss_rate": 0.5,
@@ -175,7 +171,7 @@
         {
           "code": "self_reference_miss_rate_exceeded",
           "metric": "self_ref_miss_rate",
-          "actual": 0.806,
+          "actual": 0.833,
           "maximum": 0.5
         }
       ],
@@ -299,9 +295,9 @@
       "history_min_samples": 3,
       "historical": {
         "status": "stable",
-        "sample_count": 25,
+        "sample_count": 24,
         "min_samples": 3,
-        "median_lazy_score": 18.0,
+        "median_lazy_score": 17.0,
         "p95_lazy_score": 18.0,
         "median_coverage": 1.0,
         "previous_repeat_rate": 0.0,
@@ -313,19 +309,19 @@
       "languages": {
         "zh": {
           "status": "degraded",
-          "lazy_score": 21,
+          "lazy_score": 27,
           "threshold": 60,
           "coverage": 1.0,
           "min_coverage": 1.0,
           "metrics": {
             "length_short_rate": 0.0,
-            "self_ref_miss_rate": 0.806,
-            "cross_similarity_rate": 0.019,
+            "self_ref_miss_rate": 0.833,
+            "cross_similarity_rate": 0.016,
             "anchor_miss_rate": 0.0,
-            "validation_reject_rate": 0.472,
+            "validation_reject_rate": 1.0,
             "avg_retries": 0.0
           },
-          "validation_rejects": 17,
+          "validation_rejects": 36,
           "grounding_gate": {
             "status": "fail",
             "max_self_ref_miss_rate": 0.5,
@@ -335,7 +331,7 @@
             {
               "code": "self_reference_miss_rate_exceeded",
               "metric": "self_ref_miss_rate",
-              "actual": 0.806,
+              "actual": 0.833,
               "maximum": 0.5
             }
           ],
@@ -459,9 +455,9 @@
           "history_min_samples": 3,
           "historical": {
             "status": "stable",
-            "sample_count": 25,
+            "sample_count": 24,
             "min_samples": 3,
-            "median_lazy_score": 18.0,
+            "median_lazy_score": 17.0,
             "p95_lazy_score": 18.0,
             "median_coverage": 1.0,
             "previous_repeat_rate": 0.0,
@@ -471,19 +467,19 @@
         },
         "en": {
           "status": "pass",
-          "lazy_score": 9,
+          "lazy_score": 14,
           "threshold": 60,
           "coverage": 1.0,
           "min_coverage": 1.0,
           "metrics": {
             "length_short_rate": 0.0,
-            "self_ref_miss_rate": 0.0,
-            "cross_similarity_rate": 0.035,
+            "self_ref_miss_rate": 0.278,
+            "cross_similarity_rate": 0.04,
             "anchor_miss_rate": 0.0,
-            "validation_reject_rate": 0.833,
+            "validation_reject_rate": 0.722,
             "avg_retries": 0.0
           },
-          "validation_rejects": 30,
+          "validation_rejects": 26,
           "grounding_gate": {
             "status": "pass",
             "max_self_ref_miss_rate": 0.5,
@@ -621,14 +617,14 @@
           }
         }
       },
-      "terminal_validation_rejects": 47
+      "terminal_validation_rejects": 62
     },
     "raw_status": "degraded",
     "historical": {
       "status": "stable",
-      "sample_count": 25,
+      "sample_count": 24,
       "min_samples": 3,
-      "median_lazy_score": 18.0,
+      "median_lazy_score": 17.0,
       "p95_lazy_score": 18.0,
       "median_coverage": 1.0,
       "previous_repeat_rate": 0.027,
@@ -636,9 +632,9 @@
       "flags": [],
       "vip": {
         "status": "stable",
-        "sample_count": 25,
+        "sample_count": 24,
         "min_samples": 3,
-        "median_lazy_score": 18.0,
+        "median_lazy_score": 17.0,
         "p95_lazy_score": 18.0,
         "median_coverage": 1.0,
         "previous_repeat_rate": 0.0,
@@ -651,19 +647,19 @@
     "languages": {
       "zh": {
         "status": "degraded",
-        "lazy_score": 21,
+        "lazy_score": 27,
         "threshold": 60,
         "coverage": 1.0,
         "min_coverage": 0.9,
         "metrics": {
           "length_short_rate": 0.0,
-          "self_ref_miss_rate": 0.806,
-          "cross_similarity_rate": 0.019,
+          "self_ref_miss_rate": 0.833,
+          "cross_similarity_rate": 0.016,
           "anchor_miss_rate": 0.0,
-          "validation_reject_rate": 0.472,
+          "validation_reject_rate": 1.0,
           "avg_retries": 0.0
         },
-        "validation_rejects": 17,
+        "validation_rejects": 36,
         "grounding_gate": {
           "status": "fail",
           "max_self_ref_miss_rate": 0.5,
@@ -673,14 +669,11 @@
           {
             "code": "self_reference_miss_rate_exceeded",
             "metric": "self_ref_miss_rate",
-            "actual": 0.806,
+            "actual": 0.833,
             "maximum": 0.5
           }
         ],
         "terminal_rejects": {
-          "COST": [
-            "unverified_business_claim"
-          ],
           "QQQ": [
             "assertion_plan_required"
           ],
@@ -700,26 +693,25 @@
             "assertion_plan_required"
           ]
         },
-        "terminal_validation_rejects": 7,
+        "terminal_validation_rejects": 6,
         "reject_reason_counts": {
-          "unverified_business_claim": 1,
           "assertion_plan_required": 6
         },
         "vip": {
           "status": "degraded",
-          "lazy_score": 21,
+          "lazy_score": 27,
           "threshold": 60,
           "coverage": 1.0,
           "min_coverage": 1.0,
           "metrics": {
             "length_short_rate": 0.0,
-            "self_ref_miss_rate": 0.806,
-            "cross_similarity_rate": 0.019,
+            "self_ref_miss_rate": 0.833,
+            "cross_similarity_rate": 0.016,
             "anchor_miss_rate": 0.0,
-            "validation_reject_rate": 0.472,
+            "validation_reject_rate": 1.0,
             "avg_retries": 0.0
           },
-          "validation_rejects": 17,
+          "validation_rejects": 36,
           "grounding_gate": {
             "status": "fail",
             "max_self_ref_miss_rate": 0.5,
@@ -729,7 +721,7 @@
             {
               "code": "self_reference_miss_rate_exceeded",
               "metric": "self_ref_miss_rate",
-              "actual": 0.806,
+              "actual": 0.833,
               "maximum": 0.5
             }
           ],
@@ -853,9 +845,9 @@
           "history_min_samples": 3,
           "historical": {
             "status": "stable",
-            "sample_count": 25,
+            "sample_count": 24,
             "min_samples": 3,
-            "median_lazy_score": 18.0,
+            "median_lazy_score": 17.0,
             "p95_lazy_score": 18.0,
             "median_coverage": 1.0,
             "previous_repeat_rate": 0.0,
@@ -866,9 +858,9 @@
         "raw_status": "degraded",
         "historical": {
           "status": "stable",
-          "sample_count": 25,
+          "sample_count": 24,
           "min_samples": 3,
-          "median_lazy_score": 18.0,
+          "median_lazy_score": 17.0,
           "p95_lazy_score": 18.0,
           "median_coverage": 1.0,
           "previous_repeat_rate": 0.027,
@@ -876,9 +868,9 @@
           "flags": [],
           "vip": {
             "status": "stable",
-            "sample_count": 25,
+            "sample_count": 24,
             "min_samples": 3,
-            "median_lazy_score": 18.0,
+            "median_lazy_score": 17.0,
             "p95_lazy_score": 18.0,
             "median_coverage": 1.0,
             "previous_repeat_rate": 0.0,
@@ -889,19 +881,19 @@
       },
       "en": {
         "status": "pass",
-        "lazy_score": 9,
+        "lazy_score": 14,
         "threshold": 60,
         "coverage": 1.0,
         "min_coverage": 0.9,
         "metrics": {
           "length_short_rate": 0.0,
-          "self_ref_miss_rate": 0.0,
-          "cross_similarity_rate": 0.035,
+          "self_ref_miss_rate": 0.278,
+          "cross_similarity_rate": 0.04,
           "anchor_miss_rate": 0.0,
-          "validation_reject_rate": 0.833,
+          "validation_reject_rate": 0.722,
           "avg_retries": 0.0
         },
-        "validation_rejects": 30,
+        "validation_rejects": 26,
         "grounding_gate": {
           "status": "pass",
           "max_self_ref_miss_rate": 0.5,
@@ -946,19 +938,19 @@
         },
         "vip": {
           "status": "pass",
-          "lazy_score": 9,
+          "lazy_score": 14,
           "threshold": 60,
           "coverage": 1.0,
           "min_coverage": 1.0,
           "metrics": {
             "length_short_rate": 0.0,
-            "self_ref_miss_rate": 0.0,
-            "cross_similarity_rate": 0.035,
+            "self_ref_miss_rate": 0.278,
+            "cross_similarity_rate": 0.04,
             "anchor_miss_rate": 0.0,
-            "validation_reject_rate": 0.833,
+            "validation_reject_rate": 0.722,
             "avg_retries": 0.0
           },
-          "validation_rejects": 30,
+          "validation_rejects": 26,
           "grounding_gate": {
             "status": "pass",
             "max_self_ref_miss_rate": 0.5,
@@ -1123,16 +1115,15 @@
     "batch_size": 10,
     "batch_count": 4,
     "batch_workers": 2,
-    "fallback_batches": 2,
+    "fallback_batches": 3,
     "repair_attempts": 1,
     "rejected_attempt_entries": {
-      "zh": 17,
-      "en": 30
+      "zh": 42,
+      "en": 26
     },
     "grounding_contract": "US-ASSERTION-PLAN-v2",
     "legacy_grounded_fallbacks": {
       "zh": [
-        "COST",
         "QQQ",
         "SKHY",
         "NET",
@@ -1155,10 +1146,10 @@
     },
     "public_viewpoint_policy": "model-prose-or-legacy-grounded-fallback",
     "ai_calls": {
-      "count": 42,
-      "p50_duration_ms": 10881.945,
-      "p95_duration_ms": 22514.24,
-      "max_duration_ms": 40274.766,
+      "count": 61,
+      "p50_duration_ms": 12353.091,
+      "p95_duration_ms": 26311.458,
+      "max_duration_ms": 43457.799,
       "timeouts": 0
     },
     "budget_exhausted": false,
@@ -1168,18 +1159,18 @@
     "optional_news": {
       "contract": "US-NEWS-PLAN-v1",
       "status": "pass",
-      "accepted": 16,
-      "attempted": 16,
+      "accepted": 14,
+      "attempted": 14,
       "coverage": 1.0,
       "terminal_rejects": {},
       "terminal_validation_rejects": 0,
       "tickers": {
         "GOOG": {
           "contract": "US-NEWS-PLAN-v1",
-          "status": "accepted",
-          "eligible": true,
+          "status": "not_used",
+          "eligible": false,
           "enabled": true,
-          "attempted": true,
+          "attempted": false,
           "reasons": [],
           "source_field_rejected": false
         },
@@ -1275,10 +1266,10 @@
         },
         "TSM": {
           "contract": "US-NEWS-PLAN-v1",
-          "status": "not_used",
-          "eligible": false,
+          "status": "accepted",
+          "eligible": true,
           "enabled": true,
-          "attempted": false,
+          "attempted": true,
           "reasons": [],
           "source_field_rejected": false
         },
@@ -1293,10 +1284,10 @@
         },
         "NVDA": {
           "contract": "US-NEWS-PLAN-v1",
-          "status": "not_used",
-          "eligible": false,
+          "status": "accepted",
+          "eligible": true,
           "enabled": true,
-          "attempted": false,
+          "attempted": true,
           "reasons": [],
           "source_field_rejected": false
         },
@@ -1320,10 +1311,10 @@
         },
         "AAPL": {
           "contract": "US-NEWS-PLAN-v1",
-          "status": "accepted",
-          "eligible": true,
+          "status": "not_used",
+          "eligible": false,
           "enabled": true,
-          "attempted": true,
+          "attempted": false,
           "reasons": [],
           "source_field_rejected": false
         },
@@ -1338,10 +1329,10 @@
         },
         "META": {
           "contract": "US-NEWS-PLAN-v1",
-          "status": "accepted",
-          "eligible": true,
+          "status": "not_used",
+          "eligible": false,
           "enabled": true,
-          "attempted": true,
+          "attempted": false,
           "reasons": [],
           "source_field_rejected": false
         },
@@ -1365,10 +1356,10 @@
         },
         "AVGO": {
           "contract": "US-NEWS-PLAN-v1",
-          "status": "accepted",
-          "eligible": true,
+          "status": "not_used",
+          "eligible": false,
           "enabled": true,
-          "attempted": true,
+          "attempted": false,
           "reasons": [],
           "source_field_rejected": false
         },
@@ -1505,7 +1496,7 @@
       "status": "partial",
       "ticker_count": 36,
       "assertion_accepted": 26,
-      "news_accepted": 16,
+      "news_accepted": 14,
       "rejected_assertions": {
         "UNH": "missing_or_invalid_bound_plan",
         "AVGO": "missing_or_invalid_bound_plan",
