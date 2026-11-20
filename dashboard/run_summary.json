@@ -1,7 +1,7 @@
 {
-  "run_id": "99bbb953-5b4e-4fb1-9485-76b3539bdfaf",
-  "started_at": "2026-11-19T21:35:23.602285+00:00",
-  "finished_at": "2026-11-19T21:49:34.565780+00:00",
+  "run_id": "52c6446c-0d1b-4f96-af68-08ab3a7841bc",
+  "started_at": "2026-11-20T15:10:21.852072+00:00",
+  "finished_at": "2026-11-20T15:26:02.209327+00:00",
   "tickers_attempted": [
     "GOOG",
     "BABA",
@@ -97,19 +97,19 @@
   "ai_commentary_count": 12,
   "ai_quality": {
     "status": "degraded",
-    "lazy_score": 16,
+    "lazy_score": 24,
     "threshold": 60,
     "coverage": 1.0,
     "min_coverage": 0.9,
     "metrics": {
       "length_short_rate": 0.0,
-      "self_ref_miss_rate": 0.722,
-      "cross_similarity_rate": 0.032,
+      "self_ref_miss_rate": 0.556,
+      "cross_similarity_rate": 0.125,
       "anchor_miss_rate": 0.0,
-      "validation_reject_rate": 0.083,
+      "validation_reject_rate": 1.0,
       "avg_retries": 0.0
     },
-    "validation_rejects": 3,
+    "validation_rejects": 36,
     "grounding_gate": {
       "status": "fail",
       "max_self_ref_miss_rate": 0.5,
@@ -119,28 +119,80 @@
       {
         "code": "self_reference_miss_rate_exceeded",
         "metric": "self_ref_miss_rate",
-        "actual": 0.722,
+        "actual": 0.556,
         "maximum": 0.5
       }
     ],
-    "terminal_rejects": {},
-    "terminal_validation_rejects": 0,
-    "reject_reason_counts": {},
+    "terminal_rejects": {
+      "GOOG": [
+        "quantity_not_bound_to_close"
+      ],
+      "BABA": [
+        "quantity_not_bound_to_close"
+      ],
+      "NFLX": [
+        "quantity_not_bound_to_close"
+      ],
+      "TLT": [
+        "quantity_not_bound_to_close"
+      ],
+      "MSFT": [
+        "quantity_not_bound_to_close"
+      ],
+      "AMZN": [
+        "quantity_not_bound_to_close"
+      ],
+      "TSLA": [
+        "quantity_not_bound_to_close"
+      ],
+      "SHEL": [
+        "quantity_not_bound_to_close"
+      ],
+      "SBUX": [
+        "quantity_not_bound_to_close"
+      ],
+      "COST": [
+        "quantity_not_bound_to_close"
+      ],
+      "QQQ": [
+        "assertion_plan_required"
+      ],
+      "SKHY": [
+        "assertion_plan_required"
+      ],
+      "NET": [
+        "assertion_plan_required"
+      ],
+      "QCOM": [
+        "assertion_plan_required"
+      ],
+      "ORCL": [
+        "assertion_plan_required"
+      ],
+      "IREN": [
+        "assertion_plan_required"
+      ]
+    },
+    "terminal_validation_rejects": 44,
+    "reject_reason_counts": {
+      "quantity_not_bound_to_close": 10,
+      "assertion_plan_required": 6
+    },
     "vip": {
       "status": "degraded",
-      "lazy_score": 16,
+      "lazy_score": 24,
       "threshold": 60,
       "coverage": 1.0,
       "min_coverage": 1.0,
       "metrics": {
         "length_short_rate": 0.0,
-        "self_ref_miss_rate": 0.722,
-        "cross_similarity_rate": 0.032,
+        "self_ref_miss_rate": 0.556,
+        "cross_similarity_rate": 0.125,
         "anchor_miss_rate": 0.0,
-        "validation_reject_rate": 0.083,
+        "validation_reject_rate": 1.0,
         "avg_retries": 0.0
       },
-      "validation_rejects": 3,
+      "validation_rejects": 36,
       "grounding_gate": {
         "status": "fail",
         "max_self_ref_miss_rate": 0.5,
@@ -150,7 +202,7 @@
         {
           "code": "self_reference_miss_rate_exceeded",
           "metric": "self_ref_miss_rate",
-          "actual": 0.722,
+          "actual": 0.556,
           "maximum": 0.5
         }
       ],
@@ -288,19 +340,19 @@
       "languages": {
         "zh": {
           "status": "degraded",
-          "lazy_score": 16,
+          "lazy_score": 24,
           "threshold": 60,
           "coverage": 1.0,
           "min_coverage": 1.0,
           "metrics": {
             "length_short_rate": 0.0,
-            "self_ref_miss_rate": 0.722,
-            "cross_similarity_rate": 0.032,
+            "self_ref_miss_rate": 0.556,
+            "cross_similarity_rate": 0.125,
             "anchor_miss_rate": 0.0,
-            "validation_reject_rate": 0.083,
+            "validation_reject_rate": 1.0,
             "avg_retries": 0.0
           },
-          "validation_rejects": 3,
+          "validation_rejects": 36,
           "grounding_gate": {
             "status": "fail",
             "max_self_ref_miss_rate": 0.5,
@@ -310,7 +362,7 @@
             {
               "code": "self_reference_miss_rate_exceeded",
               "metric": "self_ref_miss_rate",
-              "actual": 0.722,
+              "actual": 0.556,
               "maximum": 0.5
             }
           ],
@@ -446,19 +498,19 @@
         },
         "en": {
           "status": "pass",
-          "lazy_score": 11,
+          "lazy_score": 15,
           "threshold": 60,
           "coverage": 1.0,
           "min_coverage": 1.0,
           "metrics": {
             "length_short_rate": 0.0,
-            "self_ref_miss_rate": 0.167,
-            "cross_similarity_rate": 0.016,
+            "self_ref_miss_rate": 0.056,
+            "cross_similarity_rate": 0.3,
             "anchor_miss_rate": 0.0,
-            "validation_reject_rate": 0.722,
+            "validation_reject_rate": 0.778,
             "avg_retries": 0.0
           },
-          "validation_rejects": 26,
+          "validation_rejects": 28,
           "grounding_gate": {
             "status": "pass",
             "max_self_ref_miss_rate": 0.5,
@@ -596,7 +648,7 @@
           }
         }
       },
-      "terminal_validation_rejects": 29
+      "terminal_validation_rejects": 64
     },
     "raw_status": "degraded",
     "historical": {
@@ -626,19 +678,19 @@
     "languages": {
       "zh": {
         "status": "degraded",
-        "lazy_score": 16,
+        "lazy_score": 24,
         "threshold": 60,
         "coverage": 1.0,
         "min_coverage": 0.9,
         "metrics": {
           "length_short_rate": 0.0,
-          "self_ref_miss_rate": 0.722,
-          "cross_similarity_rate": 0.032,
+          "self_ref_miss_rate": 0.556,
+          "cross_similarity_rate": 0.125,
           "anchor_miss_rate": 0.0,
-          "validation_reject_rate": 0.083,
+          "validation_reject_rate": 1.0,
           "avg_retries": 0.0
         },
-        "validation_rejects": 3,
+        "validation_rejects": 36,
         "grounding_gate": {
           "status": "fail",
           "max_self_ref_miss_rate": 0.5,
@@ -648,28 +700,80 @@
           {
             "code": "self_reference_miss_rate_exceeded",
             "metric": "self_ref_miss_rate",
-            "actual": 0.722,
+            "actual": 0.556,
             "maximum": 0.5
           }
         ],
-        "terminal_rejects": {},
-        "terminal_validation_rejects": 0,
-        "reject_reason_counts": {},
+        "terminal_rejects": {
+          "GOOG": [
+            "quantity_not_bound_to_close"
+          ],
+          "BABA": [
+            "quantity_not_bound_to_close"
+          ],
+          "NFLX": [
+            "quantity_not_bound_to_close"
+          ],
+          "TLT": [
+            "quantity_not_bound_to_close"
+          ],
+          "MSFT": [
+            "quantity_not_bound_to_close"
+          ],
+          "AMZN": [
+            "quantity_not_bound_to_close"
+          ],
+          "TSLA": [
+            "quantity_not_bound_to_close"
+          ],
+          "SHEL": [
+            "quantity_not_bound_to_close"
+          ],
+          "SBUX": [
+            "quantity_not_bound_to_close"
+          ],
+          "COST": [
+            "quantity_not_bound_to_close"
+          ],
+          "QQQ": [
+            "assertion_plan_required"
+          ],
+          "SKHY": [
+            "assertion_plan_required"
+          ],
+          "NET": [
+            "assertion_plan_required"
+          ],
+          "QCOM": [
+            "assertion_plan_required"
+          ],
+          "ORCL": [
+            "assertion_plan_required"
+          ],
+          "IREN": [
+            "assertion_plan_required"
+          ]
+        },
+        "terminal_validation_rejects": 16,
+        "reject_reason_counts": {
+          "quantity_not_bound_to_close": 10,
+          "assertion_plan_required": 6
+        },
         "vip": {
           "status": "degraded",
-          "lazy_score": 16,
+          "lazy_score": 24,
           "threshold": 60,
           "coverage": 1.0,
           "min_coverage": 1.0,
           "metrics": {
             "length_short_rate": 0.0,
-            "self_ref_miss_rate": 0.722,
-            "cross_similarity_rate": 0.032,
+            "self_ref_miss_rate": 0.556,
+            "cross_similarity_rate": 0.125,
             "anchor_miss_rate": 0.0,
-            "validation_reject_rate": 0.083,
+            "validation_reject_rate": 1.0,
             "avg_retries": 0.0
           },
-          "validation_rejects": 3,
+          "validation_rejects": 36,
           "grounding_gate": {
             "status": "fail",
             "max_self_ref_miss_rate": 0.5,
@@ -679,7 +783,7 @@
             {
               "code": "self_reference_miss_rate_exceeded",
               "metric": "self_ref_miss_rate",
-              "actual": 0.722,
+              "actual": 0.556,
               "maximum": 0.5
             }
           ],
@@ -839,43 +943,130 @@
       },
       "en": {
         "status": "pass",
-        "lazy_score": 11,
+        "lazy_score": 15,
         "threshold": 60,
         "coverage": 1.0,
         "min_coverage": 0.9,
         "metrics": {
           "length_short_rate": 0.0,
-          "self_ref_miss_rate": 0.167,
-          "cross_similarity_rate": 0.016,
+          "self_ref_miss_rate": 0.056,
+          "cross_similarity_rate": 0.3,
           "anchor_miss_rate": 0.0,
-          "validation_reject_rate": 0.722,
+          "validation_reject_rate": 0.778,
           "avg_retries": 0.0
         },
-        "validation_rejects": 26,
+        "validation_rejects": 28,
         "grounding_gate": {
           "status": "pass",
           "max_self_ref_miss_rate": 0.5,
           "max_anchor_miss_rate": 0.5
         },
         "quality_failures": [],
-        "terminal_rejects": {},
-        "terminal_validation_rejects": 0,
-        "reject_reason_counts": {},
+        "terminal_rejects": {
+          "GOOG": [
+            "quantity_not_bound_to_close"
+          ],
+          "BABA": [
+            "quantity_not_bound_to_close"
+          ],
+          "NFLX": [
+            "quantity_not_bound_to_close"
+          ],
+          "TLT": [
+            "quantity_not_bound_to_close"
+          ],
+          "MSFT": [
+            "quantity_not_bound_to_close"
+          ],
+          "AMZN": [
+            "quantity_not_bound_to_close"
+          ],
+          "TSLA": [
+            "quantity_not_bound_to_close"
+          ],
+          "SHEL": [
+            "quantity_not_bound_to_close"
+          ],
+          "SBUX": [
+            "quantity_not_bound_to_close"
+          ],
+          "COST": [
+            "quantity_not_bound_to_close"
+          ],
+          "VOO": [
+            "quantity_not_bound_to_close"
+          ],
+          "TSM": [
+            "quantity_not_bound_to_close"
+          ],
+          "SPYV": [
+            "quantity_not_bound_to_close"
+          ],
+          "NVDA": [
+            "quantity_not_bound_to_close"
+          ],
+          "AMD": [
+            "quantity_not_bound_to_close"
+          ],
+          "ARCC": [
+            "quantity_not_bound_to_close"
+          ],
+          "AAPL": [
+            "quantity_not_bound_to_close"
+          ],
+          "ABNB": [
+            "quantity_not_bound_to_close"
+          ],
+          "META": [
+            "quantity_not_bound_to_close"
+          ],
+          "INTC": [
+            "quantity_not_bound_to_close"
+          ],
+          "UNH": [
+            "quantity_not_bound_to_close"
+          ],
+          "AVGO": [
+            "quantity_not_bound_to_close"
+          ],
+          "SPCX": [
+            "quantity_not_bound_to_close"
+          ],
+          "ISRG": [
+            "quantity_not_bound_to_close"
+          ],
+          "OKLO": [
+            "quantity_not_bound_to_close"
+          ],
+          "MU": [
+            "quantity_not_bound_to_close"
+          ],
+          "SOXL": [
+            "quantity_not_bound_to_close"
+          ],
+          "SNDK": [
+            "quantity_not_bound_to_close"
+          ]
+        },
+        "terminal_validation_rejects": 28,
+        "reject_reason_counts": {
+          "quantity_not_bound_to_close": 28
+        },
         "vip": {
           "status": "pass",
-          "lazy_score": 11,
+          "lazy_score": 15,
           "threshold": 60,
           "coverage": 1.0,
           "min_coverage": 1.0,
           "metrics": {
             "length_short_rate": 0.0,
-            "self_ref_miss_rate": 0.167,
-            "cross_similarity_rate": 0.016,
+            "self_ref_miss_rate": 0.056,
+            "cross_similarity_rate": 0.3,
             "anchor_miss_rate": 0.0,
-            "validation_reject_rate": 0.722,
+            "validation_reject_rate": 0.778,
             "avg_retries": 0.0
           },
-          "validation_rejects": 26,
+          "validation_rejects": 28,
           "grounding_gate": {
             "status": "pass",
             "max_self_ref_miss_rate": 0.5,
@@ -1040,23 +1231,69 @@
     "batch_size": 10,
     "batch_count": 4,
     "batch_workers": 2,
-    "fallback_batches": 2,
+    "fallback_batches": 0,
     "repair_attempts": 1,
     "rejected_attempt_entries": {
-      "zh": 3,
-      "en": 26
+      "zh": 36,
+      "en": 32
     },
     "grounding_contract": "US-ASSERTION-PLAN-v2",
     "legacy_grounded_fallbacks": {
-      "zh": [],
-      "en": []
+      "zh": [
+        "GOOG",
+        "BABA",
+        "NFLX",
+        "TLT",
+        "MSFT",
+        "AMZN",
+        "TSLA",
+        "SHEL",
+        "SBUX",
+        "COST",
+        "QQQ",
+        "SKHY",
+        "NET",
+        "QCOM",
+        "ORCL",
+        "IREN"
+      ],
+      "en": [
+        "GOOG",
+        "BABA",
+        "NFLX",
+        "TLT",
+        "MSFT",
+        "AMZN",
+        "TSLA",
+        "SHEL",
+        "SBUX",
+        "COST",
+        "VOO",
+        "TSM",
+        "SPYV",
+        "NVDA",
+        "AMD",
+        "ARCC",
+        "AAPL",
+        "ABNB",
+        "META",
+        "INTC",
+        "UNH",
+        "AVGO",
+        "SPCX",
+        "ISRG",
+        "OKLO",
+        "MU",
+        "SOXL",
+        "SNDK"
+      ]
     },
     "public_viewpoint_policy": "model-prose-or-legacy-grounded-fallback",
     "ai_calls": {
-      "count": 46,
-      "p50_duration_ms": 17272.351,
-      "p95_duration_ms": 43317.549,
-      "max_duration_ms": 46019.956,
+      "count": 62,
+      "p50_duration_ms": 12425.494,
+      "p95_duration_ms": 26896.503,
+      "max_duration_ms": 35978.794,
       "timeouts": 0
     },
     "budget_exhausted": false,
@@ -1070,7 +1307,7 @@
       "attempted": 13,
       "coverage": 0.9230769230769231,
       "terminal_rejects": {
-        "UNH": [
+        "NET": [
           "news_plan_required"
         ]
       },
@@ -1177,10 +1414,10 @@
         },
         "TSM": {
           "contract": "US-NEWS-PLAN-v1",
-          "status": "not_used",
-          "eligible": false,
+          "status": "accepted",
+          "eligible": true,
           "enabled": true,
-          "attempted": false,
+          "attempted": true,
           "reasons": [],
           "source_field_rejected": false
         },
@@ -1195,10 +1432,10 @@
         },
         "NVDA": {
           "contract": "US-NEWS-PLAN-v1",
-          "status": "not_used",
-          "eligible": false,
+          "status": "accepted",
+          "eligible": true,
           "enabled": true,
-          "attempted": false,
+          "attempted": true,
           "reasons": [],
           "source_field_rejected": false
         },
@@ -1222,10 +1459,10 @@
         },
         "AAPL": {
           "contract": "US-NEWS-PLAN-v1",
-          "status": "not_used",
-          "eligible": false,
+          "status": "accepted",
+          "eligible": true,
           "enabled": true,
-          "attempted": false,
+          "attempted": true,
           "reasons": [],
           "source_field_rejected": false
         },
@@ -1258,22 +1495,19 @@
         },
         "UNH": {
           "contract": "US-NEWS-PLAN-v1",
-          "status": "rejected",
-          "eligible": true,
+          "status": "not_used",
+          "eligible": false,
           "enabled": true,
-          "attempted": true,
-          "reasons": [
-            "news_plan_required"
-          ],
-          "source_field_rejected": false,
-          "producer_reason": "invalid_plan"
+          "attempted": false,
+          "reasons": [],
+          "source_field_rejected": false
         },
         "AVGO": {
           "contract": "US-NEWS-PLAN-v1",
-          "status": "accepted",
-          "eligible": true,
+          "status": "not_used",
+          "eligible": false,
           "enabled": true,
-          "attempted": true,
+          "attempted": false,
           "reasons": [],
           "source_field_rejected": false
         },
@@ -1369,19 +1603,22 @@
         },
         "NET": {
           "contract": "US-NEWS-PLAN-v1",
-          "status": "accepted",
+          "status": "rejected",
           "eligible": true,
           "enabled": true,
           "attempted": true,
-          "reasons": [],
-          "source_field_rejected": false
+          "reasons": [
+            "news_plan_required"
+          ],
+          "source_field_rejected": false,
+          "producer_reason": "invalid_plan"
         },
         "QCOM": {
           "contract": "US-NEWS-PLAN-v1",
-          "status": "accepted",
-          "eligible": true,
+          "status": "not_used",
+          "eligible": false,
           "enabled": true,
-          "attempted": true,
+          "attempted": false,
           "reasons": [],
           "source_field_rejected": false
         },
@@ -1413,7 +1650,7 @@
       "news_accepted": 12,
       "rejected_assertions": {},
       "rejected_news": {
-        "UNH": "missing_or_invalid_news_plan"
+        "NET": "missing_or_invalid_news_plan"
       }
     }
   },
@@ -1421,7 +1658,8 @@
     "translation": "not_used",
     "english_report": "partial",
     "ai_news": "partial",
-    "tradier": "ok",
+    "tradier": "partial",
+    "yfinance": "ok",
     "gemini": "partial"
   },
   "data_repo_committed": true
