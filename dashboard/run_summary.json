@@ -1,7 +1,7 @@
 {
-  "run_id": "28c9e388-5e94-4567-8934-79e198133bb2",
-  "started_at": "2026-11-25T21:35:24.907369+00:00",
-  "finished_at": "2026-11-25T21:46:38.734674+00:00",
+  "run_id": "f8017017-1c92-4444-89c5-2408a12e353c",
+  "started_at": "2026-11-26T15:10:22.254869+00:00",
+  "finished_at": "2026-11-26T15:23:52.169205+00:00",
   "tickers_attempted": [
     "GOOG",
     "BABA",
@@ -97,19 +97,19 @@
   "ai_commentary_count": 13,
   "ai_quality": {
     "status": "degraded",
-    "lazy_score": 18,
+    "lazy_score": 21,
     "threshold": 60,
     "coverage": 1.0,
     "min_coverage": 0.9,
     "metrics": {
       "length_short_rate": 0.0,
-      "self_ref_miss_rate": 0.722,
-      "cross_similarity_rate": 0.048,
+      "self_ref_miss_rate": 0.833,
+      "cross_similarity_rate": 0.019,
       "anchor_miss_rate": 0.0,
-      "validation_reject_rate": 0.278,
+      "validation_reject_rate": 0.444,
       "avg_retries": 0.0
     },
-    "validation_rejects": 10,
+    "validation_rejects": 16,
     "grounding_gate": {
       "status": "fail",
       "max_self_ref_miss_rate": 0.5,
@@ -119,23 +119,11 @@
       {
         "code": "self_reference_miss_rate_exceeded",
         "metric": "self_ref_miss_rate",
-        "actual": 0.722,
+        "actual": 0.833,
         "maximum": 0.5
       }
     ],
     "terminal_rejects": {
-      "GOOG": [
-        "assertion_plan_required"
-      ],
-      "BABA": [
-        "assertion_plan_required"
-      ],
-      "NFLX": [
-        "assertion_plan_required"
-      ],
-      "TLT": [
-        "assertion_plan_required"
-      ],
       "QQQ": [
         "assertion_plan_required"
       ],
@@ -155,25 +143,25 @@
         "assertion_plan_required"
       ]
     },
-    "terminal_validation_rejects": 20,
+    "terminal_validation_rejects": 16,
     "reject_reason_counts": {
-      "assertion_plan_required": 10
+      "assertion_plan_required": 6
     },
     "vip": {
       "status": "degraded",
-      "lazy_score": 18,
+      "lazy_score": 21,
       "threshold": 60,
       "coverage": 1.0,
       "min_coverage": 1.0,
       "metrics": {
         "length_short_rate": 0.0,
-        "self_ref_miss_rate": 0.722,
-        "cross_similarity_rate": 0.048,
+        "self_ref_miss_rate": 0.833,
+        "cross_similarity_rate": 0.019,
         "anchor_miss_rate": 0.0,
-        "validation_reject_rate": 0.278,
+        "validation_reject_rate": 0.444,
         "avg_retries": 0.0
       },
-      "validation_rejects": 10,
+      "validation_rejects": 16,
       "grounding_gate": {
         "status": "fail",
         "max_self_ref_miss_rate": 0.5,
@@ -183,7 +171,7 @@
         {
           "code": "self_reference_miss_rate_exceeded",
           "metric": "self_ref_miss_rate",
-          "actual": 0.722,
+          "actual": 0.833,
           "maximum": 0.5
         }
       ],
@@ -307,12 +295,12 @@
       "history_min_samples": 3,
       "historical": {
         "status": "stable",
-        "sample_count": 15,
+        "sample_count": 14,
         "min_samples": 3,
-        "median_lazy_score": 16.0,
+        "median_lazy_score": 15.0,
         "p95_lazy_score": 25.0,
         "median_coverage": 1.0,
-        "previous_repeat_rate": 0.0,
+        "previous_repeat_rate": 0.167,
         "compared_tickers": 36,
         "flags": []
       },
@@ -321,19 +309,19 @@
       "languages": {
         "zh": {
           "status": "degraded",
-          "lazy_score": 18,
+          "lazy_score": 21,
           "threshold": 60,
           "coverage": 1.0,
           "min_coverage": 1.0,
           "metrics": {
             "length_short_rate": 0.0,
-            "self_ref_miss_rate": 0.722,
-            "cross_similarity_rate": 0.048,
+            "self_ref_miss_rate": 0.833,
+            "cross_similarity_rate": 0.019,
             "anchor_miss_rate": 0.0,
-            "validation_reject_rate": 0.278,
+            "validation_reject_rate": 0.444,
             "avg_retries": 0.0
           },
-          "validation_rejects": 10,
+          "validation_rejects": 16,
           "grounding_gate": {
             "status": "fail",
             "max_self_ref_miss_rate": 0.5,
@@ -343,7 +331,7 @@
             {
               "code": "self_reference_miss_rate_exceeded",
               "metric": "self_ref_miss_rate",
-              "actual": 0.722,
+              "actual": 0.833,
               "maximum": 0.5
             }
           ],
@@ -467,44 +455,37 @@
           "history_min_samples": 3,
           "historical": {
             "status": "stable",
-            "sample_count": 15,
+            "sample_count": 14,
             "min_samples": 3,
-            "median_lazy_score": 16.0,
+            "median_lazy_score": 15.0,
             "p95_lazy_score": 25.0,
             "median_coverage": 1.0,
-            "previous_repeat_rate": 0.0,
+            "previous_repeat_rate": 0.167,
             "compared_tickers": 36,
             "flags": []
           }
         },
         "en": {
-          "status": "degraded",
-          "lazy_score": 18,
+          "status": "pass",
+          "lazy_score": 14,
           "threshold": 60,
           "coverage": 1.0,
           "min_coverage": 1.0,
           "metrics": {
             "length_short_rate": 0.0,
-            "self_ref_miss_rate": 0.556,
-            "cross_similarity_rate": 0.046,
+            "self_ref_miss_rate": 0.278,
+            "cross_similarity_rate": 0.06,
             "anchor_miss_rate": 0.0,
-            "validation_reject_rate": 0.556,
+            "validation_reject_rate": 0.722,
             "avg_retries": 0.0
           },
-          "validation_rejects": 20,
+          "validation_rejects": 26,
           "grounding_gate": {
-            "status": "fail",
+            "status": "pass",
             "max_self_ref_miss_rate": 0.5,
             "max_anchor_miss_rate": 0.5
           },
-          "quality_failures": [
-            {
-              "code": "self_reference_miss_rate_exceeded",
-              "metric": "self_ref_miss_rate",
-              "actual": 0.556,
-              "maximum": 0.5
-            }
-          ],
+          "quality_failures": [],
           "market": "us",
           "requested_tickers": [
             "GOOG",
@@ -625,38 +606,38 @@
           "history_min_samples": 3,
           "historical": {
             "status": "stable",
-            "sample_count": 43,
+            "sample_count": 42,
             "min_samples": 3,
             "median_lazy_score": 8.0,
             "p95_lazy_score": 15.0,
             "median_coverage": 1.0,
-            "previous_repeat_rate": 0.0,
+            "previous_repeat_rate": 0.278,
             "compared_tickers": 36,
             "flags": []
           }
         }
       },
-      "terminal_validation_rejects": 30
+      "terminal_validation_rejects": 42
     },
     "raw_status": "degraded",
     "historical": {
       "status": "stable",
-      "sample_count": 14,
+      "sample_count": 13,
       "min_samples": 3,
       "median_lazy_score": 15.0,
       "p95_lazy_score": 25.0,
       "median_coverage": 1.0,
-      "previous_repeat_rate": 0.027,
+      "previous_repeat_rate": 0.189,
       "compared_tickers": 37,
       "flags": [],
       "vip": {
         "status": "stable",
-        "sample_count": 15,
+        "sample_count": 14,
         "min_samples": 3,
-        "median_lazy_score": 16.0,
+        "median_lazy_score": 15.0,
         "p95_lazy_score": 25.0,
         "median_coverage": 1.0,
-        "previous_repeat_rate": 0.0,
+        "previous_repeat_rate": 0.167,
         "compared_tickers": 36,
         "flags": []
       }
@@ -666,19 +647,19 @@
     "languages": {
       "zh": {
         "status": "degraded",
-        "lazy_score": 18,
+        "lazy_score": 21,
         "threshold": 60,
         "coverage": 1.0,
         "min_coverage": 0.9,
         "metrics": {
           "length_short_rate": 0.0,
-          "self_ref_miss_rate": 0.722,
-          "cross_similarity_rate": 0.048,
+          "self_ref_miss_rate": 0.833,
+          "cross_similarity_rate": 0.019,
           "anchor_miss_rate": 0.0,
-          "validation_reject_rate": 0.278,
+          "validation_reject_rate": 0.444,
           "avg_retries": 0.0
         },
-        "validation_rejects": 10,
+        "validation_rejects": 16,
         "grounding_gate": {
           "status": "fail",
           "max_self_ref_miss_rate": 0.5,
@@ -688,23 +669,11 @@
           {
             "code": "self_reference_miss_rate_exceeded",
             "metric": "self_ref_miss_rate",
-            "actual": 0.722,
+            "actual": 0.833,
             "maximum": 0.5
           }
         ],
         "terminal_rejects": {
-          "GOOG": [
-            "assertion_plan_required"
-          ],
-          "BABA": [
-            "assertion_plan_required"
-          ],
-          "NFLX": [
-            "assertion_plan_required"
-          ],
-          "TLT": [
-            "assertion_plan_required"
-          ],
           "QQQ": [
             "assertion_plan_required"
           ],
@@ -724,25 +693,25 @@
             "assertion_plan_required"
           ]
         },
-        "terminal_validation_rejects": 10,
+        "terminal_validation_rejects": 6,
         "reject_reason_counts": {
-          "assertion_plan_required": 10
+          "assertion_plan_required": 6
         },
         "vip": {
           "status": "degraded",
-          "lazy_score": 18,
+          "lazy_score": 21,
           "threshold": 60,
           "coverage": 1.0,
           "min_coverage": 1.0,
           "metrics": {
             "length_short_rate": 0.0,
-            "self_ref_miss_rate": 0.722,
-            "cross_similarity_rate": 0.048,
+            "self_ref_miss_rate": 0.833,
+            "cross_similarity_rate": 0.019,
             "anchor_miss_rate": 0.0,
-            "validation_reject_rate": 0.278,
+            "validation_reject_rate": 0.444,
             "avg_retries": 0.0
           },
-          "validation_rejects": 10,
+          "validation_rejects": 16,
           "grounding_gate": {
             "status": "fail",
             "max_self_ref_miss_rate": 0.5,
@@ -752,7 +721,7 @@
             {
               "code": "self_reference_miss_rate_exceeded",
               "metric": "self_ref_miss_rate",
-              "actual": 0.722,
+              "actual": 0.833,
               "maximum": 0.5
             }
           ],
@@ -876,12 +845,12 @@
           "history_min_samples": 3,
           "historical": {
             "status": "stable",
-            "sample_count": 15,
+            "sample_count": 14,
             "min_samples": 3,
-            "median_lazy_score": 16.0,
+            "median_lazy_score": 15.0,
             "p95_lazy_score": 25.0,
             "median_coverage": 1.0,
-            "previous_repeat_rate": 0.0,
+            "previous_repeat_rate": 0.167,
             "compared_tickers": 36,
             "flags": []
           }
@@ -889,55 +858,48 @@
         "raw_status": "degraded",
         "historical": {
           "status": "stable",
-          "sample_count": 14,
+          "sample_count": 13,
           "min_samples": 3,
           "median_lazy_score": 15.0,
           "p95_lazy_score": 25.0,
           "median_coverage": 1.0,
-          "previous_repeat_rate": 0.027,
+          "previous_repeat_rate": 0.189,
           "compared_tickers": 37,
           "flags": [],
           "vip": {
             "status": "stable",
-            "sample_count": 15,
+            "sample_count": 14,
             "min_samples": 3,
-            "median_lazy_score": 16.0,
+            "median_lazy_score": 15.0,
             "p95_lazy_score": 25.0,
             "median_coverage": 1.0,
-            "previous_repeat_rate": 0.0,
+            "previous_repeat_rate": 0.167,
             "compared_tickers": 36,
             "flags": []
           }
         }
       },
       "en": {
-        "status": "degraded",
-        "lazy_score": 18,
+        "status": "pass",
+        "lazy_score": 14,
         "threshold": 60,
         "coverage": 1.0,
         "min_coverage": 0.9,
         "metrics": {
           "length_short_rate": 0.0,
-          "self_ref_miss_rate": 0.556,
-          "cross_similarity_rate": 0.046,
+          "self_ref_miss_rate": 0.278,
+          "cross_similarity_rate": 0.06,
           "anchor_miss_rate": 0.0,
-          "validation_reject_rate": 0.556,
+          "validation_reject_rate": 0.722,
           "avg_retries": 0.0
         },
-        "validation_rejects": 20,
+        "validation_rejects": 26,
         "grounding_gate": {
-          "status": "fail",
+          "status": "pass",
           "max_self_ref_miss_rate": 0.5,
           "max_anchor_miss_rate": 0.5
         },
-        "quality_failures": [
-          {
-            "code": "self_reference_miss_rate_exceeded",
-            "metric": "self_ref_miss_rate",
-            "actual": 0.556,
-            "maximum": 0.5
-          }
-        ],
+        "quality_failures": [],
         "terminal_rejects": {
           "UNH": [
             "assertion_plan_required"
@@ -975,33 +937,26 @@
           "assertion_plan_required": 10
         },
         "vip": {
-          "status": "degraded",
-          "lazy_score": 18,
+          "status": "pass",
+          "lazy_score": 14,
           "threshold": 60,
           "coverage": 1.0,
           "min_coverage": 1.0,
           "metrics": {
             "length_short_rate": 0.0,
-            "self_ref_miss_rate": 0.556,
-            "cross_similarity_rate": 0.046,
+            "self_ref_miss_rate": 0.278,
+            "cross_similarity_rate": 0.06,
             "anchor_miss_rate": 0.0,
-            "validation_reject_rate": 0.556,
+            "validation_reject_rate": 0.722,
             "avg_retries": 0.0
           },
-          "validation_rejects": 20,
+          "validation_rejects": 26,
           "grounding_gate": {
-            "status": "fail",
+            "status": "pass",
             "max_self_ref_miss_rate": 0.5,
             "max_anchor_miss_rate": 0.5
           },
-          "quality_failures": [
-            {
-              "code": "self_reference_miss_rate_exceeded",
-              "metric": "self_ref_miss_rate",
-              "actual": 0.556,
-              "maximum": 0.5
-            }
-          ],
+          "quality_failures": [],
           "market": "us",
           "requested_tickers": [
             "GOOG",
@@ -1122,35 +1077,35 @@
           "history_min_samples": 3,
           "historical": {
             "status": "stable",
-            "sample_count": 43,
+            "sample_count": 42,
             "min_samples": 3,
             "median_lazy_score": 8.0,
             "p95_lazy_score": 15.0,
             "median_coverage": 1.0,
-            "previous_repeat_rate": 0.0,
+            "previous_repeat_rate": 0.278,
             "compared_tickers": 36,
             "flags": []
           }
         },
-        "raw_status": "degraded",
+        "raw_status": "pass",
         "historical": {
           "status": "stable",
-          "sample_count": 44,
+          "sample_count": 43,
           "min_samples": 3,
           "median_lazy_score": 8.0,
           "p95_lazy_score": 15.0,
           "median_coverage": 1.0,
-          "previous_repeat_rate": 0.027,
+          "previous_repeat_rate": 0.297,
           "compared_tickers": 37,
           "flags": [],
           "vip": {
             "status": "stable",
-            "sample_count": 43,
+            "sample_count": 42,
             "min_samples": 3,
             "median_lazy_score": 8.0,
             "p95_lazy_score": 15.0,
             "median_coverage": 1.0,
-            "previous_repeat_rate": 0.0,
+            "previous_repeat_rate": 0.278,
             "compared_tickers": 36,
             "flags": []
           }
@@ -1160,19 +1115,15 @@
     "batch_size": 10,
     "batch_count": 4,
     "batch_workers": 2,
-    "fallback_batches": 1,
+    "fallback_batches": 2,
     "repair_attempts": 1,
     "rejected_attempt_entries": {
-      "zh": 10,
-      "en": 20
+      "zh": 22,
+      "en": 26
     },
     "grounding_contract": "US-ASSERTION-PLAN-v2",
     "legacy_grounded_fallbacks": {
       "zh": [
-        "GOOG",
-        "BABA",
-        "NFLX",
-        "TLT",
         "QQQ",
         "SKHY",
         "NET",
@@ -1195,10 +1146,10 @@
     },
     "public_viewpoint_policy": "model-prose-or-legacy-grounded-fallback",
     "ai_calls": {
-      "count": 42,
-      "p50_duration_ms": 13215.404,
-      "p95_duration_ms": 26043.732,
-      "max_duration_ms": 45372.852,
+      "count": 59,
+      "p50_duration_ms": 13837.362,
+      "p95_duration_ms": 24707.132,
+      "max_duration_ms": 33238.722,
       "timeouts": 0
     },
     "budget_exhausted": false,
@@ -1216,10 +1167,10 @@
       "tickers": {
         "GOOG": {
           "contract": "US-NEWS-PLAN-v1",
-          "status": "accepted",
-          "eligible": true,
+          "status": "not_used",
+          "eligible": false,
           "enabled": true,
-          "attempted": true,
+          "attempted": false,
           "reasons": [],
           "source_field_rejected": false
         },
@@ -1270,10 +1221,10 @@
         },
         "TSLA": {
           "contract": "US-NEWS-PLAN-v1",
-          "status": "accepted",
-          "eligible": true,
+          "status": "not_used",
+          "eligible": false,
           "enabled": true,
-          "attempted": true,
+          "attempted": false,
           "reasons": [],
           "source_field_rejected": false
         },
@@ -1315,10 +1266,10 @@
         },
         "TSM": {
           "contract": "US-NEWS-PLAN-v1",
-          "status": "accepted",
-          "eligible": true,
+          "status": "not_used",
+          "eligible": false,
           "enabled": true,
-          "attempted": true,
+          "attempted": false,
           "reasons": [],
           "source_field_rejected": false
         },
@@ -1333,10 +1284,10 @@
         },
         "NVDA": {
           "contract": "US-NEWS-PLAN-v1",
-          "status": "not_used",
-          "eligible": false,
+          "status": "accepted",
+          "eligible": true,
           "enabled": true,
-          "attempted": false,
+          "attempted": true,
           "reasons": [],
           "source_field_rejected": false
         },
@@ -1405,10 +1356,10 @@
         },
         "AVGO": {
           "contract": "US-NEWS-PLAN-v1",
-          "status": "not_used",
-          "eligible": false,
+          "status": "accepted",
+          "eligible": true,
           "enabled": true,
-          "attempted": false,
+          "attempted": true,
           "reasons": [],
           "source_field_rejected": false
         },
@@ -1459,10 +1410,10 @@
         },
         "MU": {
           "contract": "US-NEWS-PLAN-v1",
-          "status": "not_used",
-          "eligible": false,
+          "status": "accepted",
+          "eligible": true,
           "enabled": true,
-          "attempted": false,
+          "attempted": true,
           "reasons": [],
           "source_field_rejected": false
         },
