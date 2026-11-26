@@ -1,7 +1,7 @@
 {
-  "run_id": "7d4afed1-48f4-40d6-a4b3-8d7234e24983",
-  "started_at": "2026-11-26T17:10:23.125115+00:00",
-  "finished_at": "2026-11-26T17:19:43.961856+00:00",
+  "run_id": "ca601a5e-9536-4ffb-9fad-3bc5460fdf1e",
+  "started_at": "2026-11-26T18:10:23.032699+00:00",
+  "finished_at": "2026-11-26T18:17:39.262905+00:00",
   "tickers_attempted": [
     "GOOG",
     "BABA",
@@ -97,19 +97,19 @@
   "ai_commentary_count": 13,
   "ai_quality": {
     "status": "degraded",
-    "lazy_score": 26,
+    "lazy_score": 25,
     "threshold": 60,
     "coverage": 1.0,
     "min_coverage": 0.9,
     "metrics": {
       "length_short_rate": 0.0,
       "self_ref_miss_rate": 1.0,
-      "cross_similarity_rate": 0.0,
+      "cross_similarity_rate": 0.04,
       "anchor_miss_rate": 0.0,
-      "validation_reject_rate": 0.556,
+      "validation_reject_rate": 0.389,
       "avg_retries": 0.0
     },
-    "validation_rejects": 20,
+    "validation_rejects": 14,
     "grounding_gate": {
       "status": "fail",
       "max_self_ref_miss_rate": 0.5,
@@ -124,23 +124,23 @@
       }
     ],
     "terminal_rejects": {},
-    "terminal_validation_rejects": 0,
+    "terminal_validation_rejects": 11,
     "reject_reason_counts": {},
     "vip": {
       "status": "degraded",
-      "lazy_score": 26,
+      "lazy_score": 25,
       "threshold": 60,
       "coverage": 1.0,
       "min_coverage": 1.0,
       "metrics": {
         "length_short_rate": 0.0,
         "self_ref_miss_rate": 1.0,
-        "cross_similarity_rate": 0.0,
+        "cross_similarity_rate": 0.04,
         "anchor_miss_rate": 0.0,
-        "validation_reject_rate": 0.556,
+        "validation_reject_rate": 0.389,
         "avg_retries": 0.0
       },
-      "validation_rejects": 20,
+      "validation_rejects": 14,
       "grounding_gate": {
         "status": "fail",
         "max_self_ref_miss_rate": 0.5,
@@ -288,19 +288,19 @@
       "languages": {
         "zh": {
           "status": "degraded",
-          "lazy_score": 26,
+          "lazy_score": 25,
           "threshold": 60,
           "coverage": 1.0,
           "min_coverage": 1.0,
           "metrics": {
             "length_short_rate": 0.0,
             "self_ref_miss_rate": 1.0,
-            "cross_similarity_rate": 0.0,
+            "cross_similarity_rate": 0.04,
             "anchor_miss_rate": 0.0,
-            "validation_reject_rate": 0.556,
+            "validation_reject_rate": 0.389,
             "avg_retries": 0.0
           },
-          "validation_rejects": 20,
+          "validation_rejects": 14,
           "grounding_gate": {
             "status": "fail",
             "max_self_ref_miss_rate": 0.5,
@@ -446,19 +446,19 @@
         },
         "en": {
           "status": "pass",
-          "lazy_score": 9,
+          "lazy_score": 13,
           "threshold": 60,
           "coverage": 1.0,
           "min_coverage": 1.0,
           "metrics": {
             "length_short_rate": 0.0,
-            "self_ref_miss_rate": 0.167,
-            "cross_similarity_rate": 0.062,
+            "self_ref_miss_rate": 0.139,
+            "cross_similarity_rate": 0.06,
             "anchor_miss_rate": 0.0,
-            "validation_reject_rate": 0.444,
+            "validation_reject_rate": 0.861,
             "avg_retries": 0.0
           },
-          "validation_rejects": 16,
+          "validation_rejects": 31,
           "grounding_gate": {
             "status": "pass",
             "max_self_ref_miss_rate": 0.5,
@@ -596,7 +596,7 @@
           }
         }
       },
-      "terminal_validation_rejects": 36
+      "terminal_validation_rejects": 45
     },
     "raw_status": "degraded",
     "historical": {
@@ -626,19 +626,19 @@
     "languages": {
       "zh": {
         "status": "degraded",
-        "lazy_score": 26,
+        "lazy_score": 25,
         "threshold": 60,
         "coverage": 1.0,
         "min_coverage": 0.9,
         "metrics": {
           "length_short_rate": 0.0,
           "self_ref_miss_rate": 1.0,
-          "cross_similarity_rate": 0.0,
+          "cross_similarity_rate": 0.04,
           "anchor_miss_rate": 0.0,
-          "validation_reject_rate": 0.556,
+          "validation_reject_rate": 0.389,
           "avg_retries": 0.0
         },
-        "validation_rejects": 20,
+        "validation_rejects": 14,
         "grounding_gate": {
           "status": "fail",
           "max_self_ref_miss_rate": 0.5,
@@ -657,19 +657,19 @@
         "reject_reason_counts": {},
         "vip": {
           "status": "degraded",
-          "lazy_score": 26,
+          "lazy_score": 25,
           "threshold": 60,
           "coverage": 1.0,
           "min_coverage": 1.0,
           "metrics": {
             "length_short_rate": 0.0,
             "self_ref_miss_rate": 1.0,
-            "cross_similarity_rate": 0.0,
+            "cross_similarity_rate": 0.04,
             "anchor_miss_rate": 0.0,
-            "validation_reject_rate": 0.556,
+            "validation_reject_rate": 0.389,
             "avg_retries": 0.0
           },
-          "validation_rejects": 20,
+          "validation_rejects": 14,
           "grounding_gate": {
             "status": "fail",
             "max_self_ref_miss_rate": 0.5,
@@ -839,43 +839,80 @@
       },
       "en": {
         "status": "pass",
-        "lazy_score": 9,
+        "lazy_score": 13,
         "threshold": 60,
         "coverage": 1.0,
         "min_coverage": 0.9,
         "metrics": {
           "length_short_rate": 0.0,
-          "self_ref_miss_rate": 0.167,
-          "cross_similarity_rate": 0.062,
+          "self_ref_miss_rate": 0.139,
+          "cross_similarity_rate": 0.06,
           "anchor_miss_rate": 0.0,
-          "validation_reject_rate": 0.444,
+          "validation_reject_rate": 0.861,
           "avg_retries": 0.0
         },
-        "validation_rejects": 16,
+        "validation_rejects": 31,
         "grounding_gate": {
           "status": "pass",
           "max_self_ref_miss_rate": 0.5,
           "max_anchor_miss_rate": 0.5
         },
         "quality_failures": [],
-        "terminal_rejects": {},
-        "terminal_validation_rejects": 0,
-        "reject_reason_counts": {},
+        "terminal_rejects": {
+          "GOOG": [
+            "assertion_plan_required"
+          ],
+          "BABA": [
+            "assertion_plan_required"
+          ],
+          "NFLX": [
+            "assertion_plan_required"
+          ],
+          "TLT": [
+            "assertion_plan_required"
+          ],
+          "MSFT": [
+            "assertion_plan_required"
+          ],
+          "AMZN": [
+            "assertion_plan_required"
+          ],
+          "TSLA": [
+            "assertion_plan_required"
+          ],
+          "SHEL": [
+            "assertion_plan_required"
+          ],
+          "SBUX": [
+            "assertion_plan_required"
+          ],
+          "COST": [
+            "assertion_plan_required"
+          ],
+          "QCOM": [
+            "quantity_not_bound_to_close"
+          ]
+        },
+        "terminal_validation_rejects": 11,
+        "reject_reason_counts": {
+          "assertion_plan_required": 10,
+          "quantity_not_bound_to_close": 1
+        },
         "vip": {
           "status": "pass",
-          "lazy_score": 9,
+          "lazy_score": 13,
           "threshold": 60,
           "coverage": 1.0,
           "min_coverage": 1.0,
           "metrics": {
             "length_short_rate": 0.0,
-            "self_ref_miss_rate": 0.167,
-            "cross_similarity_rate": 0.062,
+            "self_ref_miss_rate": 0.139,
+            "cross_similarity_rate": 0.06,
             "anchor_miss_rate": 0.0,
-            "validation_reject_rate": 0.444,
+            "validation_reject_rate": 0.861,
             "avg_retries": 0.0
           },
-          "validation_rejects": 16,
+          "validation_rejects": 31,
           "grounding_gate": {
             "status": "pass",
             "max_self_ref_miss_rate": 0.5,
@@ -1040,23 +1077,35 @@
     "batch_size": 10,
     "batch_count": 4,
     "batch_workers": 2,
-    "fallback_batches": 2,
+    "fallback_batches": 1,
     "repair_attempts": 1,
     "rejected_attempt_entries": {
-      "zh": 20,
-      "en": 16
+      "zh": 14,
+      "en": 31
     },
     "grounding_contract": "US-ASSERTION-PLAN-v2",
     "legacy_grounded_fallbacks": {
       "zh": [],
-      "en": []
+      "en": [
+        "GOOG",
+        "BABA",
+        "NFLX",
+        "TLT",
+        "MSFT",
+        "AMZN",
+        "TSLA",
+        "SHEL",
+        "SBUX",
+        "COST",
+        "QCOM"
+      ]
     },
     "public_viewpoint_policy": "model-prose-or-legacy-grounded-fallback",
     "ai_calls": {
-      "count": 44,
-      "p50_duration_ms": 13522.333,
-      "p95_duration_ms": 25327.659,
-      "max_duration_ms": 27009.066,
+      "count": 39,
+      "p50_duration_ms": 12797.217,
+      "p95_duration_ms": 30499.116,
+      "max_duration_ms": 33211.778,
       "timeouts": 0
     },
     "budget_exhausted": false,
@@ -1400,17 +1449,28 @@
     },
     "english_report": {
       "method": "source_bound_english_v1",
-      "status": "rendered",
+      "status": "partial",
       "ticker_count": 36,
-      "assertion_accepted": 36,
+      "assertion_accepted": 26,
       "news_accepted": 13,
-      "rejected_assertions": {},
+      "rejected_assertions": {
+        "GOOG": "missing_or_invalid_bound_plan",
+        "BABA": "missing_or_invalid_bound_plan",
+        "NFLX": "missing_or_invalid_bound_plan",
+        "TLT": "missing_or_invalid_bound_plan",
+        "MSFT": "missing_or_invalid_bound_plan",
+        "AMZN": "missing_or_invalid_bound_plan",
+        "TSLA": "missing_or_invalid_bound_plan",
+        "SHEL": "missing_or_invalid_bound_plan",
+        "SBUX": "missing_or_invalid_bound_plan",
+        "COST": "missing_or_invalid_bound_plan"
+      },
       "rejected_news": {}
     }
   },
   "sources_status": {
     "translation": "not_used",
-    "english_report": "ok",
+    "english_report": "partial",
     "ai_news": "ok",
     "tradier": "ok",
     "gemini": "partial"
