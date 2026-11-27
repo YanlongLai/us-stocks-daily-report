@@ -1,4 +1,4 @@
-{"schema_version":"price-history-v1","market":"us","symbol":"SKHY","as_of":"2026-11-25","bar_count":98,"fields":["date","open","high","low","close","volume","ma20","ma60","ma200"],"moving_averages":{"type":"simple","source":"close","periods":[20,60,200],"lookback_bars":98},"bars":[
+{"schema_version":"price-history-v1","market":"us","symbol":"SKHY","as_of":"2026-11-27","bar_count":99,"fields":["date","open","high","low","close","volume","ma20","ma60","ma200"],"moving_averages":{"type":"simple","source":"close","periods":[20,60,200],"lookback_bars":99},"bars":[
 ["2026-07-10",170.0,177.0,166.19,168.01,107674661,null,null,null],
 ["2026-07-13",152.62,162.28,151.3,152.35,57284314,null,null,null],
 ["2026-07-14",168.11,194.8,165.5,193.92,72647673,null,null,null],
@@ -96,5 +96,6 @@
 ["2026-11-20",117.64,117.89,102.45,103.57,39865323,136.13,160.09,null],
 ["2026-11-23",127.11,128.1,120.81,124.28,35954338,135.21,159.48,null],
 ["2026-11-24",118.97,119.4,110.9,111.98,21747609,133.54,158.6,null],
-["2026-11-25",104.21,111.16,101.91,111.14,24188751,130.87,157.77,null]
-],"content_hash":"6daecdfa89160994ac040931c28ce156a2135d6b4f82f7685935c79b01efffb5"}
+["2026-11-25",104.21,111.16,101.91,111.14,24188751,130.87,157.77,null],
+["2026-11-27",116.73,117.0,112.68,114.76,5501436,128.5,156.93,null]
+],"content_hash":"0fd68a373e0881b02941df167fcd04a38b156d57856e00df1d6cc095b0e470d7"}
